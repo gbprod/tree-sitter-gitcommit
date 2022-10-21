@@ -1,0 +1,39 @@
+================================================================================
+Simple scissor
+================================================================================
+This is a simple subject
+
+# This is a simple body
+# ------------------------ >8 ------------------------
+# Ne touchez pas à la ligne ci-dessus.
+# Tout ce qui suit sera éliminé.
+diff --git a/lua/usr/git.lua b/lua/usr/git.lua
+index 457a414..94b9036 100644
+--- a/lua/usr/git.lua
++++ b/lua/usr/git.lua
+@@ -6,18 +6,6 @@ function git.plugins(use)
+   use("lewis6991/gitsigns.nvim")
+   use("sindrets/diffview.nvim")
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (comment)
+  (scissor)
+  (diff))
+
+================================================================================
+Simple empty scissor
+================================================================================
+This is a simple subject
+
+# This is a simple body
+# ------------------------ >8 ------------------------
+# Ne touchez pas à la ligne ci-dessus.
+# Tout ce qui suit sera éliminé.
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (comment)
+  (scissor))

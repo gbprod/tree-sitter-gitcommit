@@ -1,0 +1,33 @@
+{
+  "name": "tree-sitter-gitcommit",
+  "version": "1.0.0",
+  "description": "A tree-sitter grammar for git commit messages",
+  "main": "bindings/node",
+  "scripts": {
+    "build": "tree-sitter generate && node-gyp build",
+    "test": "npm run build && tree-sitter test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbprod/tree-sitter-gitcommit.git"
+  },
+  "keywords": [
+    "tree-sitter",
+    "parser",
+    "gitcommit",
+    "git",
+    "commit"
+  ],
+  "author": "gbprod <contact@gb-prod.fr>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/gbprod/tree-sitter-gitcommit/issues"
+  },
+  "homepage": "https://github.com/gbprod/tree-sitter-gitcommit#readme",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.7"
+  }
+}

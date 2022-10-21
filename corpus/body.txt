@@ -1,0 +1,125 @@
+================================================================================
+Simple body
+================================================================================
+This is a simple subject
+
+This is a simple body
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (message))
+
+================================================================================
+Multiline body
+================================================================================
+This is a simple subject
+
+This is a simple body.
+With a second line.
+
+And a paragraph.
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (message)
+  (message)
+  (message))
+
+================================================================================
+Not a trailer
+================================================================================
+This is a simple subject
+
+:This is a simple body.
+: Fake
+With a: second line.
+
+An:d a paragraph.
+test(trailer): test
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (message)
+  (message)
+  (message)
+  (message)
+  (message))
+
+================================================================================
+Simple trailer
+================================================================================
+This is a simple subject
+
+Signed-by: gbprod <contact@gb-prod.fr>
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (trailer
+    (token)
+    (value)))
+
+================================================================================
+Multiple trailers
+================================================================================
+This is a simple subject
+
+Signed-by : gbprod <contact@gb-prod.fr>
+Signed-off-by: Bob <bob@example.com>
+Acked-by: Alice <alice@example.com>
+Ref: #1234
+Suggested-by: Toto
+
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (trailer
+    (token)
+    (value))
+  (trailer
+    (token)
+    (value))
+  (trailer
+    (token)
+    (value))
+  (trailer
+    (token)
+    (value))
+  (trailer
+    (token)
+    (value)))
+
+================================================================================
+Mixed
+================================================================================
+This is a simple subject
+
+With a message
+Signed-by : gbprod <contact@gb-prod.fr>
+
+Not conventional but why not
+Ref: #1234
+Suggested-by: Toto
+
+And go on
+
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (message)
+  (trailer
+    (token)
+    (value))
+  (message)
+  (trailer
+    (token)
+    (value))
+  (trailer
+    (token)
+    (value))
+  (message))

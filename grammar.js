@@ -1,0 +1,290 @@
+const NEWLINE = /\r?\n/;
+const ANYTHING = /[^\n\r]+/;
+const SUBJECT = /[^\n\r]{1,49}/;
+const NOT_A_COMMENT = /[^#\r\n]/;
+const SCISSORS = /# -+ >8 -+\r?\n#[^\r\n]*\r?\n#[^\r\n]+\r?\n?/;
+const BRANCH_NAME = /[^\s']+/;
+const FILEPATH = /\S+/;
+const WHITESPACE = /[\f\v ]+/;
+const CHANGE = /[^\n\r:：]+[:：]/;
+
+module.exports = grammar({
+  name: 'gitcommit',
+  extras: ($) => [$.comment],
+
+  externals: ($) => [$._trailer_token, $._comment_title],
+
+  rules: {
+    source: ($) =>
+      seq(
+        optional(seq($.subject, NEWLINE)),
+        optional(seq(NEWLINE, repeat($._body_line))),
+        optional($._scissor)
+      ),
+
+    subject: ($) =>
+      seq(
+        NOT_A_COMMENT,
+        optional(seq(SUBJECT, optional(alias(ANYTHING, $.overflow))))
+      ),
+
+    _body_line: ($) => choice($.message, $.trailer, NEWLINE),
+
+    message: () => seq(NOT_A_COMMENT, optional(ANYTHING)),
+
+    trailer: ($) =>
+      seq(alias($._trailer_token, $.token), alias(ANYTHING, $.value)),
+
+    comment: ($) =>
+      seq(
+        token.immediate('#'),
+        optional(WHITESPACE),
+        optional(
+          choice(
+            $._date,
+            $._onbranch,
+            $._uptodate,
+            $._behind,
+            $._ahead,
+            $._rebasing,
+            $._interactive_rebasing,
+            $._change,
+            alias($._comment_title, $.title),
+            token(prec(-1, ANYTHING))
+          )
+        ),
+        NEWLINE
+      ),
+
+    _scissor: ($) =>
+      seq(
+        alias(SCISSORS, $.scissor),
+        optional(alias(repeat1(choice(ANYTHING, NEWLINE)), $.diff))
+      ),
+
+    branch: () => BRANCH_NAME,
+
+    number: () => /\d+/,
+
+    _change: ($) =>
+      seq(
+        token(prec(1, /\t/)),
+        choice(
+          seq(
+            optional(alias(CHANGE, $.change)),
+            optional(WHITESPACE),
+            $._filepath
+          ),
+          token(prec(-1, ANYTHING))
+        )
+      ),
+
+    _filepath: ($) =>
+      seq(
+        alias(FILEPATH, $.filepath),
+        optional(
+          seq(
+            WHITESPACE,
+            alias('->', $.arrow),
+            WHITESPACE,
+            alias(FILEPATH, $.filepath)
+          )
+        )
+      ),
+
+    _date: ($) =>
+      seq(
+        alias(
+          choice(
+            'Date :',
+            'Date:',
+            '日期：',
+            'Ngày tháng:',
+            'Tarih:',
+            'Datum:',
+            'Дата:',
+            'Data:',
+            '시각:',
+            'Tanggal:',
+            'Fecha:',
+            'Ημερομηνία:'
+          ),
+          $.title
+        ),
+        WHITESPACE,
+        alias(ANYTHING, $.date)
+      ),
+
+    _onbranch: ($) =>
+      seq(
+        alias(
+          choice(
+            'On branch ',
+            'Sur la branche ',
+            'Текущая ветка: ',
+            'På grenen ',
+            'Üzerinde bulunulan dal: ',
+            'Trên nhánh ',
+            '位於分支 ',
+            'Em ramo ',
+            'Na gałęzi ',
+            '현재 브랜치 ',
+            'Sul branch ',
+            'Pada cabang ',
+            'En la rama ',
+            'Στον κλάδο ',
+            'Auf Branch ',
+            'En la branca ',
+            'На клон '
+          ),
+          $.text
+        ),
+        $.branch
+      ),
+
+    _uptodate: ($) =>
+      choice(
+        seq("Your branch is up to date with '", $.branch, "'."),
+        seq("Votre branche est à jour avec '", $.branch, "'."),
+        seq("您的分支與上游分支 '", $.branch, "' 一致。"),
+        seq("您的分支与上游分支 '", $.branch, "' 一致。"),
+        seq('Nhánh của bạn đã cập nhật với “', $.branch, '”.'),
+        seq("Dalınız '", $.branch, "' ile güncel."),
+        seq('Din gren är à jour med "', $.branch, '".'),
+        seq('Эта ветка соответствует «', $.branch, '».'),
+        seq("Teu ramo está atualizado com '", $.branch, "'."),
+        seq('Twoja gałąź jest na bieżąco z „', $.branch, '”.'),
+        seq("브랜치가 '", $.branch, "'에 맞게 업데이트된 상태입니다."),
+        seq("Il tuo branch è aggiornato rispetto a '", $.branch, "'."),
+        seq("Cabang Anda mutakhir dengan '", $.branch, "'."),
+        seq("Tu rama está actualizada con '", $.branch, "'."),
+        seq("Ο κλάδος σας είναι ενήμερος με το '", $.branch, "'."),
+        seq("Ihr Branch ist auf demselben Stand wie '", $.branch, "'."),
+        seq('La vostra branca està al dia amb «', $.branch, '».'),
+        seq('Клонът е обновен към „', $.branch, '“.')
+      ),
+
+    _behind: ($) =>
+      // prettier-ignore
+      choice(
+        seq("Your branch is behind '", $.branch, "' by ", $.number, ' commit, and can be fast-forwarded.'),
+        seq("Your branch is behind '", $.branch, "' by ", $.number, ' commits, and can be fast-forwarded.'),
+        seq("Votre branche est en retard sur '", $.branch, "' de ", $.number, ' commit, et peut être mise à jour en avance rapide.'),
+        seq("Votre branche est en retard sur '", $.branch, "' de ", $.number, ' commits, et peut être mise à jour en avance rapide.'),
+        seq('La vostra branca està ', $.number, ' comissió per darrere de «', $.branch, '», i pot avançar-se ràpidament.'),
+        seq('La vostra branca està ', $.number, ' comissions per darrere de «', $.branch, '», i pot avançar-se ràpidament.'),
+        seq('Клонът ви е с ', $.number, ' подаване зад „', $.branch, '“ и може да бъде превъртян.'),
+        seq('Клонът ви е с ', $.number, ' подавания зад „', $.branch, '“ и може да бъде превъртян.'),
+        seq('Ihr Branch ist ', $.number, " Commit hinter '", $.branch, "', und kann vorgespult werden."),
+        seq('Ihr Branch ist ', $.number, " Commits hinter '", $.branch, "', und kann vorgespult werden."),
+        seq("Ο κλάδος σας είναι πίσω από το '", $.branch, "' κατά ", $.number, ' υποβολή, και μπορεί να κάνει ταχεία προώθηση.'),
+        seq("Ο κλάδος σας είναι πίσω από το '", $.branch, "' κατά ", $.number, ' υποβολές, και μπορεί να κάνει ταχεία προώθηση.'),
+        seq("Tu rama está detrás de '", $.branch, "' por ", $.number, ' commit, y puede ser avanzada rápido.'),
+        seq("Tu rama está detrás de '", $.branch, "' por ", $.number, ' commits, y puede ser avanzada rápido.'),
+        seq("Cabang Anda di belakang '", $.branch, "' oleh ", $.number, ' komit, dan bisa di maju-cepatkan.'),
+        seq("Cabang Anda di belakan '", $.branch, "' oleh ", $.number, ' komit, dan bisa di maju-cepatkan.'),
+        seq("Il tuo branch, rispetto a '", $.branch, "', è indietro di ", $.number, ' commit e ne posso eseguire il fast forward.'),
+        seq("Il tuo branch, rispetto a '", $.branch, "', è indietro di ", $.number, ' commit e ne posso eseguire il fast forward.'),
+        seq("브랜치가 '", $.branch, "'보다 ", $.number, '개 커밋 뒤에 있고, 앞으로 돌릴 수 있습니다.'),
+        seq('Nhánh của bạn đứng đằng sau “', $.branch, '” ', $.number, ' lần chuyển giao, và có thể được chuyển-tiếp-nhanh.'),
+        seq("Dalınız '", $.branch, "' dalından ", $.number, ' işleme geride ve ileri sarılabilir.'),
+        seq('Din gren ligger efter "', $.branch, '" med ', $.number, ' incheckning, och kan snabbspolas.'),
+        seq('Din gren ligger efter "', $.branch, '" med ', $.number, ' incheckningar, och kan snabbspolas.'),
+        seq('Ветка отстает от «', $.branch, '» на ', $.number, ' коммит и может быть быстро перемотана.'),
+        seq('Ветка отстает от «', $.branch, '» на ', $.number, ' коммита и может быть быстро перемотана.'),
+        seq('Ветка отстает от «', $.branch, '» на ', $.number, ' коммитов и может быть быстро перемотана.'),
+        seq("Teu ramo está atrás de '", $.branch, "' por ", $.number, ' memória, e pode ser avançado.'),
+        seq("Teu ramo está atrás de '", $.branch, "' por ", $.number, ' memórias, e pode ser avançado.'),
+        seq('Twoja gałąź jest za „', $.branch, '” o ', $.number, ' zapis i może zostać przewinięta.'),
+        seq('Twoja gałąź jest za „', $.branch, '” o ', $.number, ' zapisy i może zostać przewinięta.'),
+        seq('Twoja gałąź jest za „', $.branch, '” o ', $.number, ' zapisów i może zostać przewinięta.'),
+        seq("您的分支落后 '", $.branch, "' 共 ", $.number, ' 个提交，并且可以快进。'),
+        seq("您的分支落後 '", $.branch, "' 共 ", $.number, ' 個提交，並且可以快轉。')
+      ),
+
+    _ahead: ($) =>
+      // prettier-ignore
+      choice(
+        seq("Your branch is ahead of '", $.branch, "' by ", $.number, ' commit.'),
+        seq("Your branch is ahead of '", $.branch, "' by ", $.number, ' commits.'),
+        seq("Votre branche est en avance sur '", $.branch, "' de ", $.number, ' commit.'),
+        seq("Votre branche est en avance sur '", $.branch, "' de ", $.number, ' commits.'),
+        seq("您的分支領先 '", $.branch, "' 共 ", $.number, ' 個提交。'),
+        seq("您的分支领先 '", $.branch, "' 共 ", $.number, ' 个提交。'),
+        seq('Nhánh của bạn đứng trước “', $.branch, '” ', $.number, ' lần chuyển giao.'),
+        seq("Dalınız '", $.branch, "' dalından ", $.number, ' işleme ileride.'),
+        seq('Din gren ligger före "', $.branch, '" med ', $.number, ' incheckning.'),
+        seq('Din gren ligger före "', $.branch, '" med ', $.number, ' incheckningar.'),
+        seq('Ваша ветка опережает «', $.branch, '» на ', $.number, ' коммит.'),
+        seq('Ваша ветка опережает «', $.branch, '» на ', $.number, ' коммита.'),
+        seq('Ваша ветка опережает «', $.branch, '» на ', $.number, ' коммитов.'),
+        seq('Ваша ветка опережает «', $.branch, '» на ', $.number, ' коммитов.'),
+        seq("Teu ramo está à frente de '", $.branch, "' por ", $.number, ' memória.'),
+        seq("Teu ramo está à frente de '", $.branch, "' por ", $.number, ' memórias.'),
+        seq('Twoja gałąź jest do przodu względem „', $.branch, '” o ', $.number, ' zapis.'),
+        seq('Twoja gałąź jest do przodu względem „', $.branch, '” o ', $.number, ' zapisy.'),
+        seq('Twoja gałąź jest do przodu względem „', $.branch, '” o ', $.number, ' zapisów.'),
+        seq("브랜치가 '", $.branch, "'보다 ", $.number, '개 커밋만큼 앞에 있습니다.'),
+        seq("Il tuo branch è avanti rispetto a '", $.branch, "' di ", $.number, ' commit.'),
+        seq("Il tuo branch è avanti rispetto a '", $.branch, "' di ", $.number, ' commit.'),
+        seq("Cabang Anda mendahului '", $.branch, "' oleh ", $.number, ' komit.'),
+        seq("Cabang Anda mendahului '", $.branch, "' oleh ", $.number, ' komit.'),
+        seq("Tu rama está adelantada a '", $.branch, "' por ", $.number, ' commit.'),
+        seq("Tu rama está adelantada a '", $.branch, "' por ", $.number, ' commits.'),
+        seq("Ο κλάδος σας είναι μπροστά από το '", $.branch, "' κατά ", $.number, ' υποβολή.'),
+        seq("Ο κλάδος σας είναι μπροστά από το '", $.branch, "' κατά ", $.number, ' υποβολές.'),
+        seq('Ihr Branch ist ', $.number, " Commit vor '", $.branch, "'."),
+        seq('Ihr Branch ist ', $.number, " Commits vor '", $.branch, "'."),
+        seq('La vostra branca està ', $.number, ' comissió per davant de «', $.branch, '».'),
+        seq('La vostra branca està ', $.number, ' comissions per davant de «', $.branch, '».'),
+        seq('Клонът ви е с ', $.number, ' подаване пред „', $.branch, '“.'),
+        seq('Клонът ви е с ', $.number, ' подавания пред „', $.branch, '“.')
+      ),
+
+    _rebasing: ($) =>
+      // prettier-ignore
+      choice(
+        seq("You are currently rebasing branch '", $.branch, "' on '", $.branch, "'."),
+        seq("Vous êtes en train de rebaser la branche '", $.branch, "' sur '", $.branch, "'."),
+        seq("您在執行將分支 '", $.branch, "' 重定基底到 '", $.branch, "' 的動作。"),
+        seq("您在执行将分支 '", $.branch, "' 变基到 '", $.branch, "' 的操作。"),
+        seq('Bạn hiện nay đang thực hiện việc “rebase” nhánh “', $.branch, '” trên “', $.branch, '”.'),
+        seq("Şu anda '", $.branch, "' dalını '", $.branch, "' üzerine yeniden temellendiriyorsunuz."),
+        seq('Du håller på att ombasera grenen "', $.branch, '" ovanpå "', $.branch, '".'),
+        seq('Вы сейчас перемещаете ветку «', $.branch, '» над «', $.branch, '».'),
+        seq("Estás rebaseando ramo '", $.branch, "' sobre '", $.branch, "'."),
+        seq('Przestawiasz właśnie gałąź „', $.branch, '” na „', $.branch, '”.'),
+        seq("현재 '", $.branch, "' 브랜치를 '", $.branch, "' 위로 리베이스하는 중입니다."),
+        seq("Attualmente stai eseguendo il rebase del branch '", $.branch, "' su '", $.branch, "'."),
+        seq("Anda sedang mendasarkan ulang cabang '", $.branch, "' pada '", $.branch, "'."),
+        seq("Estás aplicando un rebase de la rama '", $.branch, "' sobre '", $.branch, '.'),
+        seq("Αυτή τη στιγμή κάνετε rebase τον κλάδο '", $.branch, "' στο '", $.branch, "'."),
+        seq("Sie sind gerade beim Rebase von Branch '", $.branch, "' auf '", $.branch, "'."),
+        seq('Actualment esteu fent «rebase» de la branca «', $.branch, '» en «', $.branch, '».'),
+        seq('В момента пребазирате клона „', $.branch, '“ върху „', $.branch, '“.')
+      ),
+
+    _interactive_rebasing: ($) =>
+      // prettier-ignore
+      choice(
+        seq('interactive rebase in progress; onto ', $.branch),
+        seq('rebasage interactif en cours ; sur ', $.branch),
+        seq('извършвате интерактивно пребазиране върху ', $.branch),
+        seq('«rebase» interactiu en curs; sobre ', $.branch),
+        seq('interaktives Rebase im Gange; auf ', $.branch),
+        seq('εκτελείται διαδραστικό rebase, πάνω στο ', $.branch),
+        seq('rebase interactivo en progreso; sobre ', $.branch),
+        seq('sedang mendasarkan ulang interaktif; ke ', $.branch),
+        seq('rebase interattivo in corso su ', $.branch),
+        seq('대화형 리베이스 진행 중. 갈 위치는 ', $.branch),
+        seq('trwa interaktywne przestawianie na ', $.branch),
+        seq('rebase interativo em curso; sobre ', $.branch),
+        seq('интерактивное перемещение в процессе; над ', $.branch),
+        seq('interaktiv ombasering pågår; ovanpå ', $.branch),
+        seq('şunun üzerine etkileşimli yeniden temellendirme sürmekte: ', $.branch),
+        seq('rebase ở chế độ tương tác đang được thực hiện; lên trên ', $.branch),
+        seq('交互式变基操作正在进行中；至 ', $.branch),
+        seq('互動式重定基底動作正在進行中；至 ', $.branch)
+      ),
+  },
+});

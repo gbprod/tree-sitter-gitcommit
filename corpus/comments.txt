@@ -1,0 +1,328 @@
+================================================================================
+Simple comments
+================================================================================
+This is a simple subject
+
+# This is a simple body
+
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (comment))
+
+================================================================================
+Comment without space
+================================================================================
+This is a simple subject
+
+#This is a simple body
+
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (comment))
+
+================================================================================
+Empty comment
+================================================================================
+This is a simple subject
+
+#
+
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (comment))
+
+================================================================================
+Multiline comments
+================================================================================
+This is a simple subject
+
+# This is a simple comment.
+#
+#With a second line.
+
+# And a paragraph.
+
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (comment)
+  (comment)
+  (comment)
+  (comment))
+
+================================================================================
+Comment title
+================================================================================
+
+# This is a simple title:
+# With a content
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (title))
+  (comment))
+
+================================================================================
+Comment Date
+================================================================================
+
+# Date :       Fri Oct 21 20:26:32 2022 +0200
+# Date:      Fri Oct 21 20:26:32 2022 +0200
+# 日期：  Fri Oct 21 20:26:32 2022 +0200
+# With a content
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (title)
+    (date))
+  (comment
+    (title)
+    (date))
+  (comment
+    (title)
+    (date))
+  (comment))
+
+================================================================================
+On branch
+================================================================================
+
+# On branch main
+# Sur la branche main
+# Текущая ветка: test.test/test
+# 位於分支 main
+# With a content
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (text)
+    (branch))
+  (comment
+    (text)
+    (branch))
+  (comment
+    (text)
+    (branch))
+  (comment
+    (text)
+    (branch))
+  (comment))
+
+================================================================================
+New files
+================================================================================
+
+# Changes to be committed:
+#	new file:   .gitignore
+#	nouveau fichier : .gitignore
+#	新檔案： .gitignore
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (title))
+  (comment
+    (change)
+    (filepath))
+  (comment
+    (change)
+    (filepath))
+  (comment
+    (change)
+    (filepath)))
+
+================================================================================
+Renamed files
+================================================================================
+
+# Modifications qui seront validées :
+#	renommé :         test.txt -> test2.txt
+#	renamed:    test.txt -> test2.txt
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (title))
+  (comment
+    (change)
+    (filepath)
+    (arrow)
+    (filepath))
+  (comment
+    (change)
+    (filepath)
+    (arrow)
+    (filepath)))
+
+================================================================================
+Renamed files
+================================================================================
+
+# Modifications qui seront validées :
+#	renommé :         test.txt -> test2.txt
+#	renamed:    test.txt -> test2.txt
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (title))
+  (comment
+    (change)
+    (filepath)
+    (arrow)
+    (filepath))
+  (comment
+    (change)
+    (filepath)
+    (arrow)
+    (filepath)))
+
+================================================================================
+Untracked files
+================================================================================
+
+# Fichiers non suivis:
+#	test
+#	test2
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (title))
+  (comment
+    (filepath))
+  (comment
+    (filepath)))
+
+================================================================================
+Up to date
+================================================================================
+
+# Your branch is up to date with 'origin/master'.
+# Votre branche est à jour avec 'origin/master'.
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (branch))
+  (comment
+    (branch)))
+
+================================================================================
+Behind/ahead
+================================================================================
+
+# Your branch is behind 'origin/main' by 5 commit, and can be fast-forwarded.
+# Ο κλάδος σας είναι πίσω από το 'upstream/main' κατά 7 υποβολές, και μπορεί να κάνει ταχεία προώθηση.
+# 您的分支領先 'origin/main' 共 123456 個提交。
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (branch)
+    (number))
+  (comment
+    (branch)
+    (number))
+  (comment
+    (branch)
+    (number)))
+
+================================================================================
+Rebasing
+================================================================================
+
+# You are currently rebasing branch 'test' on 'main'.
+# Şu anda 'test' dalını 'main' üzerine yeniden temellendiriyorsunuz.
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (branch)
+    (branch))
+  (comment
+    (branch)
+    (branch)))
+
+================================================================================
+Interactive rebase
+================================================================================
+
+# interactive rebase in progress; onto master
+# rebasage interactif en cours ; sur master
+# извършвате интерактивно пребазиране върху master
+# «rebase» interactiu en curs; sobre master
+# interaktives Rebase im Gange; auf master
+# εκτελείται διαδραστικό rebase, πάνω στο master
+# rebase interactivo en progreso; sobre master
+# sedang mendasarkan ulang interaktif; ke master
+# rebase interattivo in corso su master
+# 대화형 리베이스 진행 중. 갈 위치는 master
+# trwa interaktywne przestawianie na master
+# rebase interativo em curso; sobre master
+# интерактивное перемещение в процессе; над master
+# interaktiv ombasering pågår; ovanpå master
+# şunun üzerine etkileşimli yeniden temellendirme sürmekte: master
+# rebase ở chế độ tương tác đang được thực hiện; lên trên master
+# 交互式变基操作正在进行中；至 master
+# 互動式重定基底動作正在進行中；至 master
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch))
+  (comment
+    (branch)))
