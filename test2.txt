@@ -1,3 +1,0 @@
-
-# Changes to be committed:
-#	renommé :         test.txt -> test2.txt

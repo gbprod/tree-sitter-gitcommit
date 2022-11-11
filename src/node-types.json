@@ -1,5 +1,24 @@
 [
   {
+    "type": "breaking_change",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "token",
+          "named": true
+        },
+        {
+          "type": "value",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "comment",
     "named": true,
     "fields": {},
@@ -32,6 +51,10 @@
           "named": true
         },
         {
+          "type": "rebase_command",
+          "named": true
+        },
+        {
           "type": "text",
           "named": true
         },
@@ -53,6 +76,30 @@
     "fields": {}
   },
   {
+    "type": "prefix",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "scope",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "rebase_command",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "source",
     "named": true,
     "fields": {},
@@ -60,6 +107,10 @@
       "multiple": true,
       "required": false,
       "types": [
+        {
+          "type": "breaking_change",
+          "named": true
+        },
         {
           "type": "diff",
           "named": true
@@ -88,11 +139,15 @@
     "named": true,
     "fields": {},
     "children": {
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "types": [
         {
           "type": "overflow",
+          "named": true
+        },
+        {
+          "type": "prefix",
           "named": true
         }
       ]
@@ -116,6 +171,10 @@
         }
       ]
     }
+  },
+  {
+    "type": "    ",
+    "named": false
   },
   {
     "type": " Commit hinter '",
@@ -338,6 +397,10 @@
     "named": false
   },
   {
+    "type": "!",
+    "named": false
+  },
+  {
     "type": "\" med ",
     "named": false
   },
@@ -474,7 +537,15 @@
     "named": false
   },
   {
-    "type": ".",
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": ":",
     "named": false
   },
   {
@@ -662,6 +733,10 @@
     "named": true
   },
   {
+    "type": "break",
+    "named": false
+  },
+  {
     "type": "change",
     "named": true
   },
@@ -670,8 +745,24 @@
     "named": true
   },
   {
+    "type": "drop",
+    "named": false
+  },
+  {
+    "type": "edit",
+    "named": false
+  },
+  {
+    "type": "exec",
+    "named": false
+  },
+  {
     "type": "filepath",
     "named": true
+  },
+  {
+    "type": "fixup",
+    "named": false
   },
   {
     "type": "interactive rebase in progress; onto ",
@@ -686,12 +777,24 @@
     "named": false
   },
   {
+    "type": "label",
+    "named": false
+  },
+  {
+    "type": "merge",
+    "named": false
+  },
+  {
     "type": "number",
     "named": true
   },
   {
     "type": "overflow",
     "named": true
+  },
+  {
+    "type": "pick",
+    "named": false
   },
   {
     "type": "rebasage interactif en cours ; sur ",
@@ -714,11 +817,27 @@
     "named": false
   },
   {
+    "type": "reset",
+    "named": false
+  },
+  {
+    "type": "reword",
+    "named": false
+  },
+  {
     "type": "scissor",
     "named": true
   },
   {
+    "type": "scope",
+    "named": true
+  },
+  {
     "type": "sedang mendasarkan ulang interaktif; ke ",
+    "named": false
+  },
+  {
+    "type": "squash",
     "named": false
   },
   {
@@ -736,6 +855,10 @@
   {
     "type": "trwa interaktywne przestawianie na ",
     "named": false
+  },
+  {
+    "type": "type",
+    "named": true
   },
   {
     "type": "value",

@@ -7,12 +7,13 @@ const BRANCH_NAME = /[^\s']+/;
 const FILEPATH = /\S+/;
 const WHITESPACE = /[\f\v ]+/;
 const CHANGE = /[^\n\r:：]+[:：]/;
+const SCOPE = /[a-zA-Z_-]+/;
 
 module.exports = grammar({
   name: 'gitcommit',
   extras: ($) => [$.comment],
 
-  externals: ($) => [$._trailer_token, $._comment_title],
+  externals: ($) => [$._trailer_token, $._comment_title, $._conventional_type],
 
   rules: {
     source: ($) =>
@@ -24,16 +25,27 @@ module.exports = grammar({
 
     subject: ($) =>
       seq(
-        NOT_A_COMMENT,
+        choice(NOT_A_COMMENT, $.prefix),
         optional(seq(SUBJECT, optional(alias(ANYTHING, $.overflow))))
       ),
 
-    _body_line: ($) => choice($.message, $.trailer, NEWLINE),
+    prefix: ($) =>
+      seq(
+        alias($._conventional_type, $.type),
+        optional(seq('(', alias(SCOPE, $.scope), ')')),
+        optional('!'),
+        ':'
+      ),
+
+    _body_line: ($) => choice($.message, $.breaking_change, $.trailer, NEWLINE),
 
     message: () => seq(NOT_A_COMMENT, optional(ANYTHING)),
 
     trailer: ($) =>
       seq(alias($._trailer_token, $.token), alias(ANYTHING, $.value)),
+
+    breaking_change: ($) =>
+      seq(alias('BREAKING CHANGE', $.token), alias(ANYTHING, $.value)),
 
     comment: ($) =>
       seq(
@@ -49,6 +61,7 @@ module.exports = grammar({
             $._rebasing,
             $._interactive_rebasing,
             $._change,
+            $.rebase_command,
             alias($._comment_title, $.title),
             token(prec(-1, ANYTHING))
           )
@@ -90,6 +103,26 @@ module.exports = grammar({
             alias(FILEPATH, $.filepath)
           )
         )
+      ),
+
+    rebase_command: ($) =>
+      seq(
+        '    ',
+        choice(
+          'pick',
+          'edit',
+          'squash',
+          'merge',
+          'fixup',
+          'drop',
+          'reword',
+          'exec',
+          'label',
+          'reset',
+          'break',
+          'merge'
+        ),
+        ANYTHING
       ),
 
     _date: ($) =>
@@ -257,7 +290,7 @@ module.exports = grammar({
         seq("현재 '", $.branch, "' 브랜치를 '", $.branch, "' 위로 리베이스하는 중입니다."),
         seq("Attualmente stai eseguendo il rebase del branch '", $.branch, "' su '", $.branch, "'."),
         seq("Anda sedang mendasarkan ulang cabang '", $.branch, "' pada '", $.branch, "'."),
-        seq("Estás aplicando un rebase de la rama '", $.branch, "' sobre '", $.branch, '.'),
+        seq("Estás aplicando un rebase de la rama '", $.branch, "' sobre '", $.branch, "'."),
         seq("Αυτή τη στιγμή κάνετε rebase τον κλάδο '", $.branch, "' στο '", $.branch, "'."),
         seq("Sie sind gerade beim Rebase von Branch '", $.branch, "' auf '", $.branch, "'."),
         seq('Actualment esteu fent «rebase» de la branca «', $.branch, '» en «', $.branch, '».'),

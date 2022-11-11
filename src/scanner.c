@@ -1,7 +1,7 @@
 #include <tree_sitter/parser.h>
 #include <wctype.h>
 
-enum TokenType { TRAILER_TOKEN, COMMENT_TITLE };
+enum TokenType { TRAILER_TOKEN, COMMENT_TITLE, CONVENTIONNAL_PREFIX };
 
 void *tree_sitter_gitcommit_external_scanner_create() { return NULL; }
 
@@ -67,6 +67,39 @@ bool tree_sitter_gitcommit_external_scanner_scan(void *payload, TSLexer *lexer,
     lexer->result_symbol = COMMENT_TITLE;
 
     return lexer->lookahead == '\n' || lexer->lookahead == '\r';
+  }
+
+  if (valid_symbols[CONVENTIONNAL_PREFIX]) {
+    lexer->result_symbol = CONVENTIONNAL_PREFIX;
+    if (!iswalpha(lexer->lookahead)) {
+      return false;
+    }
+    lexer->advance(lexer, false);
+
+    while (iswalpha(lexer->lookahead)) {
+      lexer->advance(lexer, false);
+    }
+    lexer->mark_end(lexer);
+
+    if (lexer->lookahead == '(') {
+      lexer->advance(lexer, false);
+
+      while (iswalpha(lexer->lookahead) || lexer->lookahead == '-' ||
+             lexer->lookahead == '_') {
+        lexer->advance(lexer, false);
+      }
+
+      if (lexer->lookahead != ')') {
+        return false;
+      }
+      lexer->advance(lexer, false);
+    }
+
+    if (lexer->lookahead == '!') {
+      lexer->advance(lexer, false);
+    }
+
+    return lexer->lookahead == ':';
   }
 
   return false;

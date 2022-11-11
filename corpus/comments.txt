@@ -251,12 +251,24 @@ Behind/ahead
 Rebasing
 ================================================================================
 
-# You are currently rebasing branch 'test' on 'main'.
-# Şu anda 'test' dalını 'main' üzerine yeniden temellendiriyorsunuz.
+# You are currently rebasing branch 'test' on 'master'.
+# Vous êtes en train de rebaser la branche 'test' sur 'master'.
+# 您在執行將分支 'test' 重定基底到 'master' 的動作。
+# 您在执行将分支 'test' 变基到 'master' 的操作。
+# Şu anda 'test' dalını 'master' üzerine yeniden temellendiriyorsunuz.
 
 --------------------------------------------------------------------------------
 
 (source
+  (comment
+    (branch)
+    (branch))
+  (comment
+    (branch)
+    (branch))
+  (comment
+    (branch)
+    (branch))
   (comment
     (branch)
     (branch))
@@ -326,3 +338,23 @@ Interactive rebase
     (branch))
   (comment
     (branch)))
+
+================================================================================
+Rebase command
+================================================================================
+
+# Dernières commandes effectuées (2 commandes effectuées) :
+#    pick d7e8984 gregreg
+#    edit 56f5d83 test
+# Aucune commande restante.
+
+--------------------------------------------------------------------------------
+
+(source
+  (comment
+    (title))
+  (comment
+    (rebase_command))
+  (comment
+    (rebase_command))
+  (comment))

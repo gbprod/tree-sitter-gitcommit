@@ -67,8 +67,17 @@
       "type": "SEQ",
       "members": [
         {
-          "type": "PATTERN",
-          "value": "[^#\\r\\n]"
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "PATTERN",
+              "value": "[^#\\r\\n]"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "prefix"
+            }
+          ]
         },
         {
           "type": "CHOICE",
@@ -106,12 +115,76 @@
         }
       ]
     },
+    "prefix": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "ALIAS",
+          "content": {
+            "type": "SYMBOL",
+            "name": "_conventional_type"
+          },
+          "named": true,
+          "value": "type"
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "SEQ",
+              "members": [
+                {
+                  "type": "STRING",
+                  "value": "("
+                },
+                {
+                  "type": "ALIAS",
+                  "content": {
+                    "type": "PATTERN",
+                    "value": "[a-zA-Z_-]+"
+                  },
+                  "named": true,
+                  "value": "scope"
+                },
+                {
+                  "type": "STRING",
+                  "value": ")"
+                }
+              ]
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "!"
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "STRING",
+          "value": ":"
+        }
+      ]
+    },
     "_body_line": {
       "type": "CHOICE",
       "members": [
         {
           "type": "SYMBOL",
           "name": "message"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "breaking_change"
         },
         {
           "type": "SYMBOL",
@@ -152,6 +225,29 @@
           "content": {
             "type": "SYMBOL",
             "name": "_trailer_token"
+          },
+          "named": true,
+          "value": "token"
+        },
+        {
+          "type": "ALIAS",
+          "content": {
+            "type": "PATTERN",
+            "value": "[^\\n\\r]+"
+          },
+          "named": true,
+          "value": "value"
+        }
+      ]
+    },
+    "breaking_change": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "ALIAS",
+          "content": {
+            "type": "STRING",
+            "value": "BREAKING CHANGE"
           },
           "named": true,
           "value": "token"
@@ -226,6 +322,10 @@
                 {
                   "type": "SYMBOL",
                   "name": "_change"
+                },
+                {
+                  "type": "SYMBOL",
+                  "name": "rebase_command"
                 },
                 {
                   "type": "ALIAS",
@@ -431,6 +531,72 @@
               "type": "BLANK"
             }
           ]
+        }
+      ]
+    },
+    "rebase_command": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "    "
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "pick"
+            },
+            {
+              "type": "STRING",
+              "value": "edit"
+            },
+            {
+              "type": "STRING",
+              "value": "squash"
+            },
+            {
+              "type": "STRING",
+              "value": "merge"
+            },
+            {
+              "type": "STRING",
+              "value": "fixup"
+            },
+            {
+              "type": "STRING",
+              "value": "drop"
+            },
+            {
+              "type": "STRING",
+              "value": "reword"
+            },
+            {
+              "type": "STRING",
+              "value": "exec"
+            },
+            {
+              "type": "STRING",
+              "value": "label"
+            },
+            {
+              "type": "STRING",
+              "value": "reset"
+            },
+            {
+              "type": "STRING",
+              "value": "break"
+            },
+            {
+              "type": "STRING",
+              "value": "merge"
+            }
+          ]
+        },
+        {
+          "type": "PATTERN",
+          "value": "[^\\n\\r]+"
         }
       ]
     },
@@ -2942,7 +3108,7 @@
             },
             {
               "type": "STRING",
-              "value": "."
+              "value": "'."
             }
           ]
         },
@@ -3304,6 +3470,10 @@
     {
       "type": "SYMBOL",
       "name": "_comment_title"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "_conventional_type"
     }
   ],
   "inline": [],
