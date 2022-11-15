@@ -438,7 +438,7 @@
                       "type": "ALIAS",
                       "content": {
                         "type": "PATTERN",
-                        "value": "[^\\n\\r:：]+[:：]"
+                        "value": "[^\\n\\r:：]+[:\\uff1a]"
                       },
                       "named": true,
                       "value": "change"

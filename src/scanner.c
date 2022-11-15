@@ -33,7 +33,7 @@ bool tree_sitter_gitcommit_external_scanner_scan(void *payload, TSLexer *lexer,
       lexer->advance(lexer, false);
     }
 
-    if (lexer->lookahead != ':' && lexer->lookahead != '：') {
+    if (lexer->lookahead != ':' && lexer->lookahead != 0xff1a) {
       return false;
     }
 
@@ -50,11 +50,11 @@ bool tree_sitter_gitcommit_external_scanner_scan(void *payload, TSLexer *lexer,
 
   if (valid_symbols[COMMENT_TITLE]) {
     while (lexer->lookahead != '\n' && lexer->lookahead != '\r' &&
-           lexer->lookahead != ':' && lexer->lookahead != '：') {
+           lexer->lookahead != ':' && lexer->lookahead != 0xff1a) {
       lexer->advance(lexer, false);
     }
 
-    if (lexer->lookahead != ':' && lexer->lookahead != '：') {
+    if (lexer->lookahead != ':' && lexer->lookahead != 0xff1a) {
       return false;
     }
     lexer->advance(lexer, false);
@@ -99,7 +99,7 @@ bool tree_sitter_gitcommit_external_scanner_scan(void *payload, TSLexer *lexer,
       lexer->advance(lexer, false);
     }
 
-    return lexer->lookahead == ':';
+    return lexer->lookahead == ':' || lexer->lookahead == 0xff1a;
   }
 
   return false;

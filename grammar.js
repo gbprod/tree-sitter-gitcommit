@@ -6,7 +6,7 @@ const SCISSORS = /# -+ >8 -+\r?\n#[^\r\n]*\r?\n#[^\r\n]+\r?\n?/;
 const BRANCH_NAME = /[^\s']+/;
 const FILEPATH = /\S+/;
 const WHITESPACE = /[\f\v ]+/;
-const CHANGE = /[^\n\r:：]+[:：]/;
+const CHANGE = /[^\n\r:：]+[:\uff1a]/;
 const SCOPE = /[a-zA-Z_-]+/;
 
 module.exports = grammar({
