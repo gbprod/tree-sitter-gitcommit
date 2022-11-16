@@ -2,6 +2,10 @@
 Comment Date
 ================================================================================
 
+# Veuillez saisir le message de validation pour vos modifications. Les lignes
+# commençant par '#' seront ignorées, et un message vide abandonne la validation.
+#
+# Date :       Tue Oct 18 15:59:19 2022 +0200
 # Date :       Fri Oct 21 20:26:32 2022 +0200
 # Date:      Fri Oct 21 20:26:32 2022 +0200
 # 日期：  Fri Oct 21 20:26:32 2022 +0200
@@ -10,48 +14,113 @@ Comment Date
 --------------------------------------------------------------------------------
 
 (source
-  (comment
+  (generated_comment)
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
     (title)
-    (date))
-  (comment
+    (value))
+  (generated_comment
     (title)
-    (date))
-  (comment
+    (value))
+  (generated_comment
     (title)
-    (date))
-  (comment))
+    (value))
+  (generated_comment
+    (title)
+    (value))
+  (generated_comment))
 
 ================================================================================
 On branch
 ================================================================================
 
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
 # On branch main
 # Sur la branche main
 # Текущая ветка: test.test/test
+# På grenen main
+# Üzerinde bulunulan dal: main
+# Trên nhánh main
 # 位於分支 main
-# With a content
+# Em ramo main
+# Na gałęzi main
+# 현재 브랜치 main
+# Sul branch main
+# Pada cabang main
+# En la rama main
+# Στον κλάδο main
+# Auf Branch main
+# En la branca main
+# На клон main
 
 --------------------------------------------------------------------------------
 
 (source
-  (comment
+  (generated_comment)
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
     (text)
     (branch))
-  (comment
+  (generated_comment
     (text)
     (branch))
-  (comment
+  (generated_comment
     (text)
     (branch))
-  (comment
+  (generated_comment
     (text)
     (branch))
-  (comment))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch))
+  (generated_comment
+    (text)
+    (branch)))
 
 ================================================================================
 New files
 ================================================================================
 
+# 請輸入描述您變更的提交訊息。會保留開頭是「%c」
+# with '#' will be ignored, and an empty message aborts the commit.
+#
 # Changes to be committed:
 #	new file:   .gitignore
 #	nouveau fichier : .gitignore
@@ -60,15 +129,18 @@ New files
 --------------------------------------------------------------------------------
 
 (source
-  (comment
+  (generated_comment)
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
     (title))
-  (comment
+  (generated_comment
     (change)
     (filepath))
-  (comment
+  (generated_comment
     (change)
     (filepath))
-  (comment
+  (generated_comment
     (change)
     (filepath)))
 
@@ -76,6 +148,8 @@ New files
 Renamed files
 ================================================================================
 
+# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những
+#
 # Modifications qui seront validées :
 #	renommé :         test.txt -> test2.txt
 #	renamed:    test.txt -> test2.txt
@@ -83,38 +157,16 @@ Renamed files
 --------------------------------------------------------------------------------
 
 (source
-  (comment
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
     (title))
-  (comment
+  (generated_comment
     (change)
     (filepath)
     (arrow)
     (filepath))
-  (comment
-    (change)
-    (filepath)
-    (arrow)
-    (filepath)))
-
-================================================================================
-Renamed files
-================================================================================
-
-# Modifications qui seront validées :
-#	renommé :         test.txt -> test2.txt
-#	renamed:    test.txt -> test2.txt
-
---------------------------------------------------------------------------------
-
-(source
-  (comment
-    (title))
-  (comment
-    (change)
-    (filepath)
-    (arrow)
-    (filepath))
-  (comment
+  (generated_comment
     (change)
     (filepath)
     (arrow)
@@ -124,6 +176,8 @@ Renamed files
 Untracked files
 ================================================================================
 
+# Παρακαλώ εισάγετε το μήνυμα υποβολής για τις αλλαγές σας. Οι γραμμές που αρχίζουν
+#
 # Fichiers non suivis:
 #	test
 #	test2
@@ -131,75 +185,458 @@ Untracked files
 --------------------------------------------------------------------------------
 
 (source
-  (comment
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
     (title))
-  (comment
+  (generated_comment
     (filepath))
-  (comment
+  (generated_comment
     (filepath)))
 
 ================================================================================
 Up to date
 ================================================================================
 
+# Por favor, introduz a mensagem de memória das tuas alterações.
+#
 # Your branch is up to date with 'origin/master'.
 # Votre branche est à jour avec 'origin/master'.
+# 您的分支與上游分支 'origin/master' 一致。
+# 您的分支与上游分支 'origin/master' 一致。
+# Nhánh của bạn đã cập nhật với “origin/main”.
+# Dalınız 'origin/master' ile güncel.
+# Din gren är à jour med "origin/main".
+# Эта ветка соответствует «origin/main».
+# Teu ramo está atualizado com 'origin/master'.
+# Twoja gałąź jest na bieżąco z „origin/main”.
+# 브랜치가 'origin/master'에 맞게 업데이트된 상태입니다.
+# Il tuo branch è aggiornato rispetto a 'origin/master'.
+# Cabang Anda mutakhir dengan 'origin/master'.
+# Tu rama está actualizada con 'origin/master'.
+# Ο κλάδος σας είναι ενήμερος με το 'origin/master'.
+# Ihr Branch ist auf demselben Stand wie 'origin/master'.
+# La vostra branca està al dia amb «origin/main».
+# Клонът е обновен към „origin/main“.
 
 --------------------------------------------------------------------------------
 
 (source
-  (comment
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
+    (branch))
+  (generated_comment
     (branch)))
 
 ================================================================================
-Behind/ahead
+Behind
 ================================================================================
 
-# Your branch is behind 'origin/main' by 5 commit, and can be fast-forwarded.
-# Ο κλάδος σας είναι πίσω από το 'upstream/main' κατά 7 υποβολές, και μπορεί να κάνει ταχεία προώθηση.
-# 您的分支領先 'origin/main' 共 123456 個提交。
+# Por favor, introduz a mensagem de memória das tuas alterações.
+# 
+# Your branch is behind 'origin/main' by 18 commit, and can be fast-forwarded.
+# Your branch is behind 'origin/main' by 18 commits, and can be fast-forwarded.
+# Votre branche est en retard sur 'origin/main' de 18 commit, et peut être mise à jour en avance rapide.
+# Votre branche est en retard sur 'origin/main' de 18 commits, et peut être mise à jour en avance rapide.
+# La vostra branca està 3 comissió per darrere de «origin/master», i pot avançar-se ràpidament.
+# La vostra branca està 3 comissions per darrere de «origin/master», i pot avançar-se ràpidament.
+# Клонът ви е с 3 подаване зад „origin/master“ и може да бъде превъртян.
+# Клонът ви е с 3 подавания зад „origin/master“ и може да бъде превъртян.
+# Ihr Branch ist 56 Commit hinter 'origin/main', und kann vorgespult werden.
+# Ihr Branch ist 56 Commits hinter 'origin/main', und kann vorgespult werden.
+# Ο κλάδος σας είναι πίσω από το 'origin/main' κατά 18 υποβολή, και μπορεί να κάνει ταχεία προώθηση.
+# Ο κλάδος σας είναι πίσω από το 'origin/main' κατά 18 υποβολές, και μπορεί να κάνει ταχεία προώθηση.
+# Tu rama está detrás de 'origin/main' por 18 commit, y puede ser avanzada rápido.
+# Tu rama está detrás de 'origin/main' por 18 commits, y puede ser avanzada rápido.
+# Cabang Anda di belakang 'origin/main' oleh 18 komit, dan bisa di maju-cepatkan.
+# Cabang Anda di belakan 'origin/main' oleh 18 komit, dan bisa di maju-cepatkan.
+# Il tuo branch, rispetto a 'origin/main', è indietro di 18 commit e ne posso eseguire il fast forward.
+# Il tuo branch, rispetto a 'origin/main', è indietro di 18 commit e ne posso eseguire il fast forward.
+# 브랜치가 'origin/main'보다 18개 커밋 뒤에 있고, 앞으로 돌릴 수 있습니다.
+# Nhánh của bạn đứng đằng sau “origin/master” 3 lần chuyển giao, và có thể được chuyển-tiếp-nhanh.
+# Dalınız 'origin/main' dalından 18 işleme geride ve ileri sarılabilir.
+# Din gren ligger efter "origin/master" med 3 incheckning, och kan snabbspolas.
+# Din gren ligger efter "origin/master" med 3 incheckningar, och kan snabbspolas.
+# Ветка отстает от «origin/master» на 3 коммит и может быть быстро перемотана.
+# Ветка отстает от «origin/master» на 3 коммита и может быть быстро перемотана.
+# Ветка отстает от «origin/master» на 3 коммитов и может быть быстро перемотана.
+# Teu ramo está atrás de 'origin/main' por 18 memória, e pode ser avançado.
+# Teu ramo está atrás de 'origin/main' por 18 memórias, e pode ser avançado.
+# Twoja gałąź jest za „origin/master” o 3 zapis i może zostać przewinięta.
+# Twoja gałąź jest za „origin/master” o 3 zapisy i może zostać przewinięta.
+# Twoja gałąź jest za „origin/master” o 3 zapisów i może zostać przewinięta.
+# 您的分支落后 'origin/main' 共 18 个提交，并且可以快进。
+# 您的分支落後 'origin/main' 共 18 個提交，並且可以快轉。
 
 --------------------------------------------------------------------------------
 
 (source
-  (comment
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
     (branch)
     (number))
-  (comment
+  (generated_comment
     (branch)
     (number))
-  (comment
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (number)
+    (branch))
+  (generated_comment
+    (number)
+    (branch))
+  (generated_comment
+    (number)
+    (branch))
+  (generated_comment
+    (number)
+    (branch))
+  (generated_comment
+    (number)
+    (branch))
+  (generated_comment
+    (number)
+    (branch))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
     (branch)
     (number)))
+
+================================================================================
+Ahead
+================================================================================
+
+# 请为您的变更输入提交说明。以 '%c' 开始的行将被保留，如果您愿意
+# 
+# Your branch is ahead of 'origin/master' by 456 commit.
+# Your branch is ahead of 'origin/master' by 456 commits.
+# Votre branche est en avance sur 'origin/master' de 456 commit.
+# Votre branche est en avance sur 'origin/master' de 456 commits.
+# 您的分支領先 'origin/master' 共 456 個提交。
+# 您的分支领先 'origin/master' 共 456 个提交。
+# Nhánh của bạn đứng trước “origin/up-to-date” 9 lần chuyển giao.
+# Dalınız 'origin/master' dalından 456 işleme ileride.
+# Din gren ligger före "origin/up-to-date" med 9 incheckning.
+# Din gren ligger före "origin/up-to-date" med 9 incheckningar.
+# Ваша ветка опережает «origin/up-to-date» на 9 коммит.
+# Ваша ветка опережает «origin/up-to-date» на 9 коммита.
+# Ваша ветка опережает «origin/up-to-date» на 9 коммитов.
+# Ваша ветка опережает «origin/up-to-date» на 9 коммитов.
+# Teu ramo está à frente de 'origin/master' por 456 memória.
+# Teu ramo está à frente de 'origin/master' por 456 memórias.
+# Twoja gałąź jest do przodu względem „origin/up-to-date” o 9 zapis.
+# Twoja gałąź jest do przodu względem „origin/up-to-date” o 9 zapisy.
+# Twoja gałąź jest do przodu względem „origin/up-to-date” o 9 zapisów.
+# 브랜치가 'origin/master'보다 456개 커밋만큼 앞에 있습니다.
+# Il tuo branch è avanti rispetto a 'origin/master' di 456 commit.
+# Il tuo branch è avanti rispetto a 'origin/master' di 456 commit.
+# Cabang Anda mendahului 'origin/master' oleh 456 komit.
+# Cabang Anda mendahului 'origin/master' oleh 456 komit.
+# Tu rama está adelantada a 'origin/master' por 456 commit.
+# Tu rama está adelantada a 'origin/master' por 456 commits.
+# Ο κλάδος σας είναι μπροστά από το 'origin/master' κατά 456 υποβολή.
+# Ο κλάδος σας είναι μπροστά από το 'origin/master' κατά 456 υποβολές.
+# Ihr Branch ist 13 Commit vor 'origin/master'.
+# Ihr Branch ist 13 Commits vor 'origin/master'.
+# La vostra branca està 9 comissió per davant de «origin/up-to-date».
+# La vostra branca està 9 comissions per davant de «origin/up-to-date».
+# Клонът ви е с 9 подаване пред „origin/up-to-date“.
+# Клонът ви е с 9 подавания пред „origin/up-to-date“.
+
+--------------------------------------------------------------------------------
+
+(source
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (branch)
+    (number))
+  (generated_comment
+    (number)
+    (branch))
+  (generated_comment
+    (number)
+    (branch))
+  (generated_comment
+    (number)
+    (branch))
+  (generated_comment
+    (number)
+    (branch))
+  (generated_comment
+    (number)
+    (branch))
+  (generated_comment
+    (number)
+    (branch)))
 
 ================================================================================
 Rebasing
 ================================================================================
 
-# You are currently rebasing branch 'test' on 'master'.
-# Vous êtes en train de rebaser la branche 'test' sur 'master'.
-# 您在執行將分支 'test' 重定基底到 'master' 的動作。
-# 您在执行将分支 'test' 变基到 'master' 的操作。
-# Şu anda 'test' dalını 'master' üzerine yeniden temellendiriyorsunuz.
+# Ange incheckningsmeddelandet för dina ändringar. Rader som inleds
+# 
+# You are currently rebasing branch 'feat' on 'main'.
+# Vous êtes en train de rebaser la branche 'feat' sur 'main'.
+# 您在執行將分支 'feat' 重定基底到 'main' 的動作。
+# 您在执行将分支 'feat' 变基到 'main' 的操作。
+# Bạn hiện nay đang thực hiện việc “rebase” nhánh “test” trên “main”.
+# Şu anda 'feat' dalını 'main' üzerine yeniden temellendiriyorsunuz.
+# Du håller på att ombasera grenen "test" ovanpå "main".
+# Вы сейчас перемещаете ветку «test» над «main».
+# Estás rebaseando ramo 'feat' sobre 'main'.
+# Przestawiasz właśnie gałąź „test” na „main”.
+# 현재 'feat' 브랜치를 'main' 위로 리베이스하는 중입니다.
+# Attualmente stai eseguendo il rebase del branch 'feat' su 'main'.
+# Anda sedang mendasarkan ulang cabang 'feat' pada 'main'.
+# Estás aplicando un rebase de la rama 'feat' sobre 'main'.
+# Αυτή τη στιγμή κάνετε rebase τον κλάδο 'feat' στο 'main'.
+# Sie sind gerade beim Rebase von Branch 'feat' auf 'main'.
+# Actualment esteu fent «rebase» de la branca «test» en «main».
+# В момента пребазирате клона „master“ върху „main“.
 
 --------------------------------------------------------------------------------
 
 (source
-  (comment
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
     (branch)
     (branch))
-  (comment
+  (generated_comment
     (branch)
     (branch))
-  (comment
+  (generated_comment
     (branch)
     (branch))
-  (comment
+  (generated_comment
     (branch)
     (branch))
-  (comment
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
+    (branch)
+    (branch))
+  (generated_comment
     (branch)
     (branch)))
 
@@ -207,6 +644,8 @@ Rebasing
 Interactive rebase
 ================================================================================
 
+# Introduïu el missatge de comissió pels vostres canvis. Es mantindran
+# 
 # interactive rebase in progress; onto master
 # rebasage interactif en cours ; sur master
 # извършвате интерактивно пребазиране върху master
@@ -229,47 +668,51 @@ Interactive rebase
 --------------------------------------------------------------------------------
 
 (source
-  (comment
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch))
-  (comment
+  (generated_comment
     (branch)))
 
 ================================================================================
 Rebase command
 ================================================================================
 
+# Παρακαλώ εισάγετε το μήνυμα υποβολής για τις αλλαγές σας. Οι γραμμές που αρχίζουν
+# 
 # Dernières commandes effectuées (2 commandes effectuées) :
 #    pick d7e8984 gregreg
 #    edit 56f5d83 test
@@ -278,11 +721,10 @@ Rebase command
 --------------------------------------------------------------------------------
 
 (source
-  (comment
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
     (title))
-  (comment
-    (rebase_command))
-  (comment
-    (rebase_command))
-  (comment))
-
+  (generated_comment)
+  (generated_comment)
+  (generated_comment))

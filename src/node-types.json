@@ -1,5 +1,10 @@
 [
   {
+    "type": "branch",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "breaking_change",
     "named": true,
     "fields": {},
@@ -23,6 +28,26 @@
     "named": true,
     "fields": {},
     "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "title",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "diff",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "generated_comment",
+    "named": true,
+    "fields": {},
+    "children": {
       "multiple": true,
       "required": false,
       "types": [
@@ -36,10 +61,6 @@
         },
         {
           "type": "change",
-          "named": true
-        },
-        {
-          "type": "date",
           "named": true
         },
         {
@@ -61,14 +82,13 @@
         {
           "type": "title",
           "named": true
+        },
+        {
+          "type": "value",
+          "named": true
         }
       ]
     }
-  },
-  {
-    "type": "diff",
-    "named": true,
-    "fields": {}
   },
   {
     "type": "message",
@@ -112,7 +132,15 @@
           "named": true
         },
         {
+          "type": "comment",
+          "named": true
+        },
+        {
           "type": "diff",
+          "named": true
+        },
+        {
+          "type": "generated_comment",
           "named": true
         },
         {
@@ -729,19 +757,11 @@
     "named": true
   },
   {
-    "type": "branch",
-    "named": true
-  },
-  {
     "type": "break",
     "named": false
   },
   {
     "type": "change",
-    "named": true
-  },
-  {
-    "type": "date",
     "named": true
   },
   {

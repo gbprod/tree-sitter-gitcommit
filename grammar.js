@@ -3,23 +3,30 @@ const ANYTHING = /[^\n\r]+/;
 const SUBJECT = /[^\n\r]{1,49}/;
 const NOT_A_COMMENT = /[^#\r\n]/;
 const SCISSORS = /# -+ >8 -+\r?\n#[^\r\n]*\r?\n#[^\r\n]+\r?\n?/;
-const BRANCH_NAME = /[^\s']+/;
+const BRANCH_NAME = /[^\s'”»"“]+/;
 const FILEPATH = /\S+/;
 const WHITESPACE = /[\f\v ]+/;
 const CHANGE = /[^\n\r:：]+[:\uff1a]/;
 const SCOPE = /[a-zA-Z_-]+/;
+const COMMENT = /[^\n\r]+\r?\n/;
+const COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a]\s*\r?\n/;
+const TRAILER_TOKEN = /[a-zA-Z-]+[ ]*[:\uff1a] /;
+const GENERATED_COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a]/;
+const NUMBER = /\d+/;
 
 module.exports = grammar({
   name: 'gitcommit',
-  extras: ($) => [$.comment],
+  extras: () => [],
 
-  externals: ($) => [$._trailer_token, $._comment_title, $._conventional_type],
+  externals: ($) => [$._conventional_type],
 
   rules: {
     source: ($) =>
       seq(
-        optional(seq($.subject, NEWLINE)),
+        repeat($.comment),
+        optional(seq(seq($.subject, NEWLINE), repeat($.comment))),
         optional(seq(NEWLINE, repeat($._body_line))),
+        optional($._generated_comments),
         optional($._scissor)
       ),
 
@@ -37,115 +44,53 @@ module.exports = grammar({
         ':'
       ),
 
-    _body_line: ($) => choice($.message, $.breaking_change, $.trailer, NEWLINE),
+    _body_line: ($) =>
+      choice($.message, $.breaking_change, $.trailer, $.comment, NEWLINE),
 
     message: () => seq(NOT_A_COMMENT, optional(ANYTHING)),
 
     trailer: ($) =>
-      seq(alias($._trailer_token, $.token), alias(ANYTHING, $.value)),
+      seq(alias(TRAILER_TOKEN, $.token), alias(ANYTHING, $.value)),
 
     breaking_change: ($) =>
       seq(alias('BREAKING CHANGE', $.token), alias(ANYTHING, $.value)),
 
     comment: ($) =>
       seq(
-        token.immediate('#'),
+        '#',
         optional(WHITESPACE),
         optional(
-          choice(
-            $._date,
-            $._onbranch,
-            $._uptodate,
-            $._behind,
-            $._ahead,
-            $._rebasing,
-            $._interactive_rebasing,
-            $._change,
-            $.rebase_command,
-            alias($._comment_title, $.title),
-            token(prec(-1, ANYTHING))
-          )
-        ),
-        NEWLINE
-      ),
-
-    _scissor: ($) =>
-      seq(
-        alias(SCISSORS, $.scissor),
-        optional(alias(repeat1(choice(ANYTHING, NEWLINE)), $.diff))
-      ),
-
-    branch: () => BRANCH_NAME,
-
-    number: () => /\d+/,
-
-    _change: ($) =>
-      seq(
-        token(prec(1, /\t/)),
-        choice(
-          seq(
-            optional(alias(CHANGE, $.change)),
-            optional(WHITESPACE),
-            $._filepath
-          ),
-          token(prec(-1, ANYTHING))
+          choice(alias(COMMENT_TITLE, $.title), token(prec(-1, COMMENT)))
         )
       ),
-
-    _filepath: ($) =>
+    _generated_comments: ($) =>
       seq(
-        alias(FILEPATH, $.filepath),
-        optional(
-          seq(
-            WHITESPACE,
-            alias('->', $.arrow),
-            WHITESPACE,
-            alias(FILEPATH, $.filepath)
+        $._generated_comment_separator,
+        repeat(choice($.generated_comment, NEWLINE))
+      ),
+
+    generated_comment: ($) =>
+      choice(
+        seq(
+          /#[ ]*/,
+          optional(
+            choice(
+              $._change,
+              $._onbranch,
+              $._uptodate,
+              $._behind,
+              $._ahead,
+              $._rebasing,
+              $._interactive_rebasing,
+              $.rebase_command,
+              seq(
+                alias(token(prec(-1, GENERATED_COMMENT_TITLE)), $.title),
+                optional(alias(COMMENT, $.value))
+              ),
+              token(prec(-2, COMMENT))
+            )
           )
         )
-      ),
-
-    rebase_command: ($) =>
-      seq(
-        '    ',
-        choice(
-          'pick',
-          'edit',
-          'squash',
-          'merge',
-          'fixup',
-          'drop',
-          'reword',
-          'exec',
-          'label',
-          'reset',
-          'break',
-          'merge'
-        ),
-        ANYTHING
-      ),
-
-    _date: ($) =>
-      seq(
-        alias(
-          choice(
-            'Date :',
-            'Date:',
-            '日期：',
-            'Ngày tháng:',
-            'Tarih:',
-            'Datum:',
-            'Дата:',
-            'Data:',
-            '시각:',
-            'Tanggal:',
-            'Fecha:',
-            'Ημερομηνία:'
-          ),
-          $.title
-        ),
-        WHITESPACE,
-        alias(ANYTHING, $.date)
       ),
 
     _onbranch: ($) =>
@@ -172,7 +117,99 @@ module.exports = grammar({
           ),
           $.text
         ),
-        $.branch
+        alias(BRANCH_NAME, $.branch),
+        NEWLINE
+      ),
+
+    branch: () => BRANCH_NAME,
+    number: () => NUMBER,
+
+    _generated_comment_separator: ($) =>
+      seq(
+        alias(
+          choice(
+            '# Please enter the commit message for your changes. Lines starting',
+            '# Veuillez saisir le message de validation pour vos modifications. Les lignes',
+            '# Veuillez saisir le message de validation pour vos modifications. Les lignes commençant',
+            '# 請輸入描述您變更的提交訊息。',
+            '# 請輸入描述您變更的提交訊息。開頭是「%c」',
+            '# 請輸入描述您變更的提交訊息。會保留開頭是「%c」',
+            '# 請輸入描述您變更的提交訊息。會保留開頭是',
+            "# 请为您的变更输入提交说明。以 '%c' 开始的行将被忽略。",
+            "# 请为您的变更输入提交说明。以 '%c' 开始的行将被忽略，而一个空的提交",
+            "# 请为您的变更输入提交说明。以 '%c' 开始的行将被保留，如果您愿意",
+            '# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những',
+            '# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những dòng được',
+            "# Lütfen değişiklikleriniz için bir işleme iletisi girin. '%c' ile başlayan",
+            '# Ange incheckningsmeddelandet för dina ändringar. Rader som inleds',
+            '# Пожалуйста, введите сообщение коммита для ваших изменений. Строки,',
+            '# Por favor, introduz a mensagem de memória das tuas alterações.',
+            '# Podaj komunikat zapisu swoich zmian. Wiersze zaczynające się',
+            "# 변경 사항에 대한 커밋 메시지를 입력하십시오. '%c' 문자로 시작하는",
+            '# Immetti il messaggio di commit per le modifiche. Le righe che iniziano',
+            '# Mohon masukkan pesan komit untuk perubahan Anda. Baris yang diawali',
+            '# Por favor ingresa el mensaje del commit para tus cambios. Las',
+            '# Παρακαλώ εισάγετε το μήνυμα υποβολής για τις αλλαγές σας. Οι γραμμές που αρχίζουν',
+            '# Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen,',
+            '# Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen, die',
+            '# Introduïu el missatge de comissió per als vostres canvis.',
+            '# Introduïu el missatge de comissió dels vostres canvis.',
+            '# Introduïu el missatge de comissió pels vostres canvis. Es mantindran'
+          ),
+          $.generated_comment
+        ),
+        NEWLINE
+      ),
+
+    _change: ($) =>
+      seq(
+        /\t/,
+        choice(
+          seq(
+            optional(alias(CHANGE, $.change)),
+            optional(WHITESPACE),
+            $._filepath
+          ),
+          token(prec(-1, ANYTHING))
+        )
+      ),
+
+    _filepath: ($) =>
+      seq(
+        alias(FILEPATH, $.filepath),
+        optional(
+          seq(
+            WHITESPACE,
+            alias('->', $.arrow),
+            WHITESPACE,
+            alias(FILEPATH, $.filepath)
+          )
+        )
+      ),
+    _scissor: ($) =>
+      seq(
+        alias(SCISSORS, $.scissor),
+        optional(alias(repeat1(choice(ANYTHING, NEWLINE)), $.diff))
+      ),
+
+    rebase_command: () =>
+      seq(
+        '    ',
+        choice(
+          'pick',
+          'edit',
+          'squash',
+          'merge',
+          'fixup',
+          'drop',
+          'reword',
+          'exec',
+          'label',
+          'reset',
+          'break',
+          'merge'
+        ),
+        ANYTHING
       ),
 
     _uptodate: ($) =>
