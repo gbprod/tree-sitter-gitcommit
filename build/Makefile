@@ -337,7 +337,7 @@ endif
 
 quiet_cmd_regen_makefile = ACTION Regenerating $@
 cmd_regen_makefile = cd $(srcdir); /home/gilles/.node_modules/lib/node_modules/node-gyp/gyp/gyp_main.py -fmake --ignore-environment "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=/home/gilles/.cache/node-gyp/18.10.0" "-Dnode_gyp_dir=/home/gilles/.node_modules/lib/node_modules/node-gyp" "-Dnode_lib_file=/home/gilles/.cache/node-gyp/18.10.0/<(target_arch)/node.lib" "-Dmodule_root_dir=/home/gilles/workspace/tree-sitter-gitcommit" "-Dnode_engine=v8" "--depth=." "-Goutput_dir=." "--generator-output=build" -I/home/gilles/workspace/tree-sitter-gitcommit/build/config.gypi -I/home/gilles/.node_modules/lib/node_modules/node-gyp/addon.gypi -I/home/gilles/.cache/node-gyp/18.10.0/include/node/common.gypi "--toplevel-dir=." binding.gyp
-Makefile: $(srcdir)/../../.node_modules/lib/node_modules/node-gyp/addon.gypi $(srcdir)/../../.cache/node-gyp/18.10.0/include/node/common.gypi $(srcdir)/binding.gyp $(srcdir)/build/config.gypi
+Makefile: $(srcdir)/../../.cache/node-gyp/18.10.0/include/node/common.gypi $(srcdir)/binding.gyp $(srcdir)/build/config.gypi $(srcdir)/../../.node_modules/lib/node_modules/node-gyp/addon.gypi
 	$(call do_cmd,regen_makefile)
 
 # "all" is a concatenation of the "all" targets from all the included
