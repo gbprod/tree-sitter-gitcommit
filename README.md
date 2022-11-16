@@ -21,7 +21,7 @@ local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
 parser_config.gitcommit = {
     install_info = {
         url = "https://github.com/gbprod/tree-sitter-gitcommit",
-        files = { "src/parser.c" },
+        files = { "src/parser.c", "src/scanner.c" },
     },
     filetype = "gitcommit",
     maintainers = {  "@gbprod" },
@@ -36,7 +36,8 @@ and copy the content of [`queries/highlights.scm`](https://github.com/gbprod/tre
 Edit file `~/.config/nvim/queries/gitcommit/injections.scm` or execute `:TSEditQueryUserAfter injections gitcommit` with the content:
 
 ```scheme
-(scissors) @diff
+(diff) @diff
+(rebase_command) @git_rebase
 ```
 
 Now we can install the `gitcommit` parser via nvim-treesitter.
