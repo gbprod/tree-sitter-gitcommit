@@ -42,13 +42,13 @@ CFLAGS_CC_Debug := \
 	-std=gnu++17
 
 INCS_Debug := \
-	-I/home/gilles/.cache/node-gyp/18.10.0/include/node \
-	-I/home/gilles/.cache/node-gyp/18.10.0/src \
-	-I/home/gilles/.cache/node-gyp/18.10.0/deps/openssl/config \
-	-I/home/gilles/.cache/node-gyp/18.10.0/deps/openssl/openssl/include \
-	-I/home/gilles/.cache/node-gyp/18.10.0/deps/uv/include \
-	-I/home/gilles/.cache/node-gyp/18.10.0/deps/zlib \
-	-I/home/gilles/.cache/node-gyp/18.10.0/deps/v8/include \
+	-I/home/gilles/.cache/node-gyp/18.12.0/include/node \
+	-I/home/gilles/.cache/node-gyp/18.12.0/src \
+	-I/home/gilles/.cache/node-gyp/18.12.0/deps/openssl/config \
+	-I/home/gilles/.cache/node-gyp/18.12.0/deps/openssl/openssl/include \
+	-I/home/gilles/.cache/node-gyp/18.12.0/deps/uv/include \
+	-I/home/gilles/.cache/node-gyp/18.12.0/deps/zlib \
+	-I/home/gilles/.cache/node-gyp/18.12.0/deps/v8/include \
 	-I$(srcdir)/node_modules/nan \
 	-I$(srcdir)/src
 
@@ -89,13 +89,13 @@ CFLAGS_CC_Release := \
 	-std=gnu++17
 
 INCS_Release := \
-	-I/home/gilles/.cache/node-gyp/18.10.0/include/node \
-	-I/home/gilles/.cache/node-gyp/18.10.0/src \
-	-I/home/gilles/.cache/node-gyp/18.10.0/deps/openssl/config \
-	-I/home/gilles/.cache/node-gyp/18.10.0/deps/openssl/openssl/include \
-	-I/home/gilles/.cache/node-gyp/18.10.0/deps/uv/include \
-	-I/home/gilles/.cache/node-gyp/18.10.0/deps/zlib \
-	-I/home/gilles/.cache/node-gyp/18.10.0/deps/v8/include \
+	-I/home/gilles/.cache/node-gyp/18.12.0/include/node \
+	-I/home/gilles/.cache/node-gyp/18.12.0/src \
+	-I/home/gilles/.cache/node-gyp/18.12.0/deps/openssl/config \
+	-I/home/gilles/.cache/node-gyp/18.12.0/deps/openssl/openssl/include \
+	-I/home/gilles/.cache/node-gyp/18.12.0/deps/uv/include \
+	-I/home/gilles/.cache/node-gyp/18.12.0/deps/zlib \
+	-I/home/gilles/.cache/node-gyp/18.12.0/deps/v8/include \
 	-I$(srcdir)/node_modules/nan \
 	-I$(srcdir)/src
 
@@ -115,25 +115,25 @@ $(OBJS): GYP_CXXFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(B
 
 # Suffix rules, putting all outputs into $(obj).
 
-$(obj).$(TOOLSET)/$(TARGET)/%.o: $(srcdir)/%.cc FORCE_DO_CMD
-	@$(call do_cmd,cxx,1)
-
 $(obj).$(TOOLSET)/$(TARGET)/%.o: $(srcdir)/%.c FORCE_DO_CMD
 	@$(call do_cmd,cc,1)
 
-# Try building from generated source, too.
-
-$(obj).$(TOOLSET)/$(TARGET)/%.o: $(obj).$(TOOLSET)/%.cc FORCE_DO_CMD
+$(obj).$(TOOLSET)/$(TARGET)/%.o: $(srcdir)/%.cc FORCE_DO_CMD
 	@$(call do_cmd,cxx,1)
+
+# Try building from generated source, too.
 
 $(obj).$(TOOLSET)/$(TARGET)/%.o: $(obj).$(TOOLSET)/%.c FORCE_DO_CMD
 	@$(call do_cmd,cc,1)
 
-$(obj).$(TOOLSET)/$(TARGET)/%.o: $(obj)/%.cc FORCE_DO_CMD
+$(obj).$(TOOLSET)/$(TARGET)/%.o: $(obj).$(TOOLSET)/%.cc FORCE_DO_CMD
 	@$(call do_cmd,cxx,1)
 
 $(obj).$(TOOLSET)/$(TARGET)/%.o: $(obj)/%.c FORCE_DO_CMD
 	@$(call do_cmd,cc,1)
+
+$(obj).$(TOOLSET)/$(TARGET)/%.o: $(obj)/%.cc FORCE_DO_CMD
+	@$(call do_cmd,cxx,1)
 
 # End of this set of suffix rules
 ### Rules for final target.
