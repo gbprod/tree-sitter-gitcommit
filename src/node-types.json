@@ -201,10 +201,6 @@
     }
   },
   {
-    "type": "    ",
-    "named": false
-  },
-  {
     "type": " Commit hinter '",
     "named": false
   },
@@ -442,6 +438,10 @@
   },
   {
     "type": "#",
+    "named": false
+  },
+  {
+    "type": "#    ",
     "named": false
   },
   {

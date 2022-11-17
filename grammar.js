@@ -71,18 +71,19 @@ module.exports = grammar({
 
     generated_comment: ($) =>
       choice(
+        seq(/#\t/, $._change),
+        seq('#    ', $.rebase_command),
         seq(
           /#[ ]*/,
           optional(
             choice(
-              $._change,
+              $.rebase_command,
               $._onbranch,
               $._uptodate,
               $._behind,
               $._ahead,
               $._rebasing,
               $._interactive_rebasing,
-              $.rebase_command,
               seq(
                 alias(token(prec(-1, GENERATED_COMMENT_TITLE)), $.title),
                 optional(alias(COMMENT, $.value))
@@ -92,7 +93,6 @@ module.exports = grammar({
           )
         )
       ),
-
     _onbranch: ($) =>
       seq(
         alias(
@@ -162,18 +162,14 @@ module.exports = grammar({
       ),
 
     _change: ($) =>
-      seq(
-        /\t/,
-        choice(
-          seq(
-            optional(alias(CHANGE, $.change)),
-            optional(WHITESPACE),
-            $._filepath
-          ),
-          token(prec(-1, ANYTHING))
-        )
+      choice(
+        seq(
+          optional(alias(CHANGE, $.change)),
+          optional(WHITESPACE),
+          $._filepath
+        ),
+        token(prec(-1, ANYTHING))
       ),
-
     _filepath: ($) =>
       seq(
         alias(FILEPATH, $.filepath),
@@ -194,7 +190,6 @@ module.exports = grammar({
 
     rebase_command: () =>
       seq(
-        '    ',
         choice(
           'pick',
           'edit',

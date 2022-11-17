@@ -385,6 +385,32 @@
           "members": [
             {
               "type": "PATTERN",
+              "value": "#\\t"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "_change"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "#    "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "rebase_command"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "PATTERN",
               "value": "#[ ]*"
             },
             {
@@ -395,7 +421,7 @@
                   "members": [
                     {
                       "type": "SYMBOL",
-                      "name": "_change"
+                      "name": "rebase_command"
                     },
                     {
                       "type": "SYMBOL",
@@ -420,10 +446,6 @@
                     {
                       "type": "SYMBOL",
                       "name": "_interactive_rebasing"
-                    },
-                    {
-                      "type": "SYMBOL",
-                      "name": "rebase_command"
                     },
                     {
                       "type": "SEQ",
@@ -717,65 +739,56 @@
       ]
     },
     "_change": {
-      "type": "SEQ",
+      "type": "CHOICE",
       "members": [
         {
-          "type": "PATTERN",
-          "value": "\\t"
-        },
-        {
-          "type": "CHOICE",
+          "type": "SEQ",
           "members": [
             {
-              "type": "SEQ",
+              "type": "CHOICE",
               "members": [
                 {
-                  "type": "CHOICE",
-                  "members": [
-                    {
-                      "type": "ALIAS",
-                      "content": {
-                        "type": "PATTERN",
-                        "value": "[^\\n\\r:：]+[:\\uff1a]"
-                      },
-                      "named": true,
-                      "value": "change"
-                    },
-                    {
-                      "type": "BLANK"
-                    }
-                  ]
+                  "type": "ALIAS",
+                  "content": {
+                    "type": "PATTERN",
+                    "value": "[^\\n\\r:：]+[:\\uff1a]"
+                  },
+                  "named": true,
+                  "value": "change"
                 },
                 {
-                  "type": "CHOICE",
-                  "members": [
-                    {
-                      "type": "PATTERN",
-                      "value": "[\\f\\v ]+"
-                    },
-                    {
-                      "type": "BLANK"
-                    }
-                  ]
-                },
-                {
-                  "type": "SYMBOL",
-                  "name": "_filepath"
+                  "type": "BLANK"
                 }
               ]
             },
             {
-              "type": "TOKEN",
-              "content": {
-                "type": "PREC",
-                "value": -1,
-                "content": {
+              "type": "CHOICE",
+              "members": [
+                {
                   "type": "PATTERN",
-                  "value": "[^\\n\\r]+"
+                  "value": "[\\f\\v ]+"
+                },
+                {
+                  "type": "BLANK"
                 }
-              }
+              ]
+            },
+            {
+              "type": "SYMBOL",
+              "name": "_filepath"
             }
           ]
+        },
+        {
+          "type": "TOKEN",
+          "content": {
+            "type": "PREC",
+            "value": -1,
+            "content": {
+              "type": "PATTERN",
+              "value": "[^\\n\\r]+"
+            }
+          }
         }
       ]
     },
@@ -878,10 +891,6 @@
     "rebase_command": {
       "type": "SEQ",
       "members": [
-        {
-          "type": "STRING",
-          "value": "    "
-        },
         {
           "type": "CHOICE",
           "members": [
