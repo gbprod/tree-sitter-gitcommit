@@ -47,6 +47,12 @@ Now we can install the `gitcommit` parser via nvim-treesitter.
 :TSInstall gitcommit
 ```
 
+To have a complete highlight, you should have `git_rebase` and `diff` parsers installed :
+
+```vim
+:TSInstall diff git_rebase
+```
+
 ## Credits
 
 - [https://github.com/gbprod/tree-sitter-git-commit](https://github.com/gbprod/tree-sitter-git-commit) good parser but only works in english.
