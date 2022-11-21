@@ -55,4 +55,4 @@ To have a complete highlight, you should have `git_rebase` and `diff` parsers in
 
 ## Credits
 
-- [https://github.com/gbprod/tree-sitter-git-commit](https://github.com/gbprod/tree-sitter-git-commit) good parser but only works in english.
+- [https://github.com/the-mikedavis/tree-sitter-git-commit](https://github.com/the-mikedavis/tree-sitter-git-commit) good parser but [only works in english](https://github.com/the-mikedavis/tree-sitter-git-commit/issues/4).
