@@ -31,10 +31,10 @@ parser_config.gitcommit = {
 
 Then we need some queries for nvim-treesitter:
 
-Edit file `~/.config/nvim/queries/gitcommit/highlights.scm` or execute `:TSEditQueryUserAfter highlights gitcommit`
+Edit file `~/.config/nvim/after/queries/gitcommit/highlights.scm` or execute `:TSEditQueryUserAfter highlights gitcommit`
 and copy the content of [`queries/highlights.scm`](https://github.com/gbprod/tree-sitter-gitcommit/blob/main/queries/highlights.scm).
 
-Edit file `~/.config/nvim/queries/gitcommit/injections.scm` or execute `:TSEditQueryUserAfter injections gitcommit` with the content:
+Edit file `~/.config/nvim/after/queries/gitcommit/injections.scm` or execute `:TSEditQueryUserAfter injections gitcommit` with the content:
 
 ```scheme
 (diff) @diff
