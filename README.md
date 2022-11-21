@@ -22,6 +22,7 @@ parser_config.gitcommit = {
     install_info = {
         url = "https://github.com/gbprod/tree-sitter-gitcommit",
         files = { "src/parser.c", "src/scanner.c" },
+        branch = "main",
     },
     filetype = "gitcommit",
     maintainers = {  "@gbprod" },
