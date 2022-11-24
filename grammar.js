@@ -1,17 +1,17 @@
 const NEWLINE = /\r?\n/;
 const ANYTHING = /[^\n\r]+/;
 const SUBJECT = /[^\n\r]{1,49}/;
-const NOT_A_COMMENT = /[^#\r\n]/;
-const SCISSORS = /# -+ >8 -+\r?\n#[^\r\n]*\r?\n#[^\r\n]+\r?\n?/;
+const NOT_A_COMMENT = /[^#]/;
+const SCISSORS = /# -+ >8 -+\r?\n/;
 const BRANCH_NAME = /[^\s'”»"“]+/;
 const FILEPATH = /\S+/;
 const WHITESPACE = /[\f\v ]+/;
 const CHANGE = /[^\n\r:：]+[:\uff1a]/;
 const SCOPE = /[a-zA-Z_-]+/;
-const COMMENT = /[^\n\r]+\r?\n/;
+const COMMENT = /[^\n\r]*\r?\n/;
 const COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a]\s*\r?\n/;
 const TRAILER_TOKEN = /[a-zA-Z-]+[ ]*[:\uff1a] /;
-const GENERATED_COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a]/;
+const GENERATED_COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a][ ]*/;
 const NUMBER = /\d+/;
 
 module.exports = grammar({
@@ -93,6 +93,7 @@ module.exports = grammar({
           )
         )
       ),
+
     _onbranch: ($) =>
       seq(
         alias(
@@ -182,11 +183,31 @@ module.exports = grammar({
           )
         )
       ),
+
     _scissor: ($) =>
       seq(
         alias(SCISSORS, $.scissor),
-        optional(alias(repeat1(choice(ANYTHING, NEWLINE)), $.diff))
+        repeat1(
+          choice(
+            alias($._scissor_generated_comment, $.generated_comment),
+            $.diff,
+            NEWLINE
+          )
+        )
       ),
+
+    _scissor_generated_comment: ($) =>
+      seq(
+        '#',
+        optional(
+          choice(
+            alias(GENERATED_COMMENT_TITLE, $.title),
+            token(prec(-1, ANYTHING))
+          )
+        )
+      ),
+
+    diff: () => seq(/[^#]/, optional(ANYTHING)),
 
     rebase_command: () =>
       seq(

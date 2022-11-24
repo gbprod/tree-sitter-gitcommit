@@ -102,7 +102,7 @@
           "members": [
             {
               "type": "PATTERN",
-              "value": "[^#\\r\\n]"
+              "value": "[^#]"
             },
             {
               "type": "SYMBOL",
@@ -236,7 +236,7 @@
       "members": [
         {
           "type": "PATTERN",
-          "value": "[^#\\r\\n]"
+          "value": "[^#]"
         },
         {
           "type": "CHOICE",
@@ -339,7 +339,7 @@
                     "value": -1,
                     "content": {
                       "type": "PATTERN",
-                      "value": "[^\\n\\r]+\\r?\\n"
+                      "value": "[^\\n\\r]*\\r?\\n"
                     }
                   }
                 }
@@ -459,7 +459,7 @@
                               "value": -1,
                               "content": {
                                 "type": "PATTERN",
-                                "value": "[^\\n\\r:\\uff1a]+[:\\uff1a]"
+                                "value": "[^\\n\\r:\\uff1a]+[:\\uff1a][ ]*"
                               }
                             }
                           },
@@ -473,7 +473,7 @@
                               "type": "ALIAS",
                               "content": {
                                 "type": "PATTERN",
-                                "value": "[^\\n\\r]+\\r?\\n"
+                                "value": "[^\\n\\r]*\\r?\\n"
                               },
                               "named": true,
                               "value": "value"
@@ -492,7 +492,7 @@
                         "value": -2,
                         "content": {
                           "type": "PATTERN",
-                          "value": "[^\\n\\r]+\\r?\\n"
+                          "value": "[^\\n\\r]*\\r?\\n"
                         }
                       }
                     }
@@ -852,34 +852,93 @@
           "type": "ALIAS",
           "content": {
             "type": "PATTERN",
-            "value": "# -+ >8 -+\\r?\\n#[^\\r\\n]*\\r?\\n#[^\\r\\n]+\\r?\\n?"
+            "value": "# -+ >8 -+\\r?\\n"
           },
           "named": true,
           "value": "scissor"
         },
         {
+          "type": "REPEAT1",
+          "content": {
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "ALIAS",
+                "content": {
+                  "type": "SYMBOL",
+                  "name": "_scissor_generated_comment"
+                },
+                "named": true,
+                "value": "generated_comment"
+              },
+              {
+                "type": "SYMBOL",
+                "name": "diff"
+              },
+              {
+                "type": "PATTERN",
+                "value": "\\r?\\n"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "_scissor_generated_comment": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "#"
+        },
+        {
           "type": "CHOICE",
           "members": [
             {
-              "type": "ALIAS",
-              "content": {
-                "type": "REPEAT1",
-                "content": {
-                  "type": "CHOICE",
-                  "members": [
-                    {
+              "type": "CHOICE",
+              "members": [
+                {
+                  "type": "ALIAS",
+                  "content": {
+                    "type": "PATTERN",
+                    "value": "[^\\n\\r:\\uff1a]+[:\\uff1a][ ]*"
+                  },
+                  "named": true,
+                  "value": "title"
+                },
+                {
+                  "type": "TOKEN",
+                  "content": {
+                    "type": "PREC",
+                    "value": -1,
+                    "content": {
                       "type": "PATTERN",
                       "value": "[^\\n\\r]+"
-                    },
-                    {
-                      "type": "PATTERN",
-                      "value": "\\r?\\n"
                     }
-                  ]
+                  }
                 }
-              },
-              "named": true,
-              "value": "diff"
+              ]
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        }
+      ]
+    },
+    "diff": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "PATTERN",
+          "value": "[^#]"
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "PATTERN",
+              "value": "[^\\n\\r]+"
             },
             {
               "type": "BLANK"

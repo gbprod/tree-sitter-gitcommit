@@ -20,6 +20,14 @@ index 457a414..94b9036 100644
   (subject)
   (comment)
   (scissor)
+  (generated_comment)
+  (generated_comment)
+  (diff)
+  (diff)
+  (diff)
+  (diff)
+  (diff)
+  (diff)
   (diff))
 
 ================================================================================
@@ -36,4 +44,40 @@ This is a simple subject
 (source
   (subject)
   (comment)
-  (scissor))
+  (scissor)
+  (generated_comment)
+  (generated_comment))
+
+================================================================================
+Scissor in commit verbose
+================================================================================
+update credits
+
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+#
+# Changes to be committed:
+diff --git c/README.md i/README.md
+index 9443e24..d8f88db 100644
+# --------------------------------------------------
+# Modifications qui ne seront pas validées :
+diff --git c/README.md i/README.md
+index 9443e24..d8f88db 100644
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (scissor)
+  (generated_comment)
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
+    (title))
+  (diff)
+  (diff)
+  (generated_comment)
+  (generated_comment
+    (title))
+  (diff)
+  (diff))
