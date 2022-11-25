@@ -184,17 +184,7 @@ module.exports = grammar({
         )
       ),
 
-    _scissor: ($) =>
-      seq(
-        alias(SCISSORS, $.scissor),
-        repeat1(
-          choice(
-            alias($._scissor_generated_comment, $.generated_comment),
-            $.diff,
-            NEWLINE
-          )
-        )
-      ),
+    _scissor: ($) => seq(alias(SCISSORS, $.scissor), $.diff),
 
     _scissor_generated_comment: ($) =>
       seq(
@@ -207,7 +197,14 @@ module.exports = grammar({
         )
       ),
 
-    diff: () => seq(/[^#]/, optional(ANYTHING)),
+    diff: ($) =>
+      repeat1(
+        choice(
+          alias($._scissor_generated_comment, $.generated_comment),
+          seq(/[^#]/, optional(ANYTHING)),
+          NEWLINE
+        )
+      ),
 
     rebase_command: () =>
       seq(

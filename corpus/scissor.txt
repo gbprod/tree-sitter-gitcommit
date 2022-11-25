@@ -20,15 +20,9 @@ index 457a414..94b9036 100644
   (subject)
   (comment)
   (scissor)
-  (generated_comment)
-  (generated_comment)
-  (diff)
-  (diff)
-  (diff)
-  (diff)
-  (diff)
-  (diff)
-  (diff))
+  (diff
+    (generated_comment)
+    (generated_comment)))
 
 ================================================================================
 Simple empty scissor
@@ -45,8 +39,9 @@ This is a simple subject
   (subject)
   (comment)
   (scissor)
-  (generated_comment)
-  (generated_comment))
+  (diff
+    (generated_comment)
+    (generated_comment)))
 
 ================================================================================
 Scissor in commit verbose
@@ -69,15 +64,12 @@ index 9443e24..d8f88db 100644
 (source
   (subject)
   (scissor)
-  (generated_comment)
-  (generated_comment)
-  (generated_comment)
-  (generated_comment
-    (title))
-  (diff)
-  (diff)
-  (generated_comment)
-  (generated_comment
-    (title))
-  (diff)
-  (diff))
+  (diff
+    (generated_comment)
+    (generated_comment)
+    (generated_comment)
+    (generated_comment
+      (title))
+    (generated_comment)
+    (generated_comment
+      (title))))

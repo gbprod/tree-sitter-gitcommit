@@ -41,7 +41,17 @@
   {
     "type": "diff",
     "named": true,
-    "fields": {}
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "generated_comment",
+          "named": true
+        }
+      ]
+    }
   },
   {
     "type": "generated_comment",
