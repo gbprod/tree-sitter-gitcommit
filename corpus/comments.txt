@@ -9,7 +9,8 @@ This is a simple subject
 
 (source
   (subject)
-  (comment))
+  (message
+    (comment)))
 
 ================================================================================
 Comment without space
@@ -22,7 +23,8 @@ This is a simple subject
 
 (source
   (subject)
-  (comment))
+  (message
+    (comment)))
 
 ================================================================================
 Empty comment
@@ -35,7 +37,8 @@ This is a simple subject
 
 (source
   (subject)
-  (comment))
+  (message
+    (comment)))
 
 ================================================================================
 Multiline comments
@@ -52,10 +55,11 @@ This is a simple subject
 
 (source
   (subject)
-  (comment)
-  (comment)
-  (comment)
-  (comment))
+  (message
+    (comment)
+    (comment)
+    (comment)
+    (comment)))
 
 ================================================================================
 Comment title
@@ -67,7 +71,7 @@ Comment title
 --------------------------------------------------------------------------------
 
 (source
-  (comment
-    (title))
-  (comment))
-
+  (message
+    (comment
+      (title))
+    (comment)))

@@ -103,7 +103,25 @@
   {
     "type": "message",
     "named": true,
-    "fields": {}
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "breaking_change",
+          "named": true
+        },
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "trailer",
+          "named": true
+        }
+      ]
+    }
   },
   {
     "type": "prefix",
@@ -138,10 +156,6 @@
       "required": false,
       "types": [
         {
-          "type": "breaking_change",
-          "named": true
-        },
-        {
           "type": "comment",
           "named": true
         },
@@ -163,10 +177,6 @@
         },
         {
           "type": "subject",
-          "named": true
-        },
-        {
-          "type": "trailer",
           "named": true
         }
       ]
