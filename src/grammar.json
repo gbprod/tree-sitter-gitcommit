@@ -55,11 +55,16 @@
                   "value": "\\r?\\n"
                 },
                 {
-                  "type": "REPEAT",
+                  "type": "ALIAS",
                   "content": {
-                    "type": "SYMBOL",
-                    "name": "_body_line"
-                  }
+                    "type": "REPEAT",
+                    "content": {
+                      "type": "SYMBOL",
+                      "name": "_body_line"
+                    }
+                  },
+                  "named": true,
+                  "value": "message"
                 }
               ]
             },
@@ -211,7 +216,7 @@
       "members": [
         {
           "type": "SYMBOL",
-          "name": "message"
+          "name": "_message"
         },
         {
           "type": "SYMBOL",
@@ -231,7 +236,7 @@
         }
       ]
     },
-    "message": {
+    "_message": {
       "type": "SEQ",
       "members": [
         {

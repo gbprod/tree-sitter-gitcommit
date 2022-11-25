@@ -18,7 +18,8 @@ index 457a414..94b9036 100644
 
 (source
   (subject)
-  (comment)
+  (message
+    (comment))
   (scissor)
   (diff
     (generated_comment)
@@ -37,7 +38,8 @@ This is a simple subject
 
 (source
   (subject)
-  (comment)
+  (message
+    (comment))
   (scissor)
   (diff
     (generated_comment)

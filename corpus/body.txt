@@ -21,7 +21,8 @@ this is a simple subject
 
 (source
   (subject)
-  (comment))
+  (message
+    (comment)))
 
 ================================================================================
 Empty file w/ comments
@@ -32,7 +33,8 @@ Empty file w/ comments
 --------------------------------------------------------------------------------
 
 (source
-  (comment))
+  (message
+    (comment)))
 
 ================================================================================
 Empty file w/ empty comment
@@ -43,7 +45,8 @@ Empty file w/ empty comment
 --------------------------------------------------------------------------------
 
 (source
-  (comment))
+  (message
+    (comment)))
 
 ================================================================================
 Multiline body
@@ -58,8 +61,6 @@ And a paragraph.
 
 (source
   (subject)
-  (message)
-  (message)
   (message))
 
 ================================================================================
@@ -77,10 +78,6 @@ test(trailer): test
 
 (source
   (subject)
-  (message)
-  (message)
-  (message)
-  (message)
   (message))
 
 ================================================================================
@@ -93,9 +90,10 @@ Signed-by: gbprod <contact@gb-prod.fr>
 
 (source
   (subject)
-  (trailer
-    (token)
-    (value)))
+  (message
+    (trailer
+      (token)
+      (value))))
 
 ================================================================================
 Multiple trailers
@@ -112,21 +110,22 @@ Suggested-by: Toto
 
 (source
   (subject)
-  (trailer
-    (token)
-    (value))
-  (trailer
-    (token)
-    (value))
-  (trailer
-    (token)
-    (value))
-  (trailer
-    (token)
-    (value))
-  (trailer
-    (token)
-    (value)))
+  (message
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))))
 
 ================================================================================
 Mixed
@@ -146,18 +145,16 @@ And go on
 
 (source
   (subject)
-  (message)
-  (trailer
-    (token)
-    (value))
-  (message)
-  (trailer
-    (token)
-    (value))
-  (trailer
-    (token)
-    (value))
-  (message))
+  (message
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))))
 
 ================================================================================
 BREAKING CHANGE
@@ -170,7 +167,7 @@ BREAKING CHANGE: My message
 --------------------------------------------------------------------------------
 
 (source
-  (message)
-  (breaking_change
-    (token)
-    (value)))
+  (message
+    (breaking_change
+      (token)
+      (value))))
