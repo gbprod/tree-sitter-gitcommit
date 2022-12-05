@@ -4,7 +4,7 @@
 
 `gitcommit` grammar for [tree-sitter](https://github.com/tree-sitter/tree-sitter).
 
-Support [Conventionnal commit](https://www.conventionalcommits.org) specifications.
+Support for [Conventional Commits](https://www.conventionalcommits.org) specifications.
 
 ## Credits
 
