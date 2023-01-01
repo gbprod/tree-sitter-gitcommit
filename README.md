@@ -4,7 +4,31 @@
 
 `gitcommit` grammar for [tree-sitter](https://github.com/tree-sitter/tree-sitter).
 
-Support for [Conventional Commits](https://www.conventionalcommits.org) specifications.
+## Features
+
+- Support for [Conventional Commits](https://www.conventionalcommits.org) specifications.
+- Support for different locales / languages. See [Supported locales](#supported-locales) for a full list.
+
+## Supported locales
+
+- English
+- French
+- Russian
+- Norwegian
+- Turkish
+- Vietnamese
+- Chinese (Simplified)
+- Chinese (Traditional)
+- Portugese
+- Polish
+- Korean
+- Swedish
+- Italian
+- Indonesian (Bahasa)
+- Spanish
+- Greek
+- German
+- Catalan
 
 ## Credits
 
