@@ -446,6 +446,10 @@
                     },
                     {
                       "type": "SYMBOL",
+                      "name": "_detached_head"
+                    },
+                    {
+                      "type": "SYMBOL",
                       "name": "_rebasing"
                     },
                     {
@@ -611,6 +615,10 @@
     "branch": {
       "type": "PATTERN",
       "value": "[^\\s'”»\"“]+"
+    },
+    "commit": {
+      "type": "PATTERN",
+      "value": "[0-9a-f]{7,40}"
     },
     "number": {
       "type": "PATTERN",
@@ -3043,6 +3051,41 @@
               "value": "“."
             }
           ]
+        }
+      ]
+    },
+    "_detached_head": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "ALIAS",
+          "content": {
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "STRING",
+                "value": "HEAD detached at "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD losgelöst von "
+              },
+              {
+                "type": "STRING",
+                "value": "头指针分离自 "
+              }
+            ]
+          },
+          "named": true,
+          "value": "text"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "commit"
+        },
+        {
+          "type": "PATTERN",
+          "value": "\\r?\\n"
         }
       ]
     },

@@ -115,6 +115,33 @@ On branch
     (branch)))
 
 ================================================================================
+Detached HEAD
+================================================================================
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# HEAD detached at f5d1c0b8
+# HEAD losgelöst von 2e87307
+# 头指针分离自 2e87307
+
+--------------------------------------------------------------------------------
+
+(source
+  (generated_comment)
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit)))
+
+================================================================================
 Up to date
 ================================================================================
 
@@ -186,7 +213,7 @@ Behind
 ================================================================================
 
 # Por favor, introduz a mensagem de memória das tuas alterações.
-# 
+#
 # Your branch is behind 'origin/main' by 18 commit, and can be fast-forwarded.
 # Your branch is behind 'origin/main' by 18 commits, and can be fast-forwarded.
 # Votre branche est en retard sur 'origin/main' de 18 commit, et peut être mise à jour en avance rapide.
@@ -331,7 +358,7 @@ Ahead
 ================================================================================
 
 # 请为您的变更输入提交说明。以 '%c' 开始的行将被保留，如果您愿意
-# 
+#
 # Your branch is ahead of 'origin/master' by 456 commit.
 # Your branch is ahead of 'origin/master' by 456 commits.
 # Votre branche est en avance sur 'origin/master' de 456 commit.
@@ -480,7 +507,7 @@ Rebasing
 ================================================================================
 
 # Ange incheckningsmeddelandet för dina ändringar. Rader som inleds
-# 
+#
 # You are currently rebasing branch 'feat' on 'main'.
 # Vous êtes en train de rebaser la branche 'feat' sur 'main'.
 # 您在執行將分支 'feat' 重定基底到 'main' 的動作。
@@ -565,7 +592,7 @@ Interactive rebase
 ================================================================================
 
 # Introduïu el missatge de comissió pels vostres canvis. Es mantindran
-# 
+#
 # interactive rebase in progress; onto master
 # rebasage interactif en cours ; sur master
 # извършвате интерактивно пребазиране върху master
@@ -632,7 +659,7 @@ Rebase command
 ================================================================================
 
 # Παρακαλώ εισάγετε το μήνυμα υποβολής για τις αλλαγές σας. Οι γραμμές που αρχίζουν
-# 
+#
 # Dernières commandes effectuées (2 commandes effectuées) :
 #    pick d7e8984 gregreg
 #    edit 56f5d83 test
