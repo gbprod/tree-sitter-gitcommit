@@ -1,39 +1,67 @@
-name: Generate gh-page
+# generates the parser with 'tree-sitter generate' if the parser is out of date
+name: Generate Parser
 
 on:
   push:
     branches:
       - main
+      - revive-playground
+
 jobs:
   generate:
     name: Generate Parser
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install cargo
+        uses: actions-rs/toolchain@v1
         with:
-          node-version: 16
-      - run: npm install
-      - run: npm test
+          toolchain: stable
+
+      - name: Install tree-sitter-cli
+        run: cargo install tree-sitter-cli
+
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+
+      - name: Cache npm dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install npm dependencies
+        run: npm ci
+
       - name: Generate parser files
         run: |
-          npx tree-sitter generate
-          npx tree-sitter build-wasm
+          tree-sitter generate
+          tree-sitter build-wasm
+
+      - name: Commit generated parser files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Generate parser
+          file_pattern: src
 
       - name: Checkout gh-pages branch to ./gh-pages
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
           ref: gh-pages
           path: ./gh-pages
 
       - run: mv *.wasm ./gh-pages
 
-      - name: Commit generated wasm binding to the gh-pages branch
-        run: |
-          git config --global user.email "$(git log --format='%ae' HEAD^!)"
-          git config --global user.name "$(git log --format='%an' HEAD^!)"
-          cd ./gh-pages
-          git add *.wasm
-          git commit -m "Generate WASM binding" || true
-          git push
+      - name: Commit generated WASM binding
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Generate WASM binding
+          file_pattern: '*.wasm'
+          repository: ./gh-pages
