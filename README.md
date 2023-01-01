@@ -32,4 +32,4 @@
 
 ## Credits
 
-- [https://github.com/the-mikedavis/tree-sitter-git-commit](https://github.com/the-mikedavis/tree-sitter-git-commit) good parser but [only works in english](https://github.com/the-mikedavis/tree-sitter-git-commit/issues/4).
+- [https://github.com/the-mikedavis/tree-sitter-git-commit](https://github.com/the-mikedavis/tree-sitter-git-commit) Good parser but [only works in English](https://github.com/the-mikedavis/tree-sitter-git-commit/issues/4).
