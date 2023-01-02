@@ -66,32 +66,32 @@ enum {
   aux_sym__onbranch_token1 = 39,
   sym_number = 40,
   anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting = 41,
-  anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes = 42,
-  anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant = 43,
-  anon_sym_POUND3 = 44,
-  anon_sym_POUND_PERCENTc = 45,
-  anon_sym_POUND_PERCENTc2 = 46,
-  anon_sym_POUND4 = 47,
-  anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE = 48,
-  anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2 = 49,
-  anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3 = 50,
-  anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng = 51,
-  anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc = 52,
-  anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan = 53,
-  anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds = 54,
-  anon_sym_POUND_COMMA_DOT_COMMA = 55,
-  anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT = 56,
-  anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi = 57,
-  anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE = 58,
-  anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano = 59,
-  anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali = 60,
-  anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas = 61,
-  anon_sym_POUND_DOT = 62,
-  anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA = 63,
-  anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie = 64,
-  anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT = 65,
-  anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT = 66,
-  anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran = 67,
+  anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT = 42,
+  anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT = 43,
+  anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran = 44,
+  anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA = 45,
+  anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie = 46,
+  anon_sym_POUND_DOT = 47,
+  anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas = 48,
+  anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes = 49,
+  anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant = 50,
+  anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali = 51,
+  anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano = 52,
+  anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE = 53,
+  anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi = 54,
+  anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT = 55,
+  anon_sym_POUND_COMMA_DOT_COMMA = 56,
+  anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds = 57,
+  anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan = 58,
+  anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng = 59,
+  anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc = 60,
+  anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE = 61,
+  anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2 = 62,
+  anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3 = 63,
+  anon_sym_POUND3 = 64,
+  anon_sym_POUND_PERCENTc = 65,
+  anon_sym_POUND_PERCENTc2 = 66,
+  anon_sym_POUND4 = 67,
   aux_sym__change_token1 = 68,
   aux_sym__change_token2 = 69,
   aux_sym__filepath_token1 = 70,
@@ -372,32 +372,32 @@ static const char * const ts_symbol_names[] = {
   [aux_sym__onbranch_token1] = "_onbranch_token1",
   [sym_number] = "number",
   [anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting] = "generated_comment",
+  [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = "generated_comment",
+  [anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT] = "generated_comment",
+  [anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran] = "generated_comment",
+  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA] = "generated_comment",
+  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie] = "generated_comment",
+  [anon_sym_POUND_DOT] = "generated_comment",
+  [anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas] = "generated_comment",
   [anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes] = "generated_comment",
   [anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant] = "generated_comment",
+  [anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali] = "generated_comment",
+  [anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano] = "generated_comment",
+  [anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE] = "generated_comment",
+  [anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi] = "generated_comment",
+  [anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT] = "generated_comment",
+  [anon_sym_POUND_COMMA_DOT_COMMA] = "generated_comment",
+  [anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds] = "generated_comment",
+  [anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan] = "generated_comment",
+  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng] = "generated_comment",
+  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc] = "generated_comment",
+  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE] = "generated_comment",
+  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2] = "generated_comment",
+  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3] = "generated_comment",
   [anon_sym_POUND3] = "generated_comment",
   [anon_sym_POUND_PERCENTc] = "generated_comment",
   [anon_sym_POUND_PERCENTc2] = "generated_comment",
   [anon_sym_POUND4] = "generated_comment",
-  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE] = "generated_comment",
-  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2] = "generated_comment",
-  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3] = "generated_comment",
-  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng] = "generated_comment",
-  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc] = "generated_comment",
-  [anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan] = "generated_comment",
-  [anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds] = "generated_comment",
-  [anon_sym_POUND_COMMA_DOT_COMMA] = "generated_comment",
-  [anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT] = "generated_comment",
-  [anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi] = "generated_comment",
-  [anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE] = "generated_comment",
-  [anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano] = "generated_comment",
-  [anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali] = "generated_comment",
-  [anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas] = "generated_comment",
-  [anon_sym_POUND_DOT] = "generated_comment",
-  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA] = "generated_comment",
-  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie] = "generated_comment",
-  [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = "generated_comment",
-  [anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT] = "generated_comment",
-  [anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran] = "generated_comment",
   [aux_sym__change_token1] = "change",
   [aux_sym__change_token2] = "_change_token2",
   [aux_sym__filepath_token1] = "filepath",
@@ -678,32 +678,32 @@ static const TSSymbol ts_symbol_map[] = {
   [aux_sym__onbranch_token1] = aux_sym__onbranch_token1,
   [sym_number] = sym_number,
   [anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting] = sym_generated_comment,
+  [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = sym_generated_comment,
+  [anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT] = sym_generated_comment,
+  [anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran] = sym_generated_comment,
+  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA] = sym_generated_comment,
+  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie] = sym_generated_comment,
+  [anon_sym_POUND_DOT] = sym_generated_comment,
+  [anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas] = sym_generated_comment,
   [anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes] = sym_generated_comment,
   [anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant] = sym_generated_comment,
+  [anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali] = sym_generated_comment,
+  [anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano] = sym_generated_comment,
+  [anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE] = sym_generated_comment,
+  [anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi] = sym_generated_comment,
+  [anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT] = sym_generated_comment,
+  [anon_sym_POUND_COMMA_DOT_COMMA] = sym_generated_comment,
+  [anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds] = sym_generated_comment,
+  [anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan] = sym_generated_comment,
+  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng] = sym_generated_comment,
+  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc] = sym_generated_comment,
+  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE] = sym_generated_comment,
+  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2] = sym_generated_comment,
+  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3] = sym_generated_comment,
   [anon_sym_POUND3] = sym_generated_comment,
   [anon_sym_POUND_PERCENTc] = sym_generated_comment,
   [anon_sym_POUND_PERCENTc2] = sym_generated_comment,
   [anon_sym_POUND4] = sym_generated_comment,
-  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE] = sym_generated_comment,
-  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2] = sym_generated_comment,
-  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3] = sym_generated_comment,
-  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng] = sym_generated_comment,
-  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc] = sym_generated_comment,
-  [anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan] = sym_generated_comment,
-  [anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds] = sym_generated_comment,
-  [anon_sym_POUND_COMMA_DOT_COMMA] = sym_generated_comment,
-  [anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT] = sym_generated_comment,
-  [anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi] = sym_generated_comment,
-  [anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE] = sym_generated_comment,
-  [anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano] = sym_generated_comment,
-  [anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali] = sym_generated_comment,
-  [anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas] = sym_generated_comment,
-  [anon_sym_POUND_DOT] = sym_generated_comment,
-  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA] = sym_generated_comment,
-  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie] = sym_generated_comment,
-  [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = sym_generated_comment,
-  [anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT] = sym_generated_comment,
-  [anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran] = sym_generated_comment,
   [aux_sym__change_token1] = aux_sym__change_token1,
   [aux_sym__change_token2] = aux_sym__change_token2,
   [aux_sym__filepath_token1] = aux_sym__filepath_token1,
@@ -1110,11 +1110,91 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = true,
   },
+  [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUND_DOT] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas] = {
+    .visible = true,
+    .named = true,
+  },
   [anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes] = {
     .visible = true,
     .named = true,
   },
   [anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUND_COMMA_DOT_COMMA] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2] = {
+    .visible = true,
+    .named = true,
+  },
+  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3] = {
     .visible = true,
     .named = true,
   },
@@ -1131,86 +1211,6 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .named = true,
   },
   [anon_sym_POUND4] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUND_COMMA_DOT_COMMA] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUND_DOT] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT] = {
-    .visible = true,
-    .named = true,
-  },
-  [anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran] = {
     .visible = true,
     .named = true,
   },
@@ -6996,7 +6996,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 560:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == ',') ADVANCE(7865);
+      if (lookahead == ',') ADVANCE(7866);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -7004,7 +7004,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 561:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == ',') ADVANCE(7889);
+      if (lookahead == ',') ADVANCE(7831);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -7065,7 +7065,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 567:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == '.') ADVANCE(7899);
+      if (lookahead == '.') ADVANCE(7825);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -7073,7 +7073,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 568:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == '.') ADVANCE(7896);
+      if (lookahead == '.') ADVANCE(7822);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -7081,7 +7081,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 569:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == '.') ADVANCE(7868);
+      if (lookahead == '.') ADVANCE(7863);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -9701,7 +9701,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 895:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 'c') ADVANCE(7856);
+      if (lookahead == 'c') ADVANCE(7879);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -10905,7 +10905,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 1044:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 'e') ADVANCE(7893);
+      if (lookahead == 'e') ADVANCE(7835);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -12784,7 +12784,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 1278:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 'g') ADVANCE(7852);
+      if (lookahead == 'g') ADVANCE(7875);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -13682,7 +13682,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 1390:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 'i') ADVANCE(7880);
+      if (lookahead == 'i') ADVANCE(7851);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -15932,7 +15932,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 1670:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 'n') ADVANCE(7902);
+      if (lookahead == 'n') ADVANCE(7828);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -15940,7 +15940,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 1671:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 'n') ADVANCE(7859);
+      if (lookahead == 'n') ADVANCE(7872);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -17292,7 +17292,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 1840:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 'o') ADVANCE(7877);
+      if (lookahead == 'o') ADVANCE(7854);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -19109,7 +19109,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 2067:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 's') ADVANCE(7883);
+      if (lookahead == 's') ADVANCE(7841);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -19117,7 +19117,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 2068:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 's') ADVANCE(7862);
+      if (lookahead == 's') ADVANCE(7869);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -19125,7 +19125,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 2069:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 's') ADVANCE(7822);
+      if (lookahead == 's') ADVANCE(7844);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -20037,7 +20037,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 2183:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 't') ADVANCE(7826);
+      if (lookahead == 't') ADVANCE(7848);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -22312,7 +22312,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 2467:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 281) ADVANCE(7871);
+      if (lookahead == 281) ADVANCE(7860);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -23234,7 +23234,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 2582:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 957) ADVANCE(7886);
+      if (lookahead == 957) ADVANCE(7838);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -26212,7 +26212,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 2954:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 12290) ADVANCE(7829);
+      if (lookahead == 12290) ADVANCE(7891);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -26220,7 +26220,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 2955:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 12290) ADVANCE(7843);
+      if (lookahead == 12290) ADVANCE(7882);
       if (lookahead == 65292) ADVANCE(3043);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
@@ -26237,7 +26237,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 2957:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 12301) ADVANCE(7833);
+      if (lookahead == 12301) ADVANCE(7895);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -26245,7 +26245,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 2958:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 12301) ADVANCE(7836);
+      if (lookahead == 12301) ADVANCE(7898);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -26345,7 +26345,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 2970:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 20132) ADVANCE(7846);
+      if (lookahead == 20132) ADVANCE(7885);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -26677,7 +26677,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3011:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 24847) ADVANCE(7849);
+      if (lookahead == 24847) ADVANCE(7888);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -26805,7 +26805,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3027:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 26159) ADVANCE(7839);
+      if (lookahead == 26159) ADVANCE(7901);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -27125,7 +27125,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3067:
       if (lookahead == '\n') ADVANCE(7799);
       if (lookahead == '\r') ADVANCE(6);
-      if (lookahead == 45716) ADVANCE(7874);
+      if (lookahead == 45716) ADVANCE(7857);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(7794);
       if (lookahead != 0) ADVANCE(3111);
@@ -28909,7 +28909,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3288:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == ',') ADVANCE(7866);
+      if (lookahead == ',') ADVANCE(7867);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -28917,7 +28917,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3289:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == ',') ADVANCE(7892);
+      if (lookahead == ',') ADVANCE(7834);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -28970,7 +28970,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3294:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == '.') ADVANCE(7900);
+      if (lookahead == '.') ADVANCE(7826);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -28978,7 +28978,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3295:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == '.') ADVANCE(7897);
+      if (lookahead == '.') ADVANCE(7823);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -28986,7 +28986,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3296:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == '.') ADVANCE(7869);
+      if (lookahead == '.') ADVANCE(7864);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -29802,7 +29802,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3398:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 'c') ADVANCE(7857);
+      if (lookahead == 'c') ADVANCE(7880);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -30268,7 +30268,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3456:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 'e') ADVANCE(7894);
+      if (lookahead == 'e') ADVANCE(7836);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -30964,7 +30964,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3543:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 'g') ADVANCE(7855);
+      if (lookahead == 'g') ADVANCE(7878);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -31276,7 +31276,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3582:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 'i') ADVANCE(7881);
+      if (lookahead == 'i') ADVANCE(7852);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -32455,7 +32455,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3729:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 'n') ADVANCE(7903);
+      if (lookahead == 'n') ADVANCE(7829);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -32463,7 +32463,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3730:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 'n') ADVANCE(7860);
+      if (lookahead == 'n') ADVANCE(7873);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -32927,7 +32927,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3788:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 'o') ADVANCE(7878);
+      if (lookahead == 'o') ADVANCE(7855);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -33487,7 +33487,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3858:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 's') ADVANCE(7884);
+      if (lookahead == 's') ADVANCE(7842);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -33495,7 +33495,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3859:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 's') ADVANCE(7863);
+      if (lookahead == 's') ADVANCE(7870);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -33503,7 +33503,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3860:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 's') ADVANCE(7825);
+      if (lookahead == 's') ADVANCE(7847);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -33919,7 +33919,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 3912:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 't') ADVANCE(7827);
+      if (lookahead == 't') ADVANCE(7849);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -34727,7 +34727,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 4013:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 281) ADVANCE(7872);
+      if (lookahead == 281) ADVANCE(7861);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -35087,7 +35087,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 4058:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 957) ADVANCE(7887);
+      if (lookahead == 957) ADVANCE(7839);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -35815,7 +35815,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 4149:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 12290) ADVANCE(7832);
+      if (lookahead == 12290) ADVANCE(7894);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -35823,7 +35823,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 4150:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 12290) ADVANCE(7844);
+      if (lookahead == 12290) ADVANCE(7883);
       if (lookahead == 65292) ADVANCE(4195);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
@@ -35848,7 +35848,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 4153:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 12301) ADVANCE(7834);
+      if (lookahead == 12301) ADVANCE(7896);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -35856,7 +35856,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 4154:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 12301) ADVANCE(7837);
+      if (lookahead == 12301) ADVANCE(7899);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -35888,7 +35888,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 4158:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 20132) ADVANCE(7847);
+      if (lookahead == 20132) ADVANCE(7886);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -36025,7 +36025,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 4175:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 24847) ADVANCE(7850);
+      if (lookahead == 24847) ADVANCE(7889);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -36081,7 +36081,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 4182:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 26159) ADVANCE(7842);
+      if (lookahead == 26159) ADVANCE(7904);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -36289,7 +36289,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 4208:
       if (lookahead == '\n') ADVANCE(7777);
       if (lookahead == '\r') ADVANCE(3117);
-      if (lookahead == 45716) ADVANCE(7875);
+      if (lookahead == 45716) ADVANCE(7858);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
       if (lookahead != 0) ADVANCE(4233);
@@ -37807,10 +37807,10 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == '\'') ADVANCE(4610);
       END_STATE();
     case 4632:
-      if (lookahead == ',') ADVANCE(7865);
+      if (lookahead == ',') ADVANCE(7866);
       END_STATE();
     case 4633:
-      if (lookahead == ',') ADVANCE(7890);
+      if (lookahead == ',') ADVANCE(7832);
       END_STATE();
     case 4634:
       if (lookahead == ',') ADVANCE(4253);
@@ -37897,13 +37897,13 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == '-') ADVANCE(5153);
       END_STATE();
     case 4654:
-      if (lookahead == '.') ADVANCE(7899);
+      if (lookahead == '.') ADVANCE(7825);
       END_STATE();
     case 4655:
-      if (lookahead == '.') ADVANCE(7896);
+      if (lookahead == '.') ADVANCE(7822);
       END_STATE();
     case 4656:
-      if (lookahead == '.') ADVANCE(7868);
+      if (lookahead == '.') ADVANCE(7863);
       END_STATE();
     case 4657:
       if (lookahead == '.') ADVANCE(7934);
@@ -38579,7 +38579,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 'b') ADVANCE(5130);
       END_STATE();
     case 4870:
-      if (lookahead == 'c') ADVANCE(7856);
+      if (lookahead == 'c') ADVANCE(7879);
       END_STATE();
     case 4871:
       if (lookahead == 'c') ADVANCE(5991);
@@ -38915,7 +38915,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 'd') ADVANCE(4584);
       END_STATE();
     case 4981:
-      if (lookahead == 'e') ADVANCE(7893);
+      if (lookahead == 'e') ADVANCE(7835);
       END_STATE();
     case 4982:
       if (lookahead == 'e') ADVANCE(5888);
@@ -39444,7 +39444,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 'g') ADVANCE(4639);
       END_STATE();
     case 5157:
-      if (lookahead == 'g') ADVANCE(7853);
+      if (lookahead == 'g') ADVANCE(7876);
       END_STATE();
     case 5158:
       if (lookahead == 'g') ADVANCE(6018);
@@ -39612,7 +39612,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 'h') ADVANCE(4572);
       END_STATE();
     case 5212:
-      if (lookahead == 'i') ADVANCE(7880);
+      if (lookahead == 'i') ADVANCE(7851);
       END_STATE();
     case 5213:
       if (lookahead == 'i') ADVANCE(5830);
@@ -40311,10 +40311,10 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 'm') ADVANCE(5333);
       END_STATE();
     case 5443:
-      if (lookahead == 'n') ADVANCE(7902);
+      if (lookahead == 'n') ADVANCE(7828);
       END_STATE();
     case 5444:
-      if (lookahead == 'n') ADVANCE(7859);
+      if (lookahead == 'n') ADVANCE(7872);
       END_STATE();
     case 5445:
       if (lookahead == 'n') ADVANCE(5159);
@@ -40653,7 +40653,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 'n') ADVANCE(4980);
       END_STATE();
     case 5556:
-      if (lookahead == 'o') ADVANCE(7877);
+      if (lookahead == 'o') ADVANCE(7854);
       END_STATE();
     case 5557:
       if (lookahead == 'o') ADVANCE(5188);
@@ -41203,10 +41203,10 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 'r') ADVANCE(5139);
       END_STATE();
     case 5738:
-      if (lookahead == 's') ADVANCE(7883);
+      if (lookahead == 's') ADVANCE(7841);
       END_STATE();
     case 5739:
-      if (lookahead == 's') ADVANCE(7862);
+      if (lookahead == 's') ADVANCE(7869);
       END_STATE();
     case 5740:
       if (lookahead == 's') ADVANCE(5940);
@@ -41215,7 +41215,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 's') ADVANCE(4509);
       END_STATE();
     case 5742:
-      if (lookahead == 's') ADVANCE(7823);
+      if (lookahead == 's') ADVANCE(7845);
       END_STATE();
     case 5743:
       if (lookahead == 's') ADVANCE(4654);
@@ -41455,7 +41455,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 's') ADVANCE(5138);
       END_STATE();
     case 5822:
-      if (lookahead == 't') ADVANCE(7826);
+      if (lookahead == 't') ADVANCE(7848);
       END_STATE();
     case 5823:
       if (lookahead == 't') ADVANCE(5658);
@@ -42074,7 +42074,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 273) ADVANCE(6042);
       END_STATE();
     case 6028:
-      if (lookahead == 281) ADVANCE(7871);
+      if (lookahead == 281) ADVANCE(7860);
       END_STATE();
     case 6029:
       if (lookahead == 281) ADVANCE(5851);
@@ -42360,7 +42360,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 956) ADVANCE(6147);
       END_STATE();
     case 6123:
-      if (lookahead == 957) ADVANCE(7886);
+      if (lookahead == 957) ADVANCE(7838);
       END_STATE();
     case 6124:
       if (lookahead == 957) ADVANCE(6173);
@@ -43163,7 +43163,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 8222) ADVANCE(8055);
       END_STATE();
     case 6388:
-      if (lookahead == 12290) ADVANCE(7843);
+      if (lookahead == 12290) ADVANCE(7882);
       if (lookahead == 65292) ADVANCE(6464);
       END_STATE();
     case 6389:
@@ -43193,16 +43193,16 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 12290) ADVANCE(8015);
       END_STATE();
     case 6397:
-      if (lookahead == 12290) ADVANCE(7830);
+      if (lookahead == 12290) ADVANCE(7892);
       END_STATE();
     case 6398:
       if (lookahead == 12300) ADVANCE(4607);
       END_STATE();
     case 6399:
-      if (lookahead == 12301) ADVANCE(7833);
+      if (lookahead == 12301) ADVANCE(7895);
       END_STATE();
     case 6400:
-      if (lookahead == 12301) ADVANCE(7836);
+      if (lookahead == 12301) ADVANCE(7898);
       END_STATE();
     case 6401:
       if (lookahead == 19968) ADVANCE(6405);
@@ -43223,7 +43223,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 20026) ADVANCE(6439);
       END_STATE();
     case 6407:
-      if (lookahead == 20132) ADVANCE(7846);
+      if (lookahead == 20132) ADVANCE(7885);
       END_STATE();
     case 6408:
       if (lookahead == 20132) ADVANCE(6470);
@@ -43330,7 +43330,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 24744) ADVANCE(6443);
       END_STATE();
     case 6442:
-      if (lookahead == 24847) ADVANCE(7849);
+      if (lookahead == 24847) ADVANCE(7888);
       END_STATE();
     case 6443:
       if (lookahead == 24895) ADVANCE(6442);
@@ -43360,7 +43360,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 26159) ADVANCE(6398);
       END_STATE();
     case 6452:
-      if (lookahead == 26159) ADVANCE(7840);
+      if (lookahead == 26159) ADVANCE(7902);
       END_STATE();
     case 6453:
       if (lookahead == 26356) ADVANCE(6473);
@@ -43450,7 +43450,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == 44256) ADVANCE(4635);
       END_STATE();
     case 6482:
-      if (lookahead == 45716) ADVANCE(7874);
+      if (lookahead == 45716) ADVANCE(7857);
       END_STATE();
     case 6483:
       if (lookahead == 45716) ADVANCE(4304);
@@ -45555,14 +45555,14 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 6808:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == ',') ADVANCE(7867);
+      if (lookahead == ',') ADVANCE(7868);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
     case 6809:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == ',') ADVANCE(7891);
+      if (lookahead == ',') ADVANCE(7833);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -45610,21 +45610,21 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 6814:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == '.') ADVANCE(7901);
+      if (lookahead == '.') ADVANCE(7827);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
     case 6815:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == '.') ADVANCE(7898);
+      if (lookahead == '.') ADVANCE(7824);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
     case 6816:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == '.') ADVANCE(7870);
+      if (lookahead == '.') ADVANCE(7865);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -46359,7 +46359,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 6921:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 'c') ADVANCE(7858);
+      if (lookahead == 'c') ADVANCE(7881);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -46788,7 +46788,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 6982:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 'e') ADVANCE(7895);
+      if (lookahead == 'e') ADVANCE(7837);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -47355,7 +47355,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7063:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 'g') ADVANCE(7854);
+      if (lookahead == 'g') ADVANCE(7877);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -47677,7 +47677,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7109:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 'i') ADVANCE(7882);
+      if (lookahead == 'i') ADVANCE(7853);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -48674,14 +48674,14 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7251:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 'n') ADVANCE(7904);
+      if (lookahead == 'n') ADVANCE(7830);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
     case 7252:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 'n') ADVANCE(7861);
+      if (lookahead == 'n') ADVANCE(7874);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -49087,7 +49087,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7310:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 'o') ADVANCE(7879);
+      if (lookahead == 'o') ADVANCE(7856);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -49570,21 +49570,21 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7379:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 's') ADVANCE(7885);
+      if (lookahead == 's') ADVANCE(7843);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
     case 7380:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 's') ADVANCE(7864);
+      if (lookahead == 's') ADVANCE(7871);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
     case 7381:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 's') ADVANCE(7824);
+      if (lookahead == 's') ADVANCE(7846);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -49955,7 +49955,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7434:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 't') ADVANCE(7828);
+      if (lookahead == 't') ADVANCE(7850);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -50648,7 +50648,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7533:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 281) ADVANCE(7873);
+      if (lookahead == 281) ADVANCE(7862);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -50970,7 +50970,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7579:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 957) ADVANCE(7888);
+      if (lookahead == 957) ADVANCE(7840);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -51607,14 +51607,14 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7670:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 12290) ADVANCE(7831);
+      if (lookahead == 12290) ADVANCE(7893);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
     case 7671:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 12290) ADVANCE(7845);
+      if (lookahead == 12290) ADVANCE(7884);
       if (lookahead == 65292) ADVANCE(7715);
       if (lookahead != 0 &&
           lookahead != '\n' &&
@@ -51629,14 +51629,14 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7673:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 12301) ADVANCE(7835);
+      if (lookahead == 12301) ADVANCE(7897);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
     case 7674:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 12301) ADVANCE(7838);
+      if (lookahead == 12301) ADVANCE(7900);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -51678,7 +51678,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7680:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 20132) ADVANCE(7848);
+      if (lookahead == 20132) ADVANCE(7887);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -51784,7 +51784,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7695:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 24847) ADVANCE(7851);
+      if (lookahead == 24847) ADVANCE(7890);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -51840,7 +51840,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7703:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 26159) ADVANCE(7841);
+      if (lookahead == 26159) ADVANCE(7903);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -52015,7 +52015,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       END_STATE();
     case 7728:
       ACCEPT_TOKEN(aux_sym_subject_token3);
-      if (lookahead == 45716) ADVANCE(7876);
+      if (lookahead == 45716) ADVANCE(7859);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
@@ -52533,21 +52533,147 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
     case 7822:
+      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT);
+      END_STATE();
+    case 7823:
+      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7824:
+      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7825:
+      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT);
+      END_STATE();
+    case 7826:
+      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7827:
+      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7828:
+      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran);
+      END_STATE();
+    case 7829:
+      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7830:
+      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7831:
+      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA);
+      if (lookahead == ' ') ADVANCE(996);
+      END_STATE();
+    case 7832:
+      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA);
+      if (lookahead == ' ') ADVANCE(4950);
+      END_STATE();
+    case 7833:
+      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA);
+      if (lookahead == ' ') ADVANCE(6966);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7834:
+      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA);
+      if (lookahead == ' ') ADVANCE(3450);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7835:
+      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie);
+      END_STATE();
+    case 7836:
+      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7837:
+      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7838:
+      ACCEPT_TOKEN(anon_sym_POUND_DOT);
+      END_STATE();
+    case 7839:
+      ACCEPT_TOKEN(anon_sym_POUND_DOT);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7840:
+      ACCEPT_TOKEN(anon_sym_POUND_DOT);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7841:
+      ACCEPT_TOKEN(anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas);
+      END_STATE();
+    case 7842:
+      ACCEPT_TOKEN(anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7843:
+      ACCEPT_TOKEN(anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7844:
       ACCEPT_TOKEN(anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes);
       if (lookahead == ' ') ADVANCE(910);
       END_STATE();
-    case 7823:
+    case 7845:
       ACCEPT_TOKEN(anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes);
       if (lookahead == ' ') ADVANCE(4885);
       END_STATE();
-    case 7824:
+    case 7846:
       ACCEPT_TOKEN(anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes);
       if (lookahead == ' ') ADVANCE(6932);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
-    case 7825:
+    case 7847:
       ACCEPT_TOKEN(anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes);
       if (lookahead == ' ') ADVANCE(3410);
       if (lookahead == ':' ||
@@ -52556,10 +52682,10 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(4233);
       END_STATE();
-    case 7826:
+    case 7848:
       ACCEPT_TOKEN(anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant);
       END_STATE();
-    case 7827:
+    case 7849:
       ACCEPT_TOKEN(anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
@@ -52567,23 +52693,251 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(4233);
       END_STATE();
-    case 7828:
+    case 7850:
       ACCEPT_TOKEN(anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
-    case 7829:
+    case 7851:
+      ACCEPT_TOKEN(anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali);
+      END_STATE();
+    case 7852:
+      ACCEPT_TOKEN(anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7853:
+      ACCEPT_TOKEN(anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7854:
+      ACCEPT_TOKEN(anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano);
+      END_STATE();
+    case 7855:
+      ACCEPT_TOKEN(anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7856:
+      ACCEPT_TOKEN(anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7857:
+      ACCEPT_TOKEN(anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE);
+      END_STATE();
+    case 7858:
+      ACCEPT_TOKEN(anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7859:
+      ACCEPT_TOKEN(anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7860:
+      ACCEPT_TOKEN(anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi);
+      END_STATE();
+    case 7861:
+      ACCEPT_TOKEN(anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7862:
+      ACCEPT_TOKEN(anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7863:
+      ACCEPT_TOKEN(anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT);
+      END_STATE();
+    case 7864:
+      ACCEPT_TOKEN(anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7865:
+      ACCEPT_TOKEN(anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7866:
+      ACCEPT_TOKEN(anon_sym_POUND_COMMA_DOT_COMMA);
+      END_STATE();
+    case 7867:
+      ACCEPT_TOKEN(anon_sym_POUND_COMMA_DOT_COMMA);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7868:
+      ACCEPT_TOKEN(anon_sym_POUND_COMMA_DOT_COMMA);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7869:
+      ACCEPT_TOKEN(anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds);
+      END_STATE();
+    case 7870:
+      ACCEPT_TOKEN(anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7871:
+      ACCEPT_TOKEN(anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7872:
+      ACCEPT_TOKEN(anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan);
+      END_STATE();
+    case 7873:
+      ACCEPT_TOKEN(anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7874:
+      ACCEPT_TOKEN(anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7875:
+      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng);
+      if (lookahead == ' ') ADVANCE(968);
+      END_STATE();
+    case 7876:
+      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng);
+      if (lookahead == ' ') ADVANCE(4915);
+      END_STATE();
+    case 7877:
+      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng);
+      if (lookahead == ' ') ADVANCE(6949);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7878:
+      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng);
+      if (lookahead == ' ') ADVANCE(3429);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7879:
+      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc);
+      END_STATE();
+    case 7880:
+      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7881:
+      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7882:
+      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE);
+      END_STATE();
+    case 7883:
+      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7884:
+      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7885:
+      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2);
+      END_STATE();
+    case 7886:
+      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7887:
+      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7888:
+      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3);
+      END_STATE();
+    case 7889:
+      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(4235);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(4233);
+      END_STATE();
+    case 7890:
+      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3);
+      if (lookahead != 0 &&
+          lookahead != '\n' &&
+          lookahead != '\r') ADVANCE(7753);
+      END_STATE();
+    case 7891:
       ACCEPT_TOKEN(anon_sym_POUND3);
       if (lookahead == 26371) ADVANCE(2974);
       if (lookahead == 38283) ADVANCE(3062);
       END_STATE();
-    case 7830:
+    case 7892:
       ACCEPT_TOKEN(anon_sym_POUND3);
       if (lookahead == 26371) ADVANCE(6417);
       if (lookahead == 38283) ADVANCE(6477);
       END_STATE();
-    case 7831:
+    case 7893:
       ACCEPT_TOKEN(anon_sym_POUND3);
       if (lookahead == 26371) ADVANCE(7682);
       if (lookahead == 38283) ADVANCE(7725);
@@ -52591,7 +52945,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
-    case 7832:
+    case 7894:
       ACCEPT_TOKEN(anon_sym_POUND3);
       if (lookahead == 26371) ADVANCE(4162);
       if (lookahead == 38283) ADVANCE(4205);
@@ -52601,10 +52955,10 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(4233);
       END_STATE();
-    case 7833:
+    case 7895:
       ACCEPT_TOKEN(anon_sym_POUND_PERCENTc);
       END_STATE();
-    case 7834:
+    case 7896:
       ACCEPT_TOKEN(anon_sym_POUND_PERCENTc);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
@@ -52612,16 +52966,16 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(4233);
       END_STATE();
-    case 7835:
+    case 7897:
       ACCEPT_TOKEN(anon_sym_POUND_PERCENTc);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
-    case 7836:
+    case 7898:
       ACCEPT_TOKEN(anon_sym_POUND_PERCENTc2);
       END_STATE();
-    case 7837:
+    case 7899:
       ACCEPT_TOKEN(anon_sym_POUND_PERCENTc2);
       if (lookahead == ':' ||
           lookahead == 65306) ADVANCE(4235);
@@ -52629,28 +52983,28 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(4233);
       END_STATE();
-    case 7838:
+    case 7900:
       ACCEPT_TOKEN(anon_sym_POUND_PERCENTc2);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
-    case 7839:
+    case 7901:
       ACCEPT_TOKEN(anon_sym_POUND4);
       if (lookahead == 12300) ADVANCE(508);
       END_STATE();
-    case 7840:
+    case 7902:
       ACCEPT_TOKEN(anon_sym_POUND4);
       if (lookahead == 12300) ADVANCE(4608);
       END_STATE();
-    case 7841:
+    case 7903:
       ACCEPT_TOKEN(anon_sym_POUND4);
       if (lookahead == 12300) ADVANCE(6799);
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(7753);
       END_STATE();
-    case 7842:
+    case 7904:
       ACCEPT_TOKEN(anon_sym_POUND4);
       if (lookahead == 12300) ADVANCE(3279);
       if (lookahead == ':' ||
@@ -52658,360 +53012,6 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead != 0 &&
           lookahead != '\n' &&
           lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7843:
-      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE);
-      END_STATE();
-    case 7844:
-      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7845:
-      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7846:
-      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2);
-      END_STATE();
-    case 7847:
-      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7848:
-      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7849:
-      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3);
-      END_STATE();
-    case 7850:
-      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7851:
-      ACCEPT_TOKEN(anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7852:
-      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng);
-      if (lookahead == ' ') ADVANCE(968);
-      END_STATE();
-    case 7853:
-      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng);
-      if (lookahead == ' ') ADVANCE(4915);
-      END_STATE();
-    case 7854:
-      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng);
-      if (lookahead == ' ') ADVANCE(6949);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7855:
-      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng);
-      if (lookahead == ' ') ADVANCE(3429);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7856:
-      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc);
-      END_STATE();
-    case 7857:
-      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7858:
-      ACCEPT_TOKEN(anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7859:
-      ACCEPT_TOKEN(anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan);
-      END_STATE();
-    case 7860:
-      ACCEPT_TOKEN(anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7861:
-      ACCEPT_TOKEN(anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7862:
-      ACCEPT_TOKEN(anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds);
-      END_STATE();
-    case 7863:
-      ACCEPT_TOKEN(anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7864:
-      ACCEPT_TOKEN(anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7865:
-      ACCEPT_TOKEN(anon_sym_POUND_COMMA_DOT_COMMA);
-      END_STATE();
-    case 7866:
-      ACCEPT_TOKEN(anon_sym_POUND_COMMA_DOT_COMMA);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7867:
-      ACCEPT_TOKEN(anon_sym_POUND_COMMA_DOT_COMMA);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7868:
-      ACCEPT_TOKEN(anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT);
-      END_STATE();
-    case 7869:
-      ACCEPT_TOKEN(anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7870:
-      ACCEPT_TOKEN(anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7871:
-      ACCEPT_TOKEN(anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi);
-      END_STATE();
-    case 7872:
-      ACCEPT_TOKEN(anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7873:
-      ACCEPT_TOKEN(anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7874:
-      ACCEPT_TOKEN(anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE);
-      END_STATE();
-    case 7875:
-      ACCEPT_TOKEN(anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7876:
-      ACCEPT_TOKEN(anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7877:
-      ACCEPT_TOKEN(anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano);
-      END_STATE();
-    case 7878:
-      ACCEPT_TOKEN(anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7879:
-      ACCEPT_TOKEN(anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7880:
-      ACCEPT_TOKEN(anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali);
-      END_STATE();
-    case 7881:
-      ACCEPT_TOKEN(anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7882:
-      ACCEPT_TOKEN(anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7883:
-      ACCEPT_TOKEN(anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas);
-      END_STATE();
-    case 7884:
-      ACCEPT_TOKEN(anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7885:
-      ACCEPT_TOKEN(anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7886:
-      ACCEPT_TOKEN(anon_sym_POUND_DOT);
-      END_STATE();
-    case 7887:
-      ACCEPT_TOKEN(anon_sym_POUND_DOT);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7888:
-      ACCEPT_TOKEN(anon_sym_POUND_DOT);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7889:
-      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA);
-      if (lookahead == ' ') ADVANCE(996);
-      END_STATE();
-    case 7890:
-      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA);
-      if (lookahead == ' ') ADVANCE(4950);
-      END_STATE();
-    case 7891:
-      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA);
-      if (lookahead == ' ') ADVANCE(6966);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7892:
-      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA);
-      if (lookahead == ' ') ADVANCE(3450);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7893:
-      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie);
-      END_STATE();
-    case 7894:
-      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7895:
-      ACCEPT_TOKEN(anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7896:
-      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT);
-      END_STATE();
-    case 7897:
-      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7898:
-      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7899:
-      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT);
-      END_STATE();
-    case 7900:
-      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7901:
-      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
-      END_STATE();
-    case 7902:
-      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran);
-      END_STATE();
-    case 7903:
-      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran);
-      if (lookahead == ':' ||
-          lookahead == 65306) ADVANCE(4235);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(4233);
-      END_STATE();
-    case 7904:
-      ACCEPT_TOKEN(anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran);
-      if (lookahead != 0 &&
-          lookahead != '\n' &&
-          lookahead != '\r') ADVANCE(7753);
       END_STATE();
     case 7905:
       ACCEPT_TOKEN(aux_sym__change_token1);
@@ -54019,32 +54019,32 @@ static const uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [aux_sym_generated_comment_token3] = ACTIONS(1),
     [aux_sym_generated_comment_token5] = ACTIONS(1),
     [anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting] = ACTIONS(1),
+    [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = ACTIONS(1),
+    [anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT] = ACTIONS(1),
+    [anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran] = ACTIONS(1),
+    [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA] = ACTIONS(1),
+    [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie] = ACTIONS(1),
+    [anon_sym_POUND_DOT] = ACTIONS(1),
+    [anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas] = ACTIONS(1),
     [anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes] = ACTIONS(1),
     [anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant] = ACTIONS(1),
+    [anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali] = ACTIONS(1),
+    [anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano] = ACTIONS(1),
+    [anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE] = ACTIONS(1),
+    [anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi] = ACTIONS(1),
+    [anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT] = ACTIONS(1),
+    [anon_sym_POUND_COMMA_DOT_COMMA] = ACTIONS(1),
+    [anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds] = ACTIONS(1),
+    [anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan] = ACTIONS(1),
+    [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng] = ACTIONS(1),
+    [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc] = ACTIONS(1),
+    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE] = ACTIONS(1),
+    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2] = ACTIONS(1),
+    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3] = ACTIONS(1),
     [anon_sym_POUND3] = ACTIONS(1),
     [anon_sym_POUND_PERCENTc] = ACTIONS(1),
     [anon_sym_POUND_PERCENTc2] = ACTIONS(1),
     [anon_sym_POUND4] = ACTIONS(1),
-    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE] = ACTIONS(1),
-    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2] = ACTIONS(1),
-    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3] = ACTIONS(1),
-    [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng] = ACTIONS(1),
-    [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc] = ACTIONS(1),
-    [anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan] = ACTIONS(1),
-    [anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds] = ACTIONS(1),
-    [anon_sym_POUND_COMMA_DOT_COMMA] = ACTIONS(1),
-    [anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT] = ACTIONS(1),
-    [anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi] = ACTIONS(1),
-    [anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE] = ACTIONS(1),
-    [anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano] = ACTIONS(1),
-    [anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali] = ACTIONS(1),
-    [anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas] = ACTIONS(1),
-    [anon_sym_POUND_DOT] = ACTIONS(1),
-    [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA] = ACTIONS(1),
-    [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie] = ACTIONS(1),
-    [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = ACTIONS(1),
-    [anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT] = ACTIONS(1),
-    [anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran] = ACTIONS(1),
     [aux_sym__scissor_token1] = ACTIONS(1),
     [sym__conventional_type] = ACTIONS(1),
   },
@@ -54062,32 +54062,32 @@ static const uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [aux_sym_subject_token1] = ACTIONS(7),
     [anon_sym_POUND] = ACTIONS(9),
     [anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting] = ACTIONS(11),
+    [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = ACTIONS(11),
+    [anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT] = ACTIONS(11),
+    [anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran] = ACTIONS(11),
+    [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA] = ACTIONS(13),
+    [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie] = ACTIONS(11),
+    [anon_sym_POUND_DOT] = ACTIONS(11),
+    [anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas] = ACTIONS(11),
     [anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes] = ACTIONS(13),
     [anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant] = ACTIONS(11),
+    [anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali] = ACTIONS(11),
+    [anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano] = ACTIONS(11),
+    [anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE] = ACTIONS(11),
+    [anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi] = ACTIONS(11),
+    [anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT] = ACTIONS(11),
+    [anon_sym_POUND_COMMA_DOT_COMMA] = ACTIONS(11),
+    [anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds] = ACTIONS(11),
+    [anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan] = ACTIONS(11),
+    [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng] = ACTIONS(13),
+    [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc] = ACTIONS(11),
+    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE] = ACTIONS(11),
+    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2] = ACTIONS(11),
+    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3] = ACTIONS(11),
     [anon_sym_POUND3] = ACTIONS(13),
     [anon_sym_POUND_PERCENTc] = ACTIONS(11),
     [anon_sym_POUND_PERCENTc2] = ACTIONS(11),
     [anon_sym_POUND4] = ACTIONS(13),
-    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE] = ACTIONS(11),
-    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2] = ACTIONS(11),
-    [anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3] = ACTIONS(11),
-    [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng] = ACTIONS(13),
-    [anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc] = ACTIONS(11),
-    [anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan] = ACTIONS(11),
-    [anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds] = ACTIONS(11),
-    [anon_sym_POUND_COMMA_DOT_COMMA] = ACTIONS(11),
-    [anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT] = ACTIONS(11),
-    [anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi] = ACTIONS(11),
-    [anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE] = ACTIONS(11),
-    [anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano] = ACTIONS(11),
-    [anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali] = ACTIONS(11),
-    [anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas] = ACTIONS(11),
-    [anon_sym_POUND_DOT] = ACTIONS(11),
-    [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA] = ACTIONS(13),
-    [anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie] = ACTIONS(11),
-    [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = ACTIONS(11),
-    [anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT] = ACTIONS(11),
-    [anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran] = ACTIONS(11),
     [aux_sym__scissor_token1] = ACTIONS(15),
     [sym__conventional_type] = ACTIONS(17),
   },
@@ -54302,11 +54302,11 @@ static const uint16_t ts_small_parse_table[] = {
     STATE(302), 1,
       sym__scissor,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     STATE(28), 5,
       sym__body_line,
       sym__message,
@@ -54315,27 +54315,27 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [129] = 14,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -54360,11 +54360,11 @@ static const uint16_t ts_small_parse_table[] = {
     STATE(191), 1,
       sym__scissor,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     STATE(28), 5,
       sym__body_line,
       sym__message,
@@ -54373,27 +54373,27 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [201] = 14,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -54418,11 +54418,11 @@ static const uint16_t ts_small_parse_table[] = {
     STATE(249), 1,
       sym__scissor,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     STATE(28), 5,
       sym__body_line,
       sym__message,
@@ -54431,27 +54431,27 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [273] = 14,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -54476,11 +54476,11 @@ static const uint16_t ts_small_parse_table[] = {
     STATE(251), 1,
       sym__scissor,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     STATE(28), 5,
       sym__body_line,
       sym__message,
@@ -54489,27 +54489,27 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [345] = 14,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -54534,11 +54534,11 @@ static const uint16_t ts_small_parse_table[] = {
     STATE(197), 1,
       sym__scissor,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     STATE(28), 5,
       sym__body_line,
       sym__message,
@@ -54547,27 +54547,27 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [417] = 14,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -54592,11 +54592,11 @@ static const uint16_t ts_small_parse_table[] = {
     STATE(195), 1,
       sym__scissor,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     STATE(28), 5,
       sym__body_line,
       sym__message,
@@ -54605,27 +54605,27 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [489] = 14,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -54650,11 +54650,11 @@ static const uint16_t ts_small_parse_table[] = {
     STATE(295), 1,
       sym__scissor,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     STATE(28), 5,
       sym__body_line,
       sym__message,
@@ -54663,27 +54663,27 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [561] = 14,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -54708,11 +54708,11 @@ static const uint16_t ts_small_parse_table[] = {
     STATE(271), 1,
       sym__scissor,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     STATE(28), 5,
       sym__body_line,
       sym__message,
@@ -54721,27 +54721,27 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [633] = 14,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -54766,11 +54766,11 @@ static const uint16_t ts_small_parse_table[] = {
     STATE(303), 1,
       sym__scissor,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     STATE(28), 5,
       sym__body_line,
       sym__message,
@@ -54779,27 +54779,27 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [705] = 14,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -54824,11 +54824,11 @@ static const uint16_t ts_small_parse_table[] = {
     STATE(297), 1,
       sym__scissor,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     STATE(28), 5,
       sym__body_line,
       sym__message,
@@ -54837,27 +54837,27 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [777] = 14,
     ACTIONS(7), 1,
       aux_sym_subject_token1,
@@ -54885,34 +54885,34 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
       aux_sym_source_repeat1,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [846] = 9,
     ACTIONS(179), 1,
       aux_sym_source_token1,
@@ -54927,11 +54927,11 @@ static const uint16_t ts_small_parse_table[] = {
     STATE(15), 1,
       aux_sym_source_repeat2,
     ACTIONS(194), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     STATE(28), 5,
       sym__body_line,
       sym__message,
@@ -54941,27 +54941,27 @@ static const uint16_t ts_small_parse_table[] = {
     ACTIONS(177), 24,
       ts_builtin_sym_end,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
       aux_sym__scissor_token1,
   [905] = 5,
     ACTIONS(200), 1,
@@ -54980,32 +54980,32 @@ static const uint16_t ts_small_parse_table[] = {
       anon_sym_BREAKINGCHANGE,
       anon_sym_POUND,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
+      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
       anon_sym_POUND3,
       anon_sym_POUND_PERCENTc,
       anon_sym_POUND_PERCENTc2,
       anon_sym_POUND4,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
-      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
   [953] = 10,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -55025,34 +55025,34 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
       aux_sym_source_repeat1,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [1010] = 4,
     ACTIONS(214), 1,
       aux_sym_comment_token2,
@@ -55068,32 +55068,32 @@ static const uint16_t ts_small_parse_table[] = {
       anon_sym_BREAKINGCHANGE,
       anon_sym_POUND,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
+      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
       anon_sym_POUND3,
       anon_sym_POUND_PERCENTc,
       anon_sym_POUND_PERCENTc2,
       anon_sym_POUND4,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
-      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
   [1055] = 5,
     ACTIONS(218), 1,
       aux_sym_comment_token1,
@@ -55110,32 +55110,32 @@ static const uint16_t ts_small_parse_table[] = {
       aux_sym_subject_token1,
       anon_sym_POUND,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
+      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
       anon_sym_POUND3,
       anon_sym_POUND_PERCENTc,
       anon_sym_POUND_PERCENTc2,
       anon_sym_POUND4,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
-      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
   [1102] = 10,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -55155,34 +55155,34 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
       aux_sym_source_repeat1,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [1159] = 10,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -55202,34 +55202,34 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
       aux_sym_source_repeat1,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [1216] = 10,
     ACTIONS(15), 1,
       aux_sym__scissor_token1,
@@ -55249,34 +55249,34 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
       aux_sym_source_repeat1,
     ACTIONS(13), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(11), 22,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
   [1273] = 3,
     ACTIONS(232), 1,
       aux_sym_subject_token3,
@@ -55290,32 +55290,32 @@ static const uint16_t ts_small_parse_table[] = {
       anon_sym_BREAKINGCHANGE,
       anon_sym_POUND,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
+      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
       anon_sym_POUND3,
       anon_sym_POUND_PERCENTc,
       anon_sym_POUND_PERCENTc2,
       anon_sym_POUND4,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
-      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
   [1315] = 4,
     ACTIONS(238), 1,
       anon_sym_POUND,
@@ -55324,37 +55324,37 @@ static const uint16_t ts_small_parse_table[] = {
       aux_sym_source_repeat1,
     ACTIONS(236), 6,
       aux_sym_subject_token1,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(234), 26,
       sym__conventional_type,
       ts_builtin_sym_end,
       aux_sym_source_token1,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
       aux_sym__scissor_token1,
   [1359] = 4,
     ACTIONS(241), 1,
@@ -55370,32 +55370,32 @@ static const uint16_t ts_small_parse_table[] = {
       aux_sym_subject_token1,
       anon_sym_POUND,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
+      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
       anon_sym_POUND3,
       anon_sym_POUND_PERCENTc,
       anon_sym_POUND_PERCENTc2,
       anon_sym_POUND4,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
-      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
   [1403] = 5,
     ACTIONS(202), 1,
       aux_sym_comment_token2,
@@ -55410,253 +55410,253 @@ static const uint16_t ts_small_parse_table[] = {
     ACTIONS(198), 28,
       anon_sym_POUND,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
+      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
       anon_sym_POUND3,
       anon_sym_POUND_PERCENTc,
       anon_sym_POUND_PERCENTc2,
       anon_sym_POUND4,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
-      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
   [1448] = 2,
     ACTIONS(249), 7,
       aux_sym_subject_token1,
       anon_sym_POUND,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(247), 27,
       ts_builtin_sym_end,
       aux_sym_source_token1,
       aux_sym_trailer_token1,
       anon_sym_BREAKINGCHANGE,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
       aux_sym__scissor_token1,
   [1487] = 2,
     ACTIONS(253), 7,
       aux_sym_subject_token1,
       anon_sym_POUND,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(251), 27,
       ts_builtin_sym_end,
       aux_sym_source_token1,
       aux_sym_trailer_token1,
       anon_sym_BREAKINGCHANGE,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
       aux_sym__scissor_token1,
   [1526] = 2,
     ACTIONS(212), 7,
       aux_sym_subject_token1,
       anon_sym_POUND,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(210), 27,
       ts_builtin_sym_end,
       aux_sym_source_token1,
       aux_sym_trailer_token1,
       anon_sym_BREAKINGCHANGE,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
       aux_sym__scissor_token1,
   [1565] = 2,
     ACTIONS(257), 7,
       aux_sym_subject_token1,
       anon_sym_POUND,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(255), 27,
       ts_builtin_sym_end,
       aux_sym_source_token1,
       aux_sym_trailer_token1,
       anon_sym_BREAKINGCHANGE,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
       aux_sym__scissor_token1,
   [1604] = 2,
     ACTIONS(261), 7,
       aux_sym_subject_token1,
       anon_sym_POUND,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(259), 27,
       ts_builtin_sym_end,
       aux_sym_source_token1,
       aux_sym_trailer_token1,
       anon_sym_BREAKINGCHANGE,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
       aux_sym__scissor_token1,
   [1643] = 2,
     ACTIONS(265), 7,
       aux_sym_subject_token1,
       anon_sym_POUND,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(263), 27,
       ts_builtin_sym_end,
       aux_sym_source_token1,
       aux_sym_trailer_token1,
       anon_sym_BREAKINGCHANGE,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
       aux_sym__scissor_token1,
   [1682] = 4,
     ACTIONS(267), 1,
@@ -55665,36 +55665,36 @@ static const uint16_t ts_small_parse_table[] = {
       sym_comment,
       aux_sym_source_repeat1,
     ACTIONS(236), 5,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(234), 25,
       ts_builtin_sym_end,
       aux_sym_source_token1,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
       aux_sym__scissor_token1,
   [1724] = 4,
     ACTIONS(214), 1,
@@ -55708,103 +55708,103 @@ static const uint16_t ts_small_parse_table[] = {
     ACTIONS(212), 28,
       anon_sym_POUND,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
+      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
+      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
       anon_sym_POUND3,
       anon_sym_POUND_PERCENTc,
       anon_sym_POUND_PERCENTc2,
       anon_sym_POUND4,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
-      anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
-      anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
   [1766] = 2,
     ACTIONS(212), 7,
       aux_sym_subject_token1,
       anon_sym_POUND,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(210), 26,
       sym__conventional_type,
       ts_builtin_sym_end,
       aux_sym_source_token1,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
       aux_sym__scissor_token1,
   [1804] = 2,
     ACTIONS(249), 7,
       aux_sym_subject_token1,
       anon_sym_POUND,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
       anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignes,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
       anon_sym_POUND3,
       anon_sym_POUND4,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhng,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMA,
     ACTIONS(247), 26,
       sym__conventional_type,
       ts_builtin_sym_end,
       aux_sym_source_token1,
       anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting,
-      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
-      anon_sym_POUND_PERCENTc,
-      anon_sym_POUND_PERCENTc2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
-      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
-      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
-      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
-      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
-      anon_sym_POUND_COMMA_DOT_COMMA,
-      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
-      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
-      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
-      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
-      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
-      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
-      anon_sym_POUND_DOT,
-      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
       anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissidelsvostrescanvis_DOT,
       anon_sym_POUNDIntroduuelmissatgedecomissipelsvostrescanvis_DOTEsmantindran,
+      anon_sym_POUNDBittegebenSieeineCommit_DASHBeschreibungfrIhrenderungenein_DOTZeilen_COMMAdie,
+      anon_sym_POUND_DOT,
+      anon_sym_POUNDPorfavoringresaelmensajedelcommitparatuscambios_DOTLas,
+      anon_sym_POUNDVeuillezsaisirlemessagedevalidationpourvosmodifications_DOTLeslignescommenant,
+      anon_sym_POUNDMohonmasukkanpesankomituntukperubahanAnda_DOTBarisyangdiawali,
+      anon_sym_POUNDImmettiilmessaggiodicommitperlemodifiche_DOTLerighecheiniziano,
+      anon_sym_POUND_DOT_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUNDPodajkomunikatzapisuswoichzmian_DOTWierszezaczynajcesi,
+      anon_sym_POUNDPorfavor_COMMAintroduzamensagemdememriadastuasalteraes_DOT,
+      anon_sym_POUND_COMMA_DOT_COMMA,
+      anon_sym_POUNDAngeincheckningsmeddelandetfrdinandringar_DOTRadersominleds,
+      anon_sym_POUNDLtfendeiiklikleriniziinbirilemeiletisigirin_DOT_SQUOTE_PERCENTc_SQUOTEilebalayan,
+      anon_sym_POUNDHynhpvoccthngtingiithchccthayicabn_DOTNhngdngc,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE2,
+      anon_sym_POUND_SQUOTE_PERCENTc_SQUOTE3,
+      anon_sym_POUND_PERCENTc,
+      anon_sym_POUND_PERCENTc2,
       aux_sym__scissor_token1,
   [1842] = 2,
     STATE(60), 1,
