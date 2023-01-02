@@ -11,6 +11,9 @@
 
 ## Supported locales
 
+We aim to support all the [locales supported by git](https://github.com/git/git/tree/master/po).
+The currently supported locales are listed below:
+
 - `en`: English
 - `ca`: Catalan
 - `de`: German
