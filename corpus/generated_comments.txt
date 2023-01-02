@@ -122,8 +122,22 @@ Detached HEAD
 # with '#' will be ignored, and an empty message aborts the commit.
 #
 # HEAD detached at f5d1c0b8
-# HEAD losgelöst von 2e87307
-# 头指针分离自 2e87307
+# HEAD separat a f3eb78257f38fc09e34efe4b134b72656205ef0f
+# HEAD losgelöst bei 2e873072e87307
+# Αποσυνδεδεμένο HEAD στο 2e87307
+# HEAD desacoplada en 2e87307
+# HEAD détachée sur 2e87307
+# HEAD terlepas pada 2e87307
+# HEAD scollegato su 2e87307
+# HEAD가 다음 위치에서 분리: 2e87307
+# HEAD odłączone na 2e87307
+# HEAD desanexada em 2e87307
+# Отсоединённый указатель HEAD указывает на 2e87307
+# HEAD frånkopplad vid 2e87307
+# HEAD şurada ayrıldı: 2e87307
+# HEAD được tách rời tại 2e87307
+# 头指针分离于 2e87307
+# 開頭指標分離於 2e87307
 
 --------------------------------------------------------------------------------
 
@@ -131,6 +145,48 @@ Detached HEAD
   (generated_comment)
   (generated_comment)
   (generated_comment)
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
+  (generated_comment
+    (text)
+    (commit))
   (generated_comment
     (text)
     (commit))

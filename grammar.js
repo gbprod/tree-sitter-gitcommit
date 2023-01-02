@@ -331,8 +331,22 @@ module.exports = grammar({
         alias(
           choice(
             'HEAD detached at ',
-            'HEAD losgelöst von ',
-            '头指针分离自 '
+            'HEAD separat a ',
+            'HEAD losgelöst bei ',
+            'Αποσυνδεδεμένο HEAD στο ',
+            'HEAD desacoplada en ',
+            'HEAD détachée sur ',
+            'HEAD terlepas pada ',
+            'HEAD scollegato su ',
+            'HEAD가 다음 위치에서 분리: ',
+            'HEAD odłączone na ',
+            'HEAD desanexada em ',
+            'Отсоединённый указатель HEAD указывает на ',
+            'HEAD frånkopplad vid ',
+            'HEAD şurada ayrıldı: ',
+            'HEAD được tách rời tại ',
+            '头指针分离于 ',
+            '開頭指標分離於 '
           ),
           $.text
         ),

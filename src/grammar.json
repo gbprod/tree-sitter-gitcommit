@@ -3068,11 +3068,67 @@
               },
               {
                 "type": "STRING",
-                "value": "HEAD losgelöst von "
+                "value": "HEAD separat a "
               },
               {
                 "type": "STRING",
-                "value": "头指针分离自 "
+                "value": "HEAD losgelöst bei "
+              },
+              {
+                "type": "STRING",
+                "value": "Αποσυνδεδεμένο HEAD στο "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD desacoplada en "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD détachée sur "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD terlepas pada "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD scollegato su "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD가 다음 위치에서 분리: "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD odłączone na "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD desanexada em "
+              },
+              {
+                "type": "STRING",
+                "value": "Отсоединённый указатель HEAD указывает на "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD frånkopplad vid "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD şurada ayrıldı: "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD được tách rời tại "
+              },
+              {
+                "type": "STRING",
+                "value": "头指针分离于 "
+              },
+              {
+                "type": "STRING",
+                "value": "開頭指標分離於 "
               }
             ]
           },
