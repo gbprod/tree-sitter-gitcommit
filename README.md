@@ -11,24 +11,23 @@
 
 ## Supported locales
 
-- English
-- French
-- Russian
-- Norwegian
-- Turkish
-- Vietnamese
-- Chinese (Simplified)
-- Chinese (Traditional)
-- Portugese
-- Polish
-- Korean
-- Swedish
-- Italian
-- Indonesian (Bahasa)
-- Spanish
-- Greek
-- German
-- Catalan
+- `en`: English
+- `ca`: Catalan
+- `de`: German
+- `el`: Greek
+- `es`: Spanish
+- `fr`: French
+- `id`: Indonesian (Bahasa)
+- `it`: Italian
+- `ko`: Korean
+- `pl`: Polish
+- `pt_PT`: Portugal Portugese
+- `ru`: Russian
+- `sv`: Swedish
+- `tr`: Turkish
+- `vi`: Vietnamese
+- `zh_CN`: Chinese (Simplified)
+- `zh_TW`: Taiwanese Mandarin
 
 ## Credits
 
