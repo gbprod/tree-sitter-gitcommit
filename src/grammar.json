@@ -817,12 +817,20 @@
           "type": "CHOICE",
           "members": [
             {
+              "type": "PATTERN",
+              "value": "[\\f\\v ]+"
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
               "type": "SEQ",
               "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[\\f\\v ]+"
-                },
                 {
                   "type": "ALIAS",
                   "content": {
@@ -846,6 +854,30 @@
                   "value": "filepath"
                 }
               ]
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "ALIAS",
+              "content": {
+                "type": "TOKEN",
+                "content": {
+                  "type": "PREC",
+                  "value": -1,
+                  "content": {
+                    "type": "PATTERN",
+                    "value": "[^\\n\\r]+"
+                  }
+                }
+              },
+              "named": true,
+              "value": "annotation"
             },
             {
               "type": "BLANK"

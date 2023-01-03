@@ -172,17 +172,15 @@ module.exports = grammar({
         ),
         token(prec(-1, ANYTHING))
       ),
+
     _filepath: ($) =>
       seq(
         alias(FILEPATH, $.filepath),
+        optional(WHITESPACE),
         optional(
-          seq(
-            WHITESPACE,
-            alias('->', $.arrow),
-            WHITESPACE,
-            alias(FILEPATH, $.filepath)
-          )
-        )
+          seq(alias('->', $.arrow), WHITESPACE, alias(FILEPATH, $.filepath))
+        ),
+        optional(alias(token(prec(-1, ANYTHING)), $.annotation))
       ),
 
     _scissor: ($) => seq(alias(SCISSORS, $.scissor), $.diff),
