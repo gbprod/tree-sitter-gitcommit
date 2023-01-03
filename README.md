@@ -15,6 +15,7 @@ We aim to support all the [locales supported by git](https://github.com/git/git/
 The currently supported locales are listed below:
 
 - `en`: English
+- `bg`: Bulgarian
 - `ca`: Catalan
 - `de`: German
 - `el`: Greek
