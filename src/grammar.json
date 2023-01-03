@@ -3068,6 +3068,10 @@
               },
               {
                 "type": "STRING",
+                "value": "Указателят „HEAD“ не е свързан и е при "
+              },
+              {
+                "type": "STRING",
                 "value": "HEAD separat a "
               },
               {

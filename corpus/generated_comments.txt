@@ -122,6 +122,7 @@ Detached HEAD
 # with '#' will be ignored, and an empty message aborts the commit.
 #
 # HEAD detached at f5d1c0b8
+# Указателят „HEAD“ не е свързан и е при 0e87307
 # HEAD separat a f3eb78257f38fc09e34efe4b134b72656205ef0f
 # HEAD losgelöst bei 2e873072e87307
 # Αποσυνδεδεμένο HEAD στο 2e87307
@@ -145,6 +146,9 @@ Detached HEAD
   (generated_comment)
   (generated_comment)
   (generated_comment)
+  (generated_comment
+    (text)
+    (commit))
   (generated_comment
     (text)
     (commit))

@@ -331,6 +331,7 @@ module.exports = grammar({
         alias(
           choice(
             'HEAD detached at ',
+            'Указателят „HEAD“ не е свързан и е при ',
             'HEAD separat a ',
             'HEAD losgelöst bei ',
             'Αποσυνδεδεμένο HEAD στο ',
