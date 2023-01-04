@@ -1,4 +1,5 @@
 name: CI
+
 on:
   pull_request:
     branches:
@@ -6,17 +7,37 @@ on:
   push:
     branches:
       - 'main'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
+    name: Run validation tests
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: true
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm install
-      - run: npm test
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tree-sitter tests
+        run: npm test
+
+      - name: Ensure generated parser files are up-to-date
+        # On Windows, tree-sitter generate results in a diff, not sure why
+        if: runner.os != 'Windows'
+        run: |
+          git status
+          test -z "$(git status --porcelain)"
