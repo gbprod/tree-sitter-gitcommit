@@ -4,6 +4,7 @@ const SUBJECT = /[^\n\r]{1,49}/;
 const NOT_A_COMMENT = /[^#]/;
 const SCISSORS = /# -+ >8 -+\r?\n/;
 const BRANCH_NAME = /[^\s'”»"“]+/;
+const COMMIT = /[0-9a-f]{7,40}/;
 const FILEPATH = /\S+/;
 const WHITESPACE = /[\f\v ]+/;
 const CHANGE = /[^\n\r:：]+[:\uff1a]/;
@@ -82,6 +83,7 @@ module.exports = grammar({
               $._uptodate,
               $._behind,
               $._ahead,
+              $._detached_head,
               $._rebasing,
               $._interactive_rebasing,
               seq(
@@ -123,6 +125,7 @@ module.exports = grammar({
       ),
 
     branch: () => BRANCH_NAME,
+    commit: () => COMMIT,
     number: () => NUMBER,
 
     _generated_comment_separator: ($) =>
@@ -321,6 +324,35 @@ module.exports = grammar({
         seq('La vostra branca està ', $.number, ' comissions per davant de «', $.branch, '».'),
         seq('Клонът ви е с ', $.number, ' подаване пред „', $.branch, '“.'),
         seq('Клонът ви е с ', $.number, ' подавания пред „', $.branch, '“.')
+      ),
+
+    _detached_head: ($) =>
+      seq(
+        alias(
+          choice(
+            'HEAD detached at ',
+            'Указателят „HEAD“ не е свързан и е при ',
+            'HEAD separat a ',
+            'HEAD losgelöst bei ',
+            'Αποσυνδεδεμένο HEAD στο ',
+            'HEAD desacoplada en ',
+            'HEAD détachée sur ',
+            'HEAD terlepas pada ',
+            'HEAD scollegato su ',
+            'HEAD가 다음 위치에서 분리: ',
+            'HEAD odłączone na ',
+            'HEAD desanexada em ',
+            'Отсоединённый указатель HEAD указывает на ',
+            'HEAD frånkopplad vid ',
+            'HEAD şurada ayrıldı: ',
+            'HEAD được tách rời tại ',
+            '头指针分离于 ',
+            '開頭指標分離於 '
+          ),
+          $.text
+        ),
+        $.commit,
+        NEWLINE
       ),
 
     _rebasing: ($) =>
