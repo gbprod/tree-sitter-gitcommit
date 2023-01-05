@@ -616,7 +616,7 @@
       "type": "PATTERN",
       "value": "[^\\s'”»\"“]+"
     },
-    "commit": {
+    "_commit": {
       "type": "PATTERN",
       "value": "[0-9a-f]{7,40}"
     },
@@ -3140,8 +3140,13 @@
           "value": "text"
         },
         {
-          "type": "SYMBOL",
-          "name": "commit"
+          "type": "ALIAS",
+          "content": {
+            "type": "SYMBOL",
+            "name": "_commit"
+          },
+          "named": true,
+          "value": "branch"
         },
         {
           "type": "PATTERN",
