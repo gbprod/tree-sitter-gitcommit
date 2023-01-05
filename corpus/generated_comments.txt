@@ -148,58 +148,58 @@ Detached HEAD
   (generated_comment)
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit))
+    (branch))
   (generated_comment
     (text)
-    (commit)))
+    (branch)))
 
 ================================================================================
 Up to date

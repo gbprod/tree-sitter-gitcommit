@@ -78,10 +78,6 @@
           "named": true
         },
         {
-          "type": "commit",
-          "named": true
-        },
-        {
           "type": "filepath",
           "named": true
         },
@@ -794,10 +790,6 @@
   },
   {
     "type": "change",
-    "named": true
-  },
-  {
-    "type": "commit",
     "named": true
   },
   {

@@ -64,7 +64,7 @@ enum {
   anon_sym_Enlabranca = 37,
   anon_sym_4 = 38,
   aux_sym__onbranch_token1 = 39,
-  sym_commit = 40,
+  sym__commit = 40,
   sym_number = 41,
   anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting = 42,
   anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT = 43,
@@ -392,7 +392,7 @@ static const char * const ts_symbol_names[] = {
   [anon_sym_Enlabranca] = "text",
   [anon_sym_4] = "text",
   [aux_sym__onbranch_token1] = "_onbranch_token1",
-  [sym_commit] = "commit",
+  [sym__commit] = "branch",
   [sym_number] = "number",
   [anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting] = "generated_comment",
   [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = "generated_comment",
@@ -720,7 +720,7 @@ static const TSSymbol ts_symbol_map[] = {
   [anon_sym_Enlabranca] = anon_sym_Onbranch,
   [anon_sym_4] = anon_sym_Onbranch,
   [aux_sym__onbranch_token1] = aux_sym__onbranch_token1,
-  [sym_commit] = sym_commit,
+  [sym__commit] = sym_branch,
   [sym_number] = sym_number,
   [anon_sym_POUNDPleaseenterthecommitmessageforyourchanges_DOTLinesstarting] = sym_generated_comment,
   [anon_sym_POUNDIntroduuelmissatgedecomissiperalsvostrescanvis_DOT] = sym_generated_comment,
@@ -1168,7 +1168,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = false,
     .named = false,
   },
-  [sym_commit] = {
+  [sym__commit] = {
     .visible = true,
     .named = true,
   },
@@ -56876,170 +56876,170 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != 8221) ADVANCE(8396);
       END_STATE();
     case 8397:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       END_STATE();
     case 8398:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8397);
       END_STATE();
     case 8399:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8398);
       END_STATE();
     case 8400:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8399);
       END_STATE();
     case 8401:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8400);
       END_STATE();
     case 8402:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8401);
       END_STATE();
     case 8403:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8402);
       END_STATE();
     case 8404:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8403);
       END_STATE();
     case 8405:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8404);
       END_STATE();
     case 8406:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8405);
       END_STATE();
     case 8407:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8406);
       END_STATE();
     case 8408:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8407);
       END_STATE();
     case 8409:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8408);
       END_STATE();
     case 8410:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8409);
       END_STATE();
     case 8411:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8410);
       END_STATE();
     case 8412:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8411);
       END_STATE();
     case 8413:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8412);
       END_STATE();
     case 8414:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8413);
       END_STATE();
     case 8415:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8414);
       END_STATE();
     case 8416:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8415);
       END_STATE();
     case 8417:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8416);
       END_STATE();
     case 8418:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8417);
       END_STATE();
     case 8419:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8418);
       END_STATE();
     case 8420:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8419);
       END_STATE();
     case 8421:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8420);
       END_STATE();
     case 8422:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8421);
       END_STATE();
     case 8423:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8422);
       END_STATE();
     case 8424:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8423);
       END_STATE();
     case 8425:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8424);
       END_STATE();
     case 8426:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8425);
       END_STATE();
     case 8427:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8426);
       END_STATE();
     case 8428:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8427);
       END_STATE();
     case 8429:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8428);
       END_STATE();
     case 8430:
-      ACCEPT_TOKEN(sym_commit);
+      ACCEPT_TOKEN(sym__commit);
       if (('0' <= lookahead && lookahead <= '9') ||
           ('a' <= lookahead && lookahead <= 'f')) ADVANCE(8429);
       END_STATE();
@@ -61773,7 +61773,7 @@ static const uint16_t ts_small_parse_table[] = {
       ts_builtin_sym_end,
   [3541] = 1,
     ACTIONS(653), 1,
-      sym_commit,
+      sym__commit,
   [3545] = 1,
     ACTIONS(655), 1,
       sym_number,

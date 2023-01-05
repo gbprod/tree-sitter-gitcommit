@@ -125,7 +125,7 @@ module.exports = grammar({
       ),
 
     branch: () => BRANCH_NAME,
-    commit: () => COMMIT,
+    _commit: () => COMMIT,
     number: () => NUMBER,
 
     _generated_comment_separator: ($) =>
@@ -351,7 +351,7 @@ module.exports = grammar({
           ),
           $.text
         ),
-        $.commit,
+        alias($._commit, $.branch),
         NEWLINE
       ),
 
