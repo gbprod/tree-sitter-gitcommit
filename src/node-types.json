@@ -24,6 +24,34 @@
     }
   },
   {
+    "type": "change",
+    "named": true,
+    "fields": {
+      "kind": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "deleted",
+            "named": true
+          },
+          {
+            "type": "modified",
+            "named": true
+          },
+          {
+            "type": "new",
+            "named": true
+          },
+          {
+            "type": "renamed",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
     "type": "comment",
     "named": true,
     "fields": {},
@@ -37,6 +65,11 @@
         }
       ]
     }
+  },
+  {
+    "type": "deleted",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "diff",
@@ -128,6 +161,16 @@
     }
   },
   {
+    "type": "modified",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "new",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "prefix",
     "named": true,
     "fields": {},
@@ -148,6 +191,11 @@
   },
   {
     "type": "rebase_command",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "renamed",
     "named": true,
     "fields": {}
   },
@@ -785,12 +833,32 @@
     "named": true
   },
   {
+    "type": "berkas baru:",
+    "named": false
+  },
+  {
+    "type": "borrados:",
+    "named": false
+  },
+  {
+    "type": "borttagen:",
+    "named": false
+  },
+  {
     "type": "break",
     "named": false
   },
   {
-    "type": "change",
-    "named": true
+    "type": "canviat de nom:",
+    "named": false
+  },
+  {
+    "type": "deleted:",
+    "named": false
+  },
+  {
+    "type": "değiştirildi:",
+    "named": false
   },
   {
     "type": "drop",
@@ -798,6 +866,14 @@
   },
   {
     "type": "edit",
+    "named": false
+  },
+  {
+    "type": "eliminado:",
+    "named": false
+  },
+  {
+    "type": "eliminato:",
     "named": false
   },
   {
@@ -809,7 +885,19 @@
     "named": true
   },
   {
+    "type": "fitxer nou:",
+    "named": false
+  },
+  {
     "type": "fixup",
+    "named": false
+  },
+  {
+    "type": "gelöscht:",
+    "named": false
+  },
+  {
+    "type": "geändert:",
     "named": false
   },
   {
@@ -833,8 +921,68 @@
     "named": false
   },
   {
+    "type": "modificado:",
+    "named": false
+  },
+  {
+    "type": "modificados:",
+    "named": false
+  },
+  {
+    "type": "modificat:",
+    "named": false
+  },
+  {
+    "type": "modificato:",
+    "named": false
+  },
+  {
+    "type": "modified:",
+    "named": false
+  },
+  {
+    "type": "modifié :",
+    "named": false
+  },
+  {
+    "type": "namnbytt:",
+    "named": false
+  },
+  {
+    "type": "neue Datei:",
+    "named": false
+  },
+  {
+    "type": "new file:",
+    "named": false
+  },
+  {
+    "type": "nouveau fichier :",
+    "named": false
+  },
+  {
+    "type": "novo ficheiro:",
+    "named": false
+  },
+  {
+    "type": "nowy plik:",
+    "named": false
+  },
+  {
+    "type": "nuevos archivos:",
+    "named": false
+  },
+  {
     "type": "number",
     "named": true
+  },
+  {
+    "type": "nuovo file:",
+    "named": false
+  },
+  {
+    "type": "ny fil:",
+    "named": false
   },
   {
     "type": "overflow",
@@ -865,11 +1013,31 @@
     "named": false
   },
   {
+    "type": "renamed:",
+    "named": false
+  },
+  {
+    "type": "renombrados:",
+    "named": false
+  },
+  {
+    "type": "renomeado:",
+    "named": false
+  },
+  {
+    "type": "renommé :",
+    "named": false
+  },
+  {
     "type": "reset",
     "named": false
   },
   {
     "type": "reword",
+    "named": false
+  },
+  {
+    "type": "rinominato:",
     "named": false
   },
   {
@@ -885,7 +1053,31 @@
     "named": false
   },
   {
+    "type": "silindi:",
+    "named": false
+  },
+  {
     "type": "squash",
+    "named": false
+  },
+  {
+    "type": "supprimé :",
+    "named": false
+  },
+  {
+    "type": "suprimit:",
+    "named": false
+  },
+  {
+    "type": "terganti nama:",
+    "named": false
+  },
+  {
+    "type": "terhapus:",
+    "named": false
+  },
+  {
+    "type": "terubah:",
     "named": false
   },
   {
@@ -909,8 +1101,36 @@
     "named": true
   },
   {
+    "type": "tập tin mới:",
+    "named": false
+  },
+  {
+    "type": "umbenannt:",
+    "named": false
+  },
+  {
+    "type": "usunięto:",
+    "named": false
+  },
+  {
     "type": "value",
     "named": true
+  },
+  {
+    "type": "yeni dosya:",
+    "named": false
+  },
+  {
+    "type": "yeniden adlandırıldı:",
+    "named": false
+  },
+  {
+    "type": "zmieniono nazwę:",
+    "named": false
+  },
+  {
+    "type": "zmieniono:",
+    "named": false
   },
   {
     "type": "«rebase» interactiu en curs; sobre ",
@@ -934,6 +1154,22 @@
   },
   {
     "type": "».",
+    "named": false
+  },
+  {
+    "type": "ändrad:",
+    "named": false
+  },
+  {
+    "type": "đã sửa:",
+    "named": false
+  },
+  {
+    "type": "đã xóa:",
+    "named": false
+  },
+  {
+    "type": "đã đổi tên:",
     "named": false
   },
   {
@@ -961,7 +1197,23 @@
     "named": false
   },
   {
+    "type": "διαγραφή:",
+    "named": false
+  },
+  {
     "type": "εκτελείται διαδραστικό rebase, πάνω στο ",
+    "named": false
+  },
+  {
+    "type": "μετονομασία:",
+    "named": false
+  },
+  {
+    "type": "νέο αρχείο:",
+    "named": false
+  },
+  {
+    "type": "τροποποίηση:",
     "named": false
   },
   {
@@ -997,7 +1249,39 @@
     "named": false
   },
   {
+    "type": "изменено:",
+    "named": false
+  },
+  {
+    "type": "изтрит:",
+    "named": false
+  },
+  {
     "type": "интерактивное перемещение в процессе; над ",
+    "named": false
+  },
+  {
+    "type": "нов файл:",
+    "named": false
+  },
+  {
+    "type": "новый файл:",
+    "named": false
+  },
+  {
+    "type": "переименовано:",
+    "named": false
+  },
+  {
+    "type": "преименуван:",
+    "named": false
+  },
+  {
+    "type": "променен:",
+    "named": false
+  },
+  {
+    "type": "удалено:",
     "named": false
   },
   {
@@ -1041,6 +1325,18 @@
     "named": false
   },
   {
+    "type": "修改：",
+    "named": false
+  },
+  {
+    "type": "删除：",
+    "named": false
+  },
+  {
+    "type": "刪除：",
+    "named": false
+  },
+  {
     "type": "您在執行將分支 '",
     "named": false
   },
@@ -1073,6 +1369,22 @@
     "named": false
   },
   {
+    "type": "新文件：",
+    "named": false
+  },
+  {
+    "type": "新檔案：",
+    "named": false
+  },
+  {
+    "type": "重命名：",
+    "named": false
+  },
+  {
+    "type": "重新命名：",
+    "named": false
+  },
+  {
     "type": "개 커밋 뒤에 있고, 앞으로 돌릴 수 있습니다.",
     "named": false
   },
@@ -1086,6 +1398,22 @@
   },
   {
     "type": "브랜치가 '",
+    "named": false
+  },
+  {
+    "type": "삭제함:",
+    "named": false
+  },
+  {
+    "type": "새 파일:",
+    "named": false
+  },
+  {
+    "type": "수정함:",
+    "named": false
+  },
+  {
+    "type": "이름 바꿈:",
     "named": false
   },
   {
