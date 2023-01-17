@@ -9,6 +9,24 @@ New files
 #	new file:   .gitignore
 #	nouveau fichier : .gitignore
 #	新檔案： .gitignore
+#	new file: .gitignore
+#	nouveau fichier : .gitignore
+#	нов файл: .gitignore
+#	fitxer nou: .gitignore
+#	neue Datei: .gitignore
+#	νέο αρχείο: .gitignore
+#	nuevos archivos: .gitignore
+#	berkas baru: .gitignore
+#	nuovo file: .gitignore
+#	새 파일: .gitignore
+#	nowy plik: .gitignore
+#	novo ficheiro: .gitignore
+#	новый файл:  .gitignore
+#	ny fil: .gitignore
+#	yeni dosya:   .gitignore
+#	tập tin mới: .gitignore
+#	新文件： .gitignore
+#	新檔案：    .gitignore
 
 --------------------------------------------------------------------------------
 
@@ -19,13 +37,88 @@ New files
   (generated_comment
     (title))
   (generated_comment
-    (change)
+    (change
+      (new))
     (filepath))
   (generated_comment
-    (change)
+    (change
+      (new))
     (filepath))
   (generated_comment
-    (change)
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
+    (filepath))
+  (generated_comment
+    (change
+      (new))
     (filepath)))
 
 ================================================================================
@@ -37,6 +130,24 @@ Renamed files
 # Modifications qui seront validées :
 #	renommé :         test.txt -> test2.txt
 #	renamed:    test.txt -> test2.txt
+#	renamed:    test.txt -> test2.txt
+#	renommé :    test.txt -> test2.txt
+#	преименуван:    test.txt -> test2.txt
+#	canviat de nom:    test.txt -> test2.txt
+#	umbenannt:    test.txt -> test2.txt
+#	μετονομασία:    test.txt -> test2.txt
+#	renombrados:    test.txt -> test2.txt
+#	terganti nama:    test.txt -> test2.txt
+#	rinominato:    test.txt -> test2.txt
+#	이름 바꿈:    test.txt -> test2.txt
+#	zmieniono nazwę:    test.txt -> test2.txt
+#	renomeado:    test.txt -> test2.txt
+#	переименовано:    test.txt -> test2.txt
+#	namnbytt:    test.txt -> test2.txt
+#	yeniden adlandırıldı:    test.txt -> test2.txt
+#	đã đổi tên:    test.txt -> test2.txt
+#	重命名：    test.txt -> test2.txt
+#	重新命名：    test.txt -> test2.txt
 
 --------------------------------------------------------------------------------
 
@@ -46,14 +157,336 @@ Renamed files
   (generated_comment
     (title))
   (generated_comment
-    (change)
+    (change
+      (renamed))
     (filepath)
     (arrow)
     (filepath))
   (generated_comment
-    (change)
+    (change
+      (renamed))
     (filepath)
     (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath))
+  (generated_comment
+    (change
+      (renamed))
+    (filepath)
+    (arrow)
+    (filepath)))
+
+================================================================================
+Modified files
+================================================================================
+
+# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những
+#
+# Modifications qui seront validées :
+#	modified:    test.txt
+#	modifié :    test.txt
+#	променен:    test.txt
+#	modificat:    test.txt
+#	geändert:    test.txt
+#	τροποποίηση:    test.txt
+#	modificados:    test.txt
+#	terubah:    test.txt
+#	modificato:    test.txt
+#	수정함:    test.txt
+#	zmieniono:    test.txt
+#	modificado:    test.txt
+#	изменено:    test.txt
+#	ändrad:    test.txt
+#	değiştirildi:    test.txt
+#	đã sửa:    test.txt
+#	修改：    test.txt
+#	修改：    test.txt
+
+--------------------------------------------------------------------------------
+
+(source
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
+    (title))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath))
+  (generated_comment
+    (change
+      (modified))
+    (filepath)))
+
+================================================================================
+Deleted files
+================================================================================
+
+# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những
+#
+# Modifications qui seront validées :
+#	deleted:        test.txt
+#	supprimé :        test.txt
+#	изтрит:        test.txt
+#	suprimit:        test.txt
+#	gelöscht:        test.txt
+#	διαγραφή:        test.txt
+#	borrados:        test.txt
+#	terhapus:        test.txt
+#	eliminato:        test.txt
+#	삭제함:        test.txt
+#	usunięto:        test.txt
+#	eliminado:        test.txt
+#	удалено:        test.txt
+#	borttagen:        test.txt
+#	silindi:        test.txt
+#	đã xóa:        test.txt
+#	删除：        test.txt
+#	刪除：        test.txt
+
+--------------------------------------------------------------------------------
+
+(source
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
+    (title))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
+    (filepath))
+  (generated_comment
+    (change
+      (deleted))
     (filepath)))
 
 ================================================================================
@@ -99,11 +532,13 @@ Modified content
   (generated_comment
     (title))
   (generated_comment
-    (change)
+    (change
+      (modified))
     (filepath)
     (annotation))
   (generated_comment
-    (change)
+    (change
+      (modified))
     (filepath)
     (arrow)
     (filepath)

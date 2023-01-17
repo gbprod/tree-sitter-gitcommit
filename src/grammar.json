@@ -765,13 +765,8 @@
               "type": "CHOICE",
               "members": [
                 {
-                  "type": "ALIAS",
-                  "content": {
-                    "type": "PATTERN",
-                    "value": "[^\\n\\r:：]+[:\\uff1a]"
-                  },
-                  "named": true,
-                  "value": "change"
+                  "type": "SYMBOL",
+                  "name": "change"
                 },
                 {
                   "type": "BLANK"
@@ -806,6 +801,339 @@
               "value": "[^\\n\\r]+"
             }
           }
+        }
+      ]
+    },
+    "change": {
+      "type": "FIELD",
+      "name": "kind",
+      "content": {
+        "type": "CHOICE",
+        "members": [
+          {
+            "type": "SYMBOL",
+            "name": "new"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "modified"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "renamed"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "deleted"
+          }
+        ]
+      }
+    },
+    "new": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "new file:"
+        },
+        {
+          "type": "STRING",
+          "value": "nouveau fichier :"
+        },
+        {
+          "type": "STRING",
+          "value": "нов файл:"
+        },
+        {
+          "type": "STRING",
+          "value": "fitxer nou:"
+        },
+        {
+          "type": "STRING",
+          "value": "neue Datei:"
+        },
+        {
+          "type": "STRING",
+          "value": "νέο αρχείο:"
+        },
+        {
+          "type": "STRING",
+          "value": "nuevos archivos:"
+        },
+        {
+          "type": "STRING",
+          "value": "berkas baru:"
+        },
+        {
+          "type": "STRING",
+          "value": "nuovo file:"
+        },
+        {
+          "type": "STRING",
+          "value": "새 파일:"
+        },
+        {
+          "type": "STRING",
+          "value": "nowy plik:"
+        },
+        {
+          "type": "STRING",
+          "value": "novo ficheiro:"
+        },
+        {
+          "type": "STRING",
+          "value": "новый файл:"
+        },
+        {
+          "type": "STRING",
+          "value": "ny fil:"
+        },
+        {
+          "type": "STRING",
+          "value": "yeni dosya:"
+        },
+        {
+          "type": "STRING",
+          "value": "tập tin mới:"
+        },
+        {
+          "type": "STRING",
+          "value": "新文件："
+        },
+        {
+          "type": "STRING",
+          "value": "新檔案："
+        }
+      ]
+    },
+    "deleted": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "deleted:"
+        },
+        {
+          "type": "STRING",
+          "value": "supprimé :"
+        },
+        {
+          "type": "STRING",
+          "value": "изтрит:"
+        },
+        {
+          "type": "STRING",
+          "value": "suprimit:"
+        },
+        {
+          "type": "STRING",
+          "value": "gelöscht:"
+        },
+        {
+          "type": "STRING",
+          "value": "διαγραφή:"
+        },
+        {
+          "type": "STRING",
+          "value": "borrados:"
+        },
+        {
+          "type": "STRING",
+          "value": "terhapus:"
+        },
+        {
+          "type": "STRING",
+          "value": "eliminato:"
+        },
+        {
+          "type": "STRING",
+          "value": "삭제함:"
+        },
+        {
+          "type": "STRING",
+          "value": "usunięto:"
+        },
+        {
+          "type": "STRING",
+          "value": "eliminado:"
+        },
+        {
+          "type": "STRING",
+          "value": "удалено:"
+        },
+        {
+          "type": "STRING",
+          "value": "borttagen:"
+        },
+        {
+          "type": "STRING",
+          "value": "silindi:"
+        },
+        {
+          "type": "STRING",
+          "value": "đã xóa:"
+        },
+        {
+          "type": "STRING",
+          "value": "删除："
+        },
+        {
+          "type": "STRING",
+          "value": "刪除："
+        }
+      ]
+    },
+    "modified": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "modified:"
+        },
+        {
+          "type": "STRING",
+          "value": "modifié :"
+        },
+        {
+          "type": "STRING",
+          "value": "променен:"
+        },
+        {
+          "type": "STRING",
+          "value": "modificat:"
+        },
+        {
+          "type": "STRING",
+          "value": "geändert:"
+        },
+        {
+          "type": "STRING",
+          "value": "τροποποίηση:"
+        },
+        {
+          "type": "STRING",
+          "value": "modificados:"
+        },
+        {
+          "type": "STRING",
+          "value": "terubah:"
+        },
+        {
+          "type": "STRING",
+          "value": "modificato:"
+        },
+        {
+          "type": "STRING",
+          "value": "수정함:"
+        },
+        {
+          "type": "STRING",
+          "value": "zmieniono:"
+        },
+        {
+          "type": "STRING",
+          "value": "modificado:"
+        },
+        {
+          "type": "STRING",
+          "value": "изменено:"
+        },
+        {
+          "type": "STRING",
+          "value": "ändrad:"
+        },
+        {
+          "type": "STRING",
+          "value": "değiştirildi:"
+        },
+        {
+          "type": "STRING",
+          "value": "đã sửa:"
+        },
+        {
+          "type": "STRING",
+          "value": "修改："
+        },
+        {
+          "type": "STRING",
+          "value": "修改："
+        }
+      ]
+    },
+    "renamed": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "renamed:"
+        },
+        {
+          "type": "STRING",
+          "value": "renommé :"
+        },
+        {
+          "type": "STRING",
+          "value": "преименуван:"
+        },
+        {
+          "type": "STRING",
+          "value": "canviat de nom:"
+        },
+        {
+          "type": "STRING",
+          "value": "umbenannt:"
+        },
+        {
+          "type": "STRING",
+          "value": "μετονομασία:"
+        },
+        {
+          "type": "STRING",
+          "value": "renombrados:"
+        },
+        {
+          "type": "STRING",
+          "value": "terganti nama:"
+        },
+        {
+          "type": "STRING",
+          "value": "rinominato:"
+        },
+        {
+          "type": "STRING",
+          "value": "이름 바꿈:"
+        },
+        {
+          "type": "STRING",
+          "value": "zmieniono nazwę:"
+        },
+        {
+          "type": "STRING",
+          "value": "renomeado:"
+        },
+        {
+          "type": "STRING",
+          "value": "переименовано:"
+        },
+        {
+          "type": "STRING",
+          "value": "namnbytt:"
+        },
+        {
+          "type": "STRING",
+          "value": "yeniden adlandırıldı:"
+        },
+        {
+          "type": "STRING",
+          "value": "đã đổi tên:"
+        },
+        {
+          "type": "STRING",
+          "value": "重命名："
+        },
+        {
+          "type": "STRING",
+          "value": "重新命名："
         }
       ]
     },

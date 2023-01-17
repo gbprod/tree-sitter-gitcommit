@@ -168,12 +168,96 @@ module.exports = grammar({
 
     _change: ($) =>
       choice(
-        seq(
-          optional(alias(CHANGE, $.change)),
-          optional(WHITESPACE),
-          $._filepath
-        ),
+        seq(optional($.change), optional(WHITESPACE), $._filepath),
         token(prec(-1, ANYTHING))
+      ),
+
+    change: ($) =>
+      field('kind', choice($.new, $.modified, $.renamed, $.deleted)),
+
+    new: () =>
+      choice(
+        'new file:',
+        'nouveau fichier :',
+        'нов файл:',
+        'fitxer nou:',
+        'neue Datei:',
+        'νέο αρχείο:',
+        'nuevos archivos:',
+        'berkas baru:',
+        'nuovo file:',
+        '새 파일:',
+        'nowy plik:',
+        'novo ficheiro:',
+        'новый файл:',
+        'ny fil:',
+        'yeni dosya:',
+        'tập tin mới:',
+        '新文件：',
+        '新檔案：'
+      ),
+    deleted: () =>
+      choice(
+        'deleted:',
+        'supprimé :',
+        'изтрит:',
+        'suprimit:',
+        'gelöscht:',
+        'διαγραφή:',
+        'borrados:',
+        'terhapus:',
+        'eliminato:',
+        '삭제함:',
+        'usunięto:',
+        'eliminado:',
+        'удалено:',
+        'borttagen:',
+        'silindi:',
+        'đã xóa:',
+        '删除：',
+        '刪除：'
+      ),
+    modified: () =>
+      choice(
+        'modified:',
+        'modifié :',
+        'променен:',
+        'modificat:',
+        'geändert:',
+        'τροποποίηση:',
+        'modificados:',
+        'terubah:',
+        'modificato:',
+        '수정함:',
+        'zmieniono:',
+        'modificado:',
+        'изменено:',
+        'ändrad:',
+        'değiştirildi:',
+        'đã sửa:',
+        '修改：',
+        '修改：'
+      ),
+    renamed: () =>
+      choice(
+        'renamed:',
+        'renommé :',
+        'преименуван:',
+        'canviat de nom:',
+        'umbenannt:',
+        'μετονομασία:',
+        'renombrados:',
+        'terganti nama:',
+        'rinominato:',
+        '이름 바꿈:',
+        'zmieniono nazwę:',
+        'renomeado:',
+        'переименовано:',
+        'namnbytt:',
+        'yeniden adlandırıldı:',
+        'đã đổi tên:',
+        '重命名：',
+        '重新命名：'
       ),
 
     _filepath: ($) =>
