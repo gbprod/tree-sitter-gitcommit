@@ -7,7 +7,6 @@ const BRANCH_NAME = /[^\s'”»"“]+/;
 const COMMIT = /[0-9a-f]{7,40}/;
 const FILEPATH = /\S+/;
 const WHITESPACE = /[\f\v ]+/;
-const CHANGE = /[^\n\r:：]+[:\uff1a]/;
 const SCOPE = /[a-zA-Z_-]+/;
 const COMMENT = /[^\n\r]*\r?\n/;
 const COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a]\s*\r?\n/;
@@ -19,7 +18,7 @@ module.exports = grammar({
   name: 'gitcommit',
   extras: () => [],
 
-  externals: ($) => [$._conventional_type],
+  externals: ($) => [$._conventional_type, $._conventional_subject],
 
   rules: {
     source: ($) =>
@@ -33,8 +32,11 @@ module.exports = grammar({
 
     subject: ($) =>
       seq(
-        choice(NOT_A_COMMENT, $.prefix),
-        optional(seq(SUBJECT, optional(alias(ANYTHING, $.overflow))))
+        choice(
+          seq(NOT_A_COMMENT, SUBJECT),
+          seq($.prefix, $._conventional_subject)
+        ),
+        optional(alias(ANYTHING, $.overflow))
       ),
 
     prefix: ($) =>

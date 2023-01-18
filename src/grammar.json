@@ -106,12 +106,30 @@
           "type": "CHOICE",
           "members": [
             {
-              "type": "PATTERN",
-              "value": "[^#]"
+              "type": "SEQ",
+              "members": [
+                {
+                  "type": "PATTERN",
+                  "value": "[^#]"
+                },
+                {
+                  "type": "PATTERN",
+                  "value": "[^\\n\\r]{1,49}"
+                }
+              ]
             },
             {
-              "type": "SYMBOL",
-              "name": "prefix"
+              "type": "SEQ",
+              "members": [
+                {
+                  "type": "SYMBOL",
+                  "name": "prefix"
+                },
+                {
+                  "type": "SYMBOL",
+                  "name": "_conventional_subject"
+                }
+              ]
             }
           ]
         },
@@ -119,30 +137,13 @@
           "type": "CHOICE",
           "members": [
             {
-              "type": "SEQ",
-              "members": [
-                {
-                  "type": "PATTERN",
-                  "value": "[^\\n\\r]{1,49}"
-                },
-                {
-                  "type": "CHOICE",
-                  "members": [
-                    {
-                      "type": "ALIAS",
-                      "content": {
-                        "type": "PATTERN",
-                        "value": "[^\\n\\r]+"
-                      },
-                      "named": true,
-                      "value": "overflow"
-                    },
-                    {
-                      "type": "BLANK"
-                    }
-                  ]
-                }
-              ]
+              "type": "ALIAS",
+              "content": {
+                "type": "PATTERN",
+                "value": "[^\\n\\r]+"
+              },
+              "named": true,
+              "value": "overflow"
             },
             {
               "type": "BLANK"
@@ -4184,6 +4185,10 @@
     {
       "type": "SYMBOL",
       "name": "_conventional_type"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "_conventional_subject"
     }
   ],
   "inline": [],
