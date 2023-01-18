@@ -1,7 +1,7 @@
 #include <tree_sitter/parser.h>
 #include <wctype.h>
 
-enum TokenType { CONVENTIONNAL_PREFIX };
+enum TokenType { CONVENTIONNAL_PREFIX, CONVENTIONNAL_SUBJECT };
 
 void *tree_sitter_gitcommit_external_scanner_create() { return NULL; }
 
@@ -54,6 +54,17 @@ bool tree_sitter_gitcommit_external_scanner_scan(void *payload, TSLexer *lexer,
     }
 
     return lexer->lookahead == ':' || lexer->lookahead == 0xff1a;
+  }
+
+  if (valid_symbols[CONVENTIONNAL_SUBJECT]) {
+    lexer->result_symbol = CONVENTIONNAL_SUBJECT;
+
+    while (lexer->lookahead != '\n' && lexer->lookahead != '\r' &&
+           50 > lexer->get_column(lexer)) {
+      lexer->advance(lexer, false);
+    }
+
+    return true;
   }
 
   return false;
