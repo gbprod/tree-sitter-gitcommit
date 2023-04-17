@@ -35,7 +35,7 @@ The currently supported locales are listed below:
 
 ## Note about injected languages
 
-This parser _only_ parse git commit subject, message and generated comments, it doesn't handle diff and git rebase informations that could be included.
+This parser _only_ parses git commit subject, message and generated comments, it doesn't handle diff and git rebase information that could be included.
 To handle that, you must have `diff` and `git_rebase` tree-sitter grammars installed and add injection queries.
 
 If you're using Neovim and [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter), you just have to be sure that `diff` and `git_rebase` are installed (using `TSInstall diff git_rebase` for example).
