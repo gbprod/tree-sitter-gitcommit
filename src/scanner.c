@@ -59,8 +59,13 @@ bool tree_sitter_gitcommit_external_scanner_scan(void *payload, TSLexer *lexer,
   if (valid_symbols[CONVENTIONNAL_SUBJECT]) {
     lexer->result_symbol = CONVENTIONNAL_SUBJECT;
 
+    if (lexer->lookahead == '\n' || lexer->lookahead == '\r' ||
+        lexer->lookahead == '\0') {
+      return false;
+    }
+
     while (lexer->lookahead != '\n' && lexer->lookahead != '\r' &&
-           50 > lexer->get_column(lexer)) {
+           lexer->lookahead != '\0' && 50 > lexer->get_column(lexer)) {
       lexer->advance(lexer, false);
     }
 
