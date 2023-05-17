@@ -13,6 +13,7 @@ const COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a]\s*\r?\n/;
 const TRAILER_TOKEN = /[a-zA-Z-]+[ ]*[:\uff1a] /;
 const GENERATED_COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a][ ]*/;
 const NUMBER = /\d+/;
+const BREAKING_CHANGE = /BREAKING[- ]CHANGE/;
 
 module.exports = grammar({
   name: 'gitcommit',
@@ -56,7 +57,12 @@ module.exports = grammar({
       seq(alias(TRAILER_TOKEN, $.token), alias(ANYTHING, $.value)),
 
     breaking_change: ($) =>
-      seq(alias('BREAKING CHANGE', $.token), alias(ANYTHING, $.value)),
+      seq(
+        // BREAKING_CHANGE conflicts with TRAILER_TOKEN, an so requires higher
+        // lexical precedence
+        alias(token(prec(1, BREAKING_CHANGE)), $.token),
+        alias(ANYTHING, $.value)
+      ),
 
     comment: ($) =>
       seq(
