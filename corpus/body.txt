@@ -163,11 +163,14 @@ BREAKING CHANGE
 test
 
 BREAKING CHANGE: My message
-
+BREAKING-CHANGE: also valid
 --------------------------------------------------------------------------------
 
 (source
   (message
+    (breaking_change
+      (token)
+      (value))
     (breaking_change
       (token)
       (value))))

@@ -287,8 +287,15 @@
         {
           "type": "ALIAS",
           "content": {
-            "type": "STRING",
-            "value": "BREAKING CHANGE"
+            "type": "TOKEN",
+            "content": {
+              "type": "PREC",
+              "value": 1,
+              "content": {
+                "type": "PATTERN",
+                "value": "BREAKING[- ]CHANGE"
+              }
+            }
           },
           "named": true,
           "value": "token"
