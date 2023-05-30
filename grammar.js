@@ -25,7 +25,18 @@ module.exports = grammar({
     source: ($) =>
       seq(
         repeat($.comment),
-        optional(seq(seq($.subject, NEWLINE), repeat($.comment))),
+        optional(
+          seq(
+            optional(
+              token.immediate(
+                seq(alias(choice('fixup!', 'amend!'), $.action)),
+                ' '
+              )
+            ),
+            seq($.subject, NEWLINE),
+            repeat($.comment)
+          )
+        ),
         optional(seq(NEWLINE, alias(repeat($._body_line), $.message))),
         optional($._generated_comments),
         optional($._scissor)
