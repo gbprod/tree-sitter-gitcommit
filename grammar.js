@@ -33,6 +33,9 @@ module.exports = grammar({
 
     subject: ($) =>
       seq(
+        optional(
+          seq(alias(choice('fixup!', 'amend!'), $.subject_prefix), WHITESPACE)
+        ),
         choice(
           seq(NOT_A_COMMENT, SUBJECT),
           seq($.prefix, $._conventional_subject)

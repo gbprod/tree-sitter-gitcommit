@@ -249,6 +249,10 @@
         {
           "type": "prefix",
           "named": true
+        },
+        {
+          "type": "subject_prefix",
+          "named": true
         }
       ]
     }
@@ -1059,6 +1063,10 @@
   {
     "type": "squash",
     "named": false
+  },
+  {
+    "type": "subject_prefix",
+    "named": true
   },
   {
     "type": "supprimé :",
