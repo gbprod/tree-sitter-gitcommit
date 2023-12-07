@@ -29,5 +29,6 @@
 (breaking_change (value) @text)
 
 (scissor) @comment
+(subject_prefix) @keyword
 
 (ERROR) @error

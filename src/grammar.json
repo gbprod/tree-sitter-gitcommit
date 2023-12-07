@@ -109,6 +109,41 @@
               "type": "SEQ",
               "members": [
                 {
+                  "type": "ALIAS",
+                  "content": {
+                    "type": "CHOICE",
+                    "members": [
+                      {
+                        "type": "STRING",
+                        "value": "fixup!"
+                      },
+                      {
+                        "type": "STRING",
+                        "value": "amend!"
+                      }
+                    ]
+                  },
+                  "named": true,
+                  "value": "subject_prefix"
+                },
+                {
+                  "type": "PATTERN",
+                  "value": "[\\f\\v ]+"
+                }
+              ]
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "SEQ",
+              "members": [
+                {
                   "type": "PATTERN",
                   "value": "[^#]"
                 },
