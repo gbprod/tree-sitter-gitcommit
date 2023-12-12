@@ -11,6 +11,7 @@ const SCOPE = /[a-zA-Z0-9_-]+/;
 const COMMENT = /[^\n\r]*\r?\n/;
 const COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a]\s*\r?\n/;
 const TRAILER_TOKEN = /[a-zA-Z-]+[ ]*[:\uff1a] /;
+const TRAILER_VALUE = /[^\n\r]+(\r?\n [^\n\r]+)*/;
 const GENERATED_COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a][ ]*/;
 const NUMBER = /\d+/;
 const BREAKING_CHANGE = /BREAKING[- ]CHANGE/;
@@ -57,7 +58,7 @@ module.exports = grammar({
     _message: () => seq(NOT_A_COMMENT, optional(ANYTHING)),
 
     trailer: ($) =>
-      seq(alias(TRAILER_TOKEN, $.token), alias(ANYTHING, $.value)),
+      seq(alias(TRAILER_TOKEN, $.token), alias(TRAILER_VALUE, $.value)),
 
     breaking_change: ($) =>
       seq(
