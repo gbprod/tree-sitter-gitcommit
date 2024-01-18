@@ -309,7 +309,7 @@
           "type": "ALIAS",
           "content": {
             "type": "PATTERN",
-            "value": "[^\\n\\r]+"
+            "value": "[^\\n\\r]+(\\r?\\n [^\\n\\r]+)*"
           },
           "named": true,
           "value": "value"
