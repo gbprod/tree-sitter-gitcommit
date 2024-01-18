@@ -171,6 +171,21 @@
     "fields": {}
   },
   {
+    "type": "overflow",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "warning",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "prefix",
     "named": true,
     "fields": {},
@@ -989,10 +1004,6 @@
     "named": false
   },
   {
-    "type": "overflow",
-    "named": true
-  },
-  {
     "type": "pick",
     "named": false
   },
@@ -1122,6 +1133,10 @@
   },
   {
     "type": "value",
+    "named": true
+  },
+  {
+    "type": "warning",
     "named": true
   },
   {

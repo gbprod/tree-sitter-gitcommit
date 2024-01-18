@@ -1,6 +1,7 @@
 const NEWLINE = /\r?\n/;
 const ANYTHING = /[^\n\r]+/;
 const SUBJECT = /[^\n\r]{1,49}/;
+const OVERFLOW = /[^\n\r]{1,22}/;
 const NOT_A_COMMENT = /[^#]/;
 const SCISSORS = /# -+ >8 -+\r?\n/;
 const BRANCH_NAME = /[^\s'”»"“]+/;
@@ -41,8 +42,10 @@ module.exports = grammar({
           seq(NOT_A_COMMENT, SUBJECT),
           seq($.prefix, $._conventional_subject)
         ),
-        optional(alias(ANYTHING, $.overflow))
+        optional($.overflow)
       ),
+
+    overflow: ($) => seq(OVERFLOW, optional(alias(ANYTHING, $.warning))),
 
     prefix: ($) =>
       seq(

@@ -9,6 +9,7 @@
 
 (subject) @text.title
 (subject (overflow) @text)
+(subject (overflow (warning) @text.warning))
 (prefix (type) @keyword)
 (prefix (scope) @parameter)
 (prefix [
@@ -31,4 +32,3 @@
 (scissor) @comment
 (subject_prefix) @keyword
 
-(ERROR) @error
