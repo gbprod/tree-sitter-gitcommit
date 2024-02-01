@@ -29,5 +29,12 @@
   },
   "devDependencies": {
     "tree-sitter-cli": "^0.20.7"
-  }
+  },
+  "tree-sitter": [
+    {
+      "file-types": [
+        "COMMIT_EDITMSG"
+      ]
+    }
+  ]
 }
