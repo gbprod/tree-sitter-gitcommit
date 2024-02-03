@@ -13,7 +13,14 @@
       ],
       "cflags_c": [
         "-std=c99",
-      ]
+      ],
+      "msvs_settings": {
+        "VCCLCompilerTool": {
+          "AdditionalOptions": [
+            '-utf-8'
+          ],
+        },
+      }
     }
   ]
 }
