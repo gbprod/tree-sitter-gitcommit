@@ -191,3 +191,19 @@ BREAKING-CHANGE: also valid
     (breaking_change
       (token)
       (value))))
+
+================================================================================
+Overflowed summary
+================================================================================
+This is a simple subject
+
+This is a simple body 
+This is a simple body with so muche characters that it will overflow the summary limit
+This is a simple body 
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (message
+    (overflow)))
+
