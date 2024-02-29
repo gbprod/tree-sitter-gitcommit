@@ -172,34 +172,13 @@
           "type": "CHOICE",
           "members": [
             {
-              "type": "SYMBOL",
-              "name": "overflow"
-            },
-            {
-              "type": "BLANK"
-            }
-          ]
-        }
-      ]
-    },
-    "overflow": {
-      "type": "SEQ",
-      "members": [
-        {
-          "type": "PATTERN",
-          "value": "[^\\n\\r]{1,22}"
-        },
-        {
-          "type": "CHOICE",
-          "members": [
-            {
               "type": "ALIAS",
               "content": {
                 "type": "PATTERN",
                 "value": "[^\\n\\r]+"
               },
               "named": true,
-              "value": "warning"
+              "value": "overflow"
             },
             {
               "type": "BLANK"
