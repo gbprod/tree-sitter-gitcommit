@@ -2,6 +2,7 @@ const NEWLINE = /\r?\n/;
 const ANYTHING = /[^\n\r]+/;
 const SUBJECT = /[^\n\r]{1,49}/;
 const NOT_A_COMMENT = /[^#]/;
+const SUMMARY = /[^\n\r]{1,72}/;
 const SCISSORS = /# -+ >8 -+\r?\n/;
 const BRANCH_NAME = /[^\s'”»"“]+/;
 const COMMIT = /[0-9a-f]{7,40}/;
@@ -55,7 +56,8 @@ module.exports = grammar({
     _body_line: ($) =>
       choice($._message, $.breaking_change, $.trailer, $.comment, NEWLINE),
 
-    _message: () => seq(NOT_A_COMMENT, optional(ANYTHING)),
+    _message: ($) =>
+      seq(seq(NOT_A_COMMENT, SUMMARY), optional(alias(ANYTHING, $.overflow))),
 
     trailer: ($) =>
       seq(alias(TRAILER_TOKEN, $.token), alias(TRAILER_VALUE, $.value)),

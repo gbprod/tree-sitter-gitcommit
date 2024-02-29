@@ -276,15 +276,29 @@
       "type": "SEQ",
       "members": [
         {
-          "type": "PATTERN",
-          "value": "[^#]"
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "PATTERN",
+              "value": "[^#]"
+            },
+            {
+              "type": "PATTERN",
+              "value": "[^\\n\\r]{1,72}"
+            }
+          ]
         },
         {
           "type": "CHOICE",
           "members": [
             {
-              "type": "PATTERN",
-              "value": "[^\\n\\r]+"
+              "type": "ALIAS",
+              "content": {
+                "type": "PATTERN",
+                "value": "[^\\n\\r]+"
+              },
+              "named": true,
+              "value": "overflow"
             },
             {
               "type": "BLANK"
