@@ -65,13 +65,25 @@ Empty file w/ empty comment
 ================================================================================
 Subject overflow
 ================================================================================
-this is a simple subject with an awesome overflow because it's longer than 50 characters
+this is a subject with an overflow, it's longer than 50 characters
 
 --------------------------------------------------------------------------------
 
 (source
   (subject
     (overflow)))
+
+================================================================================
+Subject overflow and warning
+================================================================================
+this is a simple subject with an awesome overflow because it's longer than 72 characters
+
+--------------------------------------------------------------------------------
+
+(source
+  (subject
+    (overflow
+      (warning))))
 
 ================================================================================
 Not a comment
@@ -92,8 +104,8 @@ This should not exists
 --------------------------------------------------------------------------------
 
 (source
-    (subject)
-    (ERROR))
+  (subject)
+  (ERROR))
 
 ================================================================================
 Subject with type and scope
@@ -157,7 +169,7 @@ feat(issue42): allow numbers in scope
 
 (source
   (subject))
-  
+
 ================================================================================
 Parse fixup!
 ================================================================================

@@ -1,7 +1,10 @@
 #include <tree_sitter/parser.h>
 #include <wctype.h>
 
-enum TokenType { CONVENTIONNAL_PREFIX, CONVENTIONNAL_SUBJECT };
+enum TokenType {
+  CONVENTIONNAL_PREFIX,
+  CONVENTIONNAL_SUBJECT,
+};
 
 void *tree_sitter_gitcommit_external_scanner_create() { return NULL; }
 
