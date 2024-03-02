@@ -50,7 +50,7 @@ module.exports = grammar({
         alias($._conventional_type, $.type),
         optional(seq('(', alias(SCOPE, $.scope), ')')),
         optional('!'),
-        ':'
+        alias(/[:\uff1a]/, ':')
       ),
 
     _body_line: ($) =>

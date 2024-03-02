@@ -242,7 +242,12 @@
           ]
         },
         {
-          "type": "STRING",
+          "type": "ALIAS",
+          "content": {
+            "type": "PATTERN",
+            "value": "[:\\uff1a]"
+          },
+          "named": false,
           "value": ":"
         }
       ]
