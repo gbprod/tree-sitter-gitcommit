@@ -36,7 +36,7 @@ enum {
   aux_sym_prefix_token1 = 9,
   anon_sym_RPAREN = 10,
   anon_sym_BANG = 11,
-  anon_sym_COLON = 12,
+  aux_sym_prefix_token2 = 12,
   aux_sym__message_token1 = 13,
   aux_sym_trailer_token1 = 14,
   aux_sym_trailer_token2 = 15,
@@ -52,7 +52,7 @@ enum {
   aux_sym_generated_comment_token5 = 25,
   anon_sym_Onbranch = 26,
   anon_sym_Surlabranche = 27,
-  anon_sym_COLON2 = 28,
+  anon_sym_COLON = 28,
   anon_sym_Pgrenen = 29,
   anon_sym_zerindebulunulandal_COLON = 30,
   anon_sym_Trnnhnh = 31,
@@ -101,17 +101,17 @@ enum {
   aux_sym__change_token1 = 74,
   anon_sym_newfile_COLON = 75,
   anon_sym_nouveaufichier_COLON = 76,
-  anon_sym_COLON3 = 77,
+  anon_sym_COLON2 = 77,
   anon_sym_fitxernou_COLON = 78,
   anon_sym_neueDatei_COLON = 79,
-  anon_sym_COLON4 = 80,
+  anon_sym_COLON3 = 80,
   anon_sym_nuevosarchivos_COLON = 81,
   anon_sym_berkasbaru_COLON = 82,
   anon_sym_nuovofile_COLON = 83,
-  anon_sym_COLON5 = 84,
+  anon_sym_COLON4 = 84,
   anon_sym_nowyplik_COLON = 85,
   anon_sym_novoficheiro_COLON = 86,
-  anon_sym_COLON6 = 87,
+  anon_sym_COLON5 = 87,
   anon_sym_nyfil_COLON = 88,
   anon_sym_yenidosya_COLON = 89,
   anon_sym_tptinmi_COLON = 90,
@@ -119,17 +119,17 @@ enum {
   anon_sym_6 = 92,
   anon_sym_deleted_COLON = 93,
   anon_sym_supprim_COLON = 94,
-  anon_sym_COLON7 = 95,
+  anon_sym_COLON6 = 95,
   anon_sym_suprimit_COLON = 96,
   anon_sym_gelscht_COLON = 97,
-  anon_sym_COLON8 = 98,
+  anon_sym_COLON7 = 98,
   anon_sym_borrados_COLON = 99,
   anon_sym_terhapus_COLON = 100,
   anon_sym_eliminato_COLON = 101,
-  anon_sym_COLON9 = 102,
+  anon_sym_COLON8 = 102,
   anon_sym_usunito_COLON = 103,
   anon_sym_eliminado_COLON = 104,
-  anon_sym_COLON10 = 105,
+  anon_sym_COLON9 = 105,
   anon_sym_borttagen_COLON = 106,
   anon_sym_silindi_COLON = 107,
   anon_sym_xa_COLON = 108,
@@ -137,34 +137,34 @@ enum {
   anon_sym_8 = 110,
   anon_sym_modified_COLON = 111,
   anon_sym_modifi_COLON = 112,
-  anon_sym_COLON11 = 113,
+  anon_sym_COLON10 = 113,
   anon_sym_modificat_COLON = 114,
   anon_sym_gendert_COLON = 115,
-  anon_sym_COLON12 = 116,
+  anon_sym_COLON11 = 116,
   anon_sym_modificados_COLON = 117,
   anon_sym_terubah_COLON = 118,
   anon_sym_modificato_COLON = 119,
-  anon_sym_COLON13 = 120,
+  anon_sym_COLON12 = 120,
   anon_sym_zmieniono_COLON = 121,
   anon_sym_modificado_COLON = 122,
-  anon_sym_COLON14 = 123,
+  anon_sym_COLON13 = 123,
   anon_sym_ndrad_COLON = 124,
   anon_sym_deitirildi_COLON = 125,
   anon_sym_sa_COLON = 126,
   anon_sym_9 = 127,
   anon_sym_renamed_COLON = 128,
   anon_sym_renomm_COLON = 129,
-  anon_sym_COLON15 = 130,
+  anon_sym_COLON14 = 130,
   anon_sym_canviatdenom_COLON = 131,
   anon_sym_umbenannt_COLON = 132,
-  anon_sym_COLON16 = 133,
+  anon_sym_COLON15 = 133,
   anon_sym_renombrados_COLON = 134,
   anon_sym_tergantinama_COLON = 135,
   anon_sym_rinominato_COLON = 136,
-  anon_sym_COLON17 = 137,
+  anon_sym_COLON16 = 137,
   anon_sym_zmieniononazw_COLON = 138,
   anon_sym_renomeado_COLON = 139,
-  anon_sym_COLON18 = 140,
+  anon_sym_COLON17 = 140,
   anon_sym_namnbytt_COLON = 141,
   anon_sym_yenidenadlandrld_COLON = 142,
   anon_sym_itn_COLON = 143,
@@ -444,7 +444,7 @@ static const char * const ts_symbol_names[] = {
   [aux_sym_prefix_token1] = "scope",
   [anon_sym_RPAREN] = ")",
   [anon_sym_BANG] = "!",
-  [anon_sym_COLON] = ":",
+  [aux_sym_prefix_token2] = ":",
   [aux_sym__message_token1] = "_message_token1",
   [aux_sym_trailer_token1] = "token",
   [aux_sym_trailer_token2] = "value",
@@ -460,7 +460,7 @@ static const char * const ts_symbol_names[] = {
   [aux_sym_generated_comment_token5] = "generated_comment_token5",
   [anon_sym_Onbranch] = "text",
   [anon_sym_Surlabranche] = "text",
-  [anon_sym_COLON2] = "text",
+  [anon_sym_COLON] = "text",
   [anon_sym_Pgrenen] = "text",
   [anon_sym_zerindebulunulandal_COLON] = "text",
   [anon_sym_Trnnhnh] = "text",
@@ -509,17 +509,17 @@ static const char * const ts_symbol_names[] = {
   [aux_sym__change_token1] = "_change_token1",
   [anon_sym_newfile_COLON] = "new file:",
   [anon_sym_nouveaufichier_COLON] = "nouveau fichier :",
-  [anon_sym_COLON3] = "нов файл:",
+  [anon_sym_COLON2] = "нов файл:",
   [anon_sym_fitxernou_COLON] = "fitxer nou:",
   [anon_sym_neueDatei_COLON] = "neue Datei:",
-  [anon_sym_COLON4] = "νέο αρχείο:",
+  [anon_sym_COLON3] = "νέο αρχείο:",
   [anon_sym_nuevosarchivos_COLON] = "nuevos archivos:",
   [anon_sym_berkasbaru_COLON] = "berkas baru:",
   [anon_sym_nuovofile_COLON] = "nuovo file:",
-  [anon_sym_COLON5] = "새 파일:",
+  [anon_sym_COLON4] = "새 파일:",
   [anon_sym_nowyplik_COLON] = "nowy plik:",
   [anon_sym_novoficheiro_COLON] = "novo ficheiro:",
-  [anon_sym_COLON6] = "новый файл:",
+  [anon_sym_COLON5] = "новый файл:",
   [anon_sym_nyfil_COLON] = "ny fil:",
   [anon_sym_yenidosya_COLON] = "yeni dosya:",
   [anon_sym_tptinmi_COLON] = "tập tin mới:",
@@ -527,17 +527,17 @@ static const char * const ts_symbol_names[] = {
   [anon_sym_6] = "新檔案：",
   [anon_sym_deleted_COLON] = "deleted:",
   [anon_sym_supprim_COLON] = "supprimé :",
-  [anon_sym_COLON7] = "изтрит:",
+  [anon_sym_COLON6] = "изтрит:",
   [anon_sym_suprimit_COLON] = "suprimit:",
   [anon_sym_gelscht_COLON] = "gelöscht:",
-  [anon_sym_COLON8] = "διαγραφή:",
+  [anon_sym_COLON7] = "διαγραφή:",
   [anon_sym_borrados_COLON] = "borrados:",
   [anon_sym_terhapus_COLON] = "terhapus:",
   [anon_sym_eliminato_COLON] = "eliminato:",
-  [anon_sym_COLON9] = "삭제함:",
+  [anon_sym_COLON8] = "삭제함:",
   [anon_sym_usunito_COLON] = "usunięto:",
   [anon_sym_eliminado_COLON] = "eliminado:",
-  [anon_sym_COLON10] = "удалено:",
+  [anon_sym_COLON9] = "удалено:",
   [anon_sym_borttagen_COLON] = "borttagen:",
   [anon_sym_silindi_COLON] = "silindi:",
   [anon_sym_xa_COLON] = "đã xóa:",
@@ -545,34 +545,34 @@ static const char * const ts_symbol_names[] = {
   [anon_sym_8] = "刪除：",
   [anon_sym_modified_COLON] = "modified:",
   [anon_sym_modifi_COLON] = "modifié :",
-  [anon_sym_COLON11] = "променен:",
+  [anon_sym_COLON10] = "променен:",
   [anon_sym_modificat_COLON] = "modificat:",
   [anon_sym_gendert_COLON] = "geändert:",
-  [anon_sym_COLON12] = "τροποποίηση:",
+  [anon_sym_COLON11] = "τροποποίηση:",
   [anon_sym_modificados_COLON] = "modificados:",
   [anon_sym_terubah_COLON] = "terubah:",
   [anon_sym_modificato_COLON] = "modificato:",
-  [anon_sym_COLON13] = "수정함:",
+  [anon_sym_COLON12] = "수정함:",
   [anon_sym_zmieniono_COLON] = "zmieniono:",
   [anon_sym_modificado_COLON] = "modificado:",
-  [anon_sym_COLON14] = "изменено:",
+  [anon_sym_COLON13] = "изменено:",
   [anon_sym_ndrad_COLON] = "ändrad:",
   [anon_sym_deitirildi_COLON] = "değiştirildi:",
   [anon_sym_sa_COLON] = "đã sửa:",
   [anon_sym_9] = "修改：",
   [anon_sym_renamed_COLON] = "renamed:",
   [anon_sym_renomm_COLON] = "renommé :",
-  [anon_sym_COLON15] = "преименуван:",
+  [anon_sym_COLON14] = "преименуван:",
   [anon_sym_canviatdenom_COLON] = "canviat de nom:",
   [anon_sym_umbenannt_COLON] = "umbenannt:",
-  [anon_sym_COLON16] = "μετονομασία:",
+  [anon_sym_COLON15] = "μετονομασία:",
   [anon_sym_renombrados_COLON] = "renombrados:",
   [anon_sym_tergantinama_COLON] = "terganti nama:",
   [anon_sym_rinominato_COLON] = "rinominato:",
-  [anon_sym_COLON17] = "이름 바꿈:",
+  [anon_sym_COLON16] = "이름 바꿈:",
   [anon_sym_zmieniononazw_COLON] = "zmieniono nazwę:",
   [anon_sym_renomeado_COLON] = "renomeado:",
-  [anon_sym_COLON18] = "переименовано:",
+  [anon_sym_COLON17] = "переименовано:",
   [anon_sym_namnbytt_COLON] = "namnbytt:",
   [anon_sym_yenidenadlandrld_COLON] = "yeniden adlandırıldı:",
   [anon_sym_itn_COLON] = "đã đổi tên:",
@@ -852,7 +852,7 @@ static const TSSymbol ts_symbol_map[] = {
   [aux_sym_prefix_token1] = aux_sym_prefix_token1,
   [anon_sym_RPAREN] = anon_sym_RPAREN,
   [anon_sym_BANG] = anon_sym_BANG,
-  [anon_sym_COLON] = anon_sym_COLON,
+  [aux_sym_prefix_token2] = aux_sym_prefix_token2,
   [aux_sym__message_token1] = aux_sym__message_token1,
   [aux_sym_trailer_token1] = aux_sym_trailer_token1,
   [aux_sym_trailer_token2] = aux_sym_trailer_token2,
@@ -868,7 +868,7 @@ static const TSSymbol ts_symbol_map[] = {
   [aux_sym_generated_comment_token5] = aux_sym_generated_comment_token5,
   [anon_sym_Onbranch] = anon_sym_Onbranch,
   [anon_sym_Surlabranche] = anon_sym_Onbranch,
-  [anon_sym_COLON2] = anon_sym_Onbranch,
+  [anon_sym_COLON] = anon_sym_Onbranch,
   [anon_sym_Pgrenen] = anon_sym_Onbranch,
   [anon_sym_zerindebulunulandal_COLON] = anon_sym_Onbranch,
   [anon_sym_Trnnhnh] = anon_sym_Onbranch,
@@ -917,17 +917,17 @@ static const TSSymbol ts_symbol_map[] = {
   [aux_sym__change_token1] = aux_sym__change_token1,
   [anon_sym_newfile_COLON] = anon_sym_newfile_COLON,
   [anon_sym_nouveaufichier_COLON] = anon_sym_nouveaufichier_COLON,
-  [anon_sym_COLON3] = anon_sym_COLON3,
+  [anon_sym_COLON2] = anon_sym_COLON2,
   [anon_sym_fitxernou_COLON] = anon_sym_fitxernou_COLON,
   [anon_sym_neueDatei_COLON] = anon_sym_neueDatei_COLON,
-  [anon_sym_COLON4] = anon_sym_COLON4,
+  [anon_sym_COLON3] = anon_sym_COLON3,
   [anon_sym_nuevosarchivos_COLON] = anon_sym_nuevosarchivos_COLON,
   [anon_sym_berkasbaru_COLON] = anon_sym_berkasbaru_COLON,
   [anon_sym_nuovofile_COLON] = anon_sym_nuovofile_COLON,
-  [anon_sym_COLON5] = anon_sym_COLON5,
+  [anon_sym_COLON4] = anon_sym_COLON4,
   [anon_sym_nowyplik_COLON] = anon_sym_nowyplik_COLON,
   [anon_sym_novoficheiro_COLON] = anon_sym_novoficheiro_COLON,
-  [anon_sym_COLON6] = anon_sym_COLON6,
+  [anon_sym_COLON5] = anon_sym_COLON5,
   [anon_sym_nyfil_COLON] = anon_sym_nyfil_COLON,
   [anon_sym_yenidosya_COLON] = anon_sym_yenidosya_COLON,
   [anon_sym_tptinmi_COLON] = anon_sym_tptinmi_COLON,
@@ -935,17 +935,17 @@ static const TSSymbol ts_symbol_map[] = {
   [anon_sym_6] = anon_sym_6,
   [anon_sym_deleted_COLON] = anon_sym_deleted_COLON,
   [anon_sym_supprim_COLON] = anon_sym_supprim_COLON,
-  [anon_sym_COLON7] = anon_sym_COLON7,
+  [anon_sym_COLON6] = anon_sym_COLON6,
   [anon_sym_suprimit_COLON] = anon_sym_suprimit_COLON,
   [anon_sym_gelscht_COLON] = anon_sym_gelscht_COLON,
-  [anon_sym_COLON8] = anon_sym_COLON8,
+  [anon_sym_COLON7] = anon_sym_COLON7,
   [anon_sym_borrados_COLON] = anon_sym_borrados_COLON,
   [anon_sym_terhapus_COLON] = anon_sym_terhapus_COLON,
   [anon_sym_eliminato_COLON] = anon_sym_eliminato_COLON,
-  [anon_sym_COLON9] = anon_sym_COLON9,
+  [anon_sym_COLON8] = anon_sym_COLON8,
   [anon_sym_usunito_COLON] = anon_sym_usunito_COLON,
   [anon_sym_eliminado_COLON] = anon_sym_eliminado_COLON,
-  [anon_sym_COLON10] = anon_sym_COLON10,
+  [anon_sym_COLON9] = anon_sym_COLON9,
   [anon_sym_borttagen_COLON] = anon_sym_borttagen_COLON,
   [anon_sym_silindi_COLON] = anon_sym_silindi_COLON,
   [anon_sym_xa_COLON] = anon_sym_xa_COLON,
@@ -953,34 +953,34 @@ static const TSSymbol ts_symbol_map[] = {
   [anon_sym_8] = anon_sym_8,
   [anon_sym_modified_COLON] = anon_sym_modified_COLON,
   [anon_sym_modifi_COLON] = anon_sym_modifi_COLON,
-  [anon_sym_COLON11] = anon_sym_COLON11,
+  [anon_sym_COLON10] = anon_sym_COLON10,
   [anon_sym_modificat_COLON] = anon_sym_modificat_COLON,
   [anon_sym_gendert_COLON] = anon_sym_gendert_COLON,
-  [anon_sym_COLON12] = anon_sym_COLON12,
+  [anon_sym_COLON11] = anon_sym_COLON11,
   [anon_sym_modificados_COLON] = anon_sym_modificados_COLON,
   [anon_sym_terubah_COLON] = anon_sym_terubah_COLON,
   [anon_sym_modificato_COLON] = anon_sym_modificato_COLON,
-  [anon_sym_COLON13] = anon_sym_COLON13,
+  [anon_sym_COLON12] = anon_sym_COLON12,
   [anon_sym_zmieniono_COLON] = anon_sym_zmieniono_COLON,
   [anon_sym_modificado_COLON] = anon_sym_modificado_COLON,
-  [anon_sym_COLON14] = anon_sym_COLON14,
+  [anon_sym_COLON13] = anon_sym_COLON13,
   [anon_sym_ndrad_COLON] = anon_sym_ndrad_COLON,
   [anon_sym_deitirildi_COLON] = anon_sym_deitirildi_COLON,
   [anon_sym_sa_COLON] = anon_sym_sa_COLON,
   [anon_sym_9] = anon_sym_9,
   [anon_sym_renamed_COLON] = anon_sym_renamed_COLON,
   [anon_sym_renomm_COLON] = anon_sym_renomm_COLON,
-  [anon_sym_COLON15] = anon_sym_COLON15,
+  [anon_sym_COLON14] = anon_sym_COLON14,
   [anon_sym_canviatdenom_COLON] = anon_sym_canviatdenom_COLON,
   [anon_sym_umbenannt_COLON] = anon_sym_umbenannt_COLON,
-  [anon_sym_COLON16] = anon_sym_COLON16,
+  [anon_sym_COLON15] = anon_sym_COLON15,
   [anon_sym_renombrados_COLON] = anon_sym_renombrados_COLON,
   [anon_sym_tergantinama_COLON] = anon_sym_tergantinama_COLON,
   [anon_sym_rinominato_COLON] = anon_sym_rinominato_COLON,
-  [anon_sym_COLON17] = anon_sym_COLON17,
+  [anon_sym_COLON16] = anon_sym_COLON16,
   [anon_sym_zmieniononazw_COLON] = anon_sym_zmieniononazw_COLON,
   [anon_sym_renomeado_COLON] = anon_sym_renomeado_COLON,
-  [anon_sym_COLON18] = anon_sym_COLON18,
+  [anon_sym_COLON17] = anon_sym_COLON17,
   [anon_sym_namnbytt_COLON] = anon_sym_namnbytt_COLON,
   [anon_sym_yenidenadlandrld_COLON] = anon_sym_yenidenadlandrld_COLON,
   [anon_sym_itn_COLON] = anon_sym_itn_COLON,
@@ -1296,7 +1296,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON] = {
+  [aux_sym_prefix_token2] = {
     .visible = true,
     .named = false,
   },
@@ -1360,7 +1360,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = true,
   },
-  [anon_sym_COLON2] = {
+  [anon_sym_COLON] = {
     .visible = true,
     .named = true,
   },
@@ -1556,7 +1556,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON3] = {
+  [anon_sym_COLON2] = {
     .visible = true,
     .named = false,
   },
@@ -1568,7 +1568,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON4] = {
+  [anon_sym_COLON3] = {
     .visible = true,
     .named = false,
   },
@@ -1584,7 +1584,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON5] = {
+  [anon_sym_COLON4] = {
     .visible = true,
     .named = false,
   },
@@ -1596,7 +1596,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON6] = {
+  [anon_sym_COLON5] = {
     .visible = true,
     .named = false,
   },
@@ -1628,7 +1628,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON7] = {
+  [anon_sym_COLON6] = {
     .visible = true,
     .named = false,
   },
@@ -1640,7 +1640,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON8] = {
+  [anon_sym_COLON7] = {
     .visible = true,
     .named = false,
   },
@@ -1656,7 +1656,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON9] = {
+  [anon_sym_COLON8] = {
     .visible = true,
     .named = false,
   },
@@ -1668,7 +1668,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON10] = {
+  [anon_sym_COLON9] = {
     .visible = true,
     .named = false,
   },
@@ -1700,7 +1700,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON11] = {
+  [anon_sym_COLON10] = {
     .visible = true,
     .named = false,
   },
@@ -1712,7 +1712,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON12] = {
+  [anon_sym_COLON11] = {
     .visible = true,
     .named = false,
   },
@@ -1728,7 +1728,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON13] = {
+  [anon_sym_COLON12] = {
     .visible = true,
     .named = false,
   },
@@ -1740,7 +1740,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON14] = {
+  [anon_sym_COLON13] = {
     .visible = true,
     .named = false,
   },
@@ -1768,7 +1768,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON15] = {
+  [anon_sym_COLON14] = {
     .visible = true,
     .named = false,
   },
@@ -1780,7 +1780,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON16] = {
+  [anon_sym_COLON15] = {
     .visible = true,
     .named = false,
   },
@@ -1796,7 +1796,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON17] = {
+  [anon_sym_COLON16] = {
     .visible = true,
     .named = false,
   },
@@ -1808,7 +1808,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = true,
     .named = false,
   },
-  [anon_sym_COLON18] = {
+  [anon_sym_COLON17] = {
     .visible = true,
     .named = false,
   },
@@ -3288,11 +3288,11 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == '#') ADVANCE(8470);
       if (lookahead == '(') ADVANCE(8388);
       if (lookahead == ')') ADVANCE(8390);
-      if (lookahead == ':') ADVANCE(8392);
       if (lookahead == 'B') ADVANCE(7133);
       if (lookahead == 'a') ADVANCE(7137);
       if (lookahead == 'f') ADVANCE(7134);
-      if (lookahead == 65306) ADVANCE(7125);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(7125);
       if (lookahead == 11 ||
           lookahead == '\f' ||
           lookahead == ' ') ADVANCE(7124);
@@ -48536,11 +48536,12 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       if (lookahead == '\'') ADVANCE(4724);
       if (lookahead == '(') ADVANCE(8388);
       if (lookahead == ')') ADVANCE(8390);
-      if (lookahead == ':') ADVANCE(8392);
       if (lookahead == 187) ADVANCE(4725);
       if (lookahead == 8220) ADVANCE(4726);
       if (lookahead == 8221) ADVANCE(4727);
       if (lookahead == 44060) ADVANCE(4923);
+      if (lookahead == ':' ||
+          lookahead == 65306) ADVANCE(8392);
       if (('0' <= lookahead && lookahead <= '9')) ADVANCE(8556);
       END_STATE();
     case 7109:
@@ -57635,7 +57636,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       ACCEPT_TOKEN(anon_sym_BANG);
       END_STATE();
     case 8392:
-      ACCEPT_TOKEN(anon_sym_COLON);
+      ACCEPT_TOKEN(aux_sym_prefix_token2);
       END_STATE();
     case 8393:
       ACCEPT_TOKEN(aux_sym__message_token1);
@@ -58272,7 +58273,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       ACCEPT_TOKEN(anon_sym_Surlabranche);
       END_STATE();
     case 8506:
-      ACCEPT_TOKEN(anon_sym_COLON2);
+      ACCEPT_TOKEN(anon_sym_COLON);
       END_STATE();
     case 8507:
       ACCEPT_TOKEN(anon_sym_Pgrenen);
@@ -60090,7 +60091,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       ACCEPT_TOKEN(anon_sym_nouveaufichier_COLON);
       END_STATE();
     case 8800:
-      ACCEPT_TOKEN(anon_sym_COLON3);
+      ACCEPT_TOKEN(anon_sym_COLON2);
       END_STATE();
     case 8801:
       ACCEPT_TOKEN(anon_sym_fitxernou_COLON);
@@ -60099,7 +60100,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       ACCEPT_TOKEN(anon_sym_neueDatei_COLON);
       END_STATE();
     case 8803:
-      ACCEPT_TOKEN(anon_sym_COLON4);
+      ACCEPT_TOKEN(anon_sym_COLON3);
       END_STATE();
     case 8804:
       ACCEPT_TOKEN(anon_sym_nuevosarchivos_COLON);
@@ -60111,7 +60112,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       ACCEPT_TOKEN(anon_sym_nuovofile_COLON);
       END_STATE();
     case 8807:
-      ACCEPT_TOKEN(anon_sym_COLON5);
+      ACCEPT_TOKEN(anon_sym_COLON4);
       END_STATE();
     case 8808:
       ACCEPT_TOKEN(anon_sym_nowyplik_COLON);
@@ -60120,7 +60121,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
       ACCEPT_TOKEN(anon_sym_novoficheiro_COLON);
       END_STATE();
     case 8810:
-      ACCEPT_TOKEN(anon_sym_COLON6);
+      ACCEPT_TOKEN(anon_sym_COLON5);
       END_STATE();
     case 8811:
       ACCEPT_TOKEN(anon_sym_nyfil_COLON);
@@ -60164,7 +60165,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8818:
-      ACCEPT_TOKEN(anon_sym_COLON7);
+      ACCEPT_TOKEN(anon_sym_COLON6);
       if (lookahead != 0 &&
           lookahead != '\t' &&
           lookahead != '\n' &&
@@ -60188,7 +60189,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8821:
-      ACCEPT_TOKEN(anon_sym_COLON8);
+      ACCEPT_TOKEN(anon_sym_COLON7);
       if (lookahead != 0 &&
           lookahead != '\t' &&
           lookahead != '\n' &&
@@ -60220,7 +60221,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8825:
-      ACCEPT_TOKEN(anon_sym_COLON9);
+      ACCEPT_TOKEN(anon_sym_COLON8);
       if (lookahead != 0 &&
           lookahead != '\t' &&
           lookahead != '\n' &&
@@ -60244,7 +60245,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8828:
-      ACCEPT_TOKEN(anon_sym_COLON10);
+      ACCEPT_TOKEN(anon_sym_COLON9);
       if (lookahead != 0 &&
           lookahead != '\t' &&
           lookahead != '\n' &&
@@ -60303,7 +60304,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8836:
-      ACCEPT_TOKEN(anon_sym_COLON11);
+      ACCEPT_TOKEN(anon_sym_COLON10);
       if (lookahead != 0 &&
           lookahead != '\t' &&
           lookahead != '\n' &&
@@ -60327,7 +60328,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8839:
-      ACCEPT_TOKEN(anon_sym_COLON12);
+      ACCEPT_TOKEN(anon_sym_COLON11);
       if (lookahead != 0 &&
           lookahead != '\t' &&
           lookahead != '\n' &&
@@ -60359,7 +60360,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8843:
-      ACCEPT_TOKEN(anon_sym_COLON13);
+      ACCEPT_TOKEN(anon_sym_COLON12);
       if (lookahead != 0 &&
           lookahead != '\t' &&
           lookahead != '\n' &&
@@ -60383,7 +60384,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8846:
-      ACCEPT_TOKEN(anon_sym_COLON14);
+      ACCEPT_TOKEN(anon_sym_COLON13);
       if (lookahead != 0 &&
           lookahead != '\t' &&
           lookahead != '\n' &&
@@ -60434,7 +60435,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8853:
-      ACCEPT_TOKEN(anon_sym_COLON15);
+      ACCEPT_TOKEN(anon_sym_COLON14);
       if (lookahead != 0 &&
           lookahead != '\t' &&
           lookahead != '\n' &&
@@ -60453,7 +60454,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8856:
-      ACCEPT_TOKEN(anon_sym_COLON16);
+      ACCEPT_TOKEN(anon_sym_COLON15);
       if (lookahead != 0 &&
           lookahead != '\t' &&
           lookahead != '\n' &&
@@ -60480,7 +60481,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8860:
-      ACCEPT_TOKEN(anon_sym_COLON17);
+      ACCEPT_TOKEN(anon_sym_COLON16);
       END_STATE();
     case 8861:
       ACCEPT_TOKEN(anon_sym_zmieniononazw_COLON);
@@ -60494,7 +60495,7 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
           lookahead != ' ') ADVANCE(9213);
       END_STATE();
     case 8863:
-      ACCEPT_TOKEN(anon_sym_COLON18);
+      ACCEPT_TOKEN(anon_sym_COLON17);
       if (lookahead != 0 &&
           lookahead != '\t' &&
           lookahead != '\n' &&
@@ -64692,7 +64693,7 @@ static const uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_LPAREN] = ACTIONS(1),
     [anon_sym_RPAREN] = ACTIONS(1),
     [anon_sym_BANG] = ACTIONS(1),
-    [anon_sym_COLON] = ACTIONS(1),
+    [aux_sym_prefix_token2] = ACTIONS(1),
     [aux_sym_breaking_change_token1] = ACTIONS(1),
     [anon_sym_POUND] = ACTIONS(1),
     [aux_sym_generated_comment_token3] = ACTIONS(1),
@@ -64793,7 +64794,7 @@ static const uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [aux_sym_generated_comment_token5] = ACTIONS(27),
     [anon_sym_Onbranch] = ACTIONS(29),
     [anon_sym_Surlabranche] = ACTIONS(29),
-    [anon_sym_COLON2] = ACTIONS(29),
+    [anon_sym_COLON] = ACTIONS(29),
     [anon_sym_Pgrenen] = ACTIONS(29),
     [anon_sym_zerindebulunulandal_COLON] = ACTIONS(29),
     [anon_sym_Trnnhnh] = ACTIONS(29),
@@ -64935,17 +64936,17 @@ static const uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [aux_sym__change_token1] = ACTIONS(27),
     [anon_sym_newfile_COLON] = ACTIONS(147),
     [anon_sym_nouveaufichier_COLON] = ACTIONS(147),
-    [anon_sym_COLON3] = ACTIONS(147),
+    [anon_sym_COLON2] = ACTIONS(147),
     [anon_sym_fitxernou_COLON] = ACTIONS(147),
     [anon_sym_neueDatei_COLON] = ACTIONS(147),
-    [anon_sym_COLON4] = ACTIONS(147),
+    [anon_sym_COLON3] = ACTIONS(147),
     [anon_sym_nuevosarchivos_COLON] = ACTIONS(147),
     [anon_sym_berkasbaru_COLON] = ACTIONS(147),
     [anon_sym_nuovofile_COLON] = ACTIONS(147),
-    [anon_sym_COLON5] = ACTIONS(147),
+    [anon_sym_COLON4] = ACTIONS(147),
     [anon_sym_nowyplik_COLON] = ACTIONS(147),
     [anon_sym_novoficheiro_COLON] = ACTIONS(147),
-    [anon_sym_COLON6] = ACTIONS(147),
+    [anon_sym_COLON5] = ACTIONS(147),
     [anon_sym_nyfil_COLON] = ACTIONS(147),
     [anon_sym_yenidosya_COLON] = ACTIONS(147),
     [anon_sym_tptinmi_COLON] = ACTIONS(147),
@@ -64953,17 +64954,17 @@ static const uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_6] = ACTIONS(149),
     [anon_sym_deleted_COLON] = ACTIONS(151),
     [anon_sym_supprim_COLON] = ACTIONS(151),
-    [anon_sym_COLON7] = ACTIONS(151),
+    [anon_sym_COLON6] = ACTIONS(151),
     [anon_sym_suprimit_COLON] = ACTIONS(151),
     [anon_sym_gelscht_COLON] = ACTIONS(151),
-    [anon_sym_COLON8] = ACTIONS(151),
+    [anon_sym_COLON7] = ACTIONS(151),
     [anon_sym_borrados_COLON] = ACTIONS(151),
     [anon_sym_terhapus_COLON] = ACTIONS(151),
     [anon_sym_eliminato_COLON] = ACTIONS(151),
-    [anon_sym_COLON9] = ACTIONS(151),
+    [anon_sym_COLON8] = ACTIONS(151),
     [anon_sym_usunito_COLON] = ACTIONS(151),
     [anon_sym_eliminado_COLON] = ACTIONS(151),
-    [anon_sym_COLON10] = ACTIONS(151),
+    [anon_sym_COLON9] = ACTIONS(151),
     [anon_sym_borttagen_COLON] = ACTIONS(151),
     [anon_sym_silindi_COLON] = ACTIONS(151),
     [anon_sym_xa_COLON] = ACTIONS(153),
@@ -64971,34 +64972,34 @@ static const uint16_t ts_parse_table[LARGE_STATE_COUNT][SYMBOL_COUNT] = {
     [anon_sym_8] = ACTIONS(151),
     [anon_sym_modified_COLON] = ACTIONS(155),
     [anon_sym_modifi_COLON] = ACTIONS(155),
-    [anon_sym_COLON11] = ACTIONS(155),
+    [anon_sym_COLON10] = ACTIONS(155),
     [anon_sym_modificat_COLON] = ACTIONS(155),
     [anon_sym_gendert_COLON] = ACTIONS(155),
-    [anon_sym_COLON12] = ACTIONS(155),
+    [anon_sym_COLON11] = ACTIONS(155),
     [anon_sym_modificados_COLON] = ACTIONS(155),
     [anon_sym_terubah_COLON] = ACTIONS(155),
     [anon_sym_modificato_COLON] = ACTIONS(155),
-    [anon_sym_COLON13] = ACTIONS(155),
+    [anon_sym_COLON12] = ACTIONS(155),
     [anon_sym_zmieniono_COLON] = ACTIONS(155),
     [anon_sym_modificado_COLON] = ACTIONS(155),
-    [anon_sym_COLON14] = ACTIONS(155),
+    [anon_sym_COLON13] = ACTIONS(155),
     [anon_sym_ndrad_COLON] = ACTIONS(155),
     [anon_sym_deitirildi_COLON] = ACTIONS(155),
     [anon_sym_sa_COLON] = ACTIONS(157),
     [anon_sym_9] = ACTIONS(155),
     [anon_sym_renamed_COLON] = ACTIONS(159),
     [anon_sym_renomm_COLON] = ACTIONS(159),
-    [anon_sym_COLON15] = ACTIONS(159),
+    [anon_sym_COLON14] = ACTIONS(159),
     [anon_sym_canviatdenom_COLON] = ACTIONS(161),
     [anon_sym_umbenannt_COLON] = ACTIONS(159),
-    [anon_sym_COLON16] = ACTIONS(159),
+    [anon_sym_COLON15] = ACTIONS(159),
     [anon_sym_renombrados_COLON] = ACTIONS(159),
     [anon_sym_tergantinama_COLON] = ACTIONS(161),
     [anon_sym_rinominato_COLON] = ACTIONS(159),
-    [anon_sym_COLON17] = ACTIONS(161),
+    [anon_sym_COLON16] = ACTIONS(161),
     [anon_sym_zmieniononazw_COLON] = ACTIONS(161),
     [anon_sym_renomeado_COLON] = ACTIONS(159),
-    [anon_sym_COLON18] = ACTIONS(159),
+    [anon_sym_COLON17] = ACTIONS(159),
     [anon_sym_namnbytt_COLON] = ACTIONS(159),
     [anon_sym_yenidenadlandrld_COLON] = ACTIONS(161),
     [anon_sym_itn_COLON] = ACTIONS(161),
@@ -67118,7 +67119,7 @@ static const uint16_t ts_small_parse_table[] = {
     ACTIONS(497), 1,
       anon_sym_BANG,
     ACTIONS(499), 1,
-      anon_sym_COLON,
+      aux_sym_prefix_token2,
   [2518] = 2,
     ACTIONS(501), 1,
       aux_sym__onbranch_token1,
@@ -67327,7 +67328,7 @@ static const uint16_t ts_small_parse_table[] = {
     ACTIONS(507), 1,
       anon_sym_BANG,
     ACTIONS(509), 1,
-      anon_sym_COLON,
+      aux_sym_prefix_token2,
   [2810] = 2,
     ACTIONS(501), 1,
       aux_sym__onbranch_token1,
@@ -67639,7 +67640,7 @@ static const uint16_t ts_small_parse_table[] = {
       ts_builtin_sym_end,
   [3229] = 1,
     ACTIONS(565), 1,
-      anon_sym_COLON,
+      aux_sym_prefix_token2,
   [3233] = 1,
     ACTIONS(567), 1,
       sym__conventional_subject,
@@ -67990,7 +67991,7 @@ static const uint16_t ts_small_parse_table[] = {
       ts_builtin_sym_end,
   [3697] = 1,
     ACTIONS(717), 1,
-      anon_sym_COLON,
+      aux_sym_prefix_token2,
   [3701] = 1,
     ACTIONS(719), 1,
       ts_builtin_sym_end,
