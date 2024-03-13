@@ -1,8 +1,8 @@
 const NEWLINE = /\r?\n/;
 const ANYTHING = /[^\n\r]+/;
-const SUBJECT = /[^\n\r]{1,49}/;
+const SUBJECT = /[^\n\r]{0,49}/;
 const NOT_A_COMMENT = /[^#]/;
-const SUMMARY = /[^\n\r]{1,72}/;
+const SUMMARY = /[^\n\r]{0,72}/;
 const SCISSORS = /# -+ >8 -+\r?\n/;
 const BRANCH_NAME = /[^\s'”»"“]+/;
 const COMMIT = /[0-9a-f]{7,40}/;
