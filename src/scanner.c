@@ -1,7 +1,7 @@
 #include <tree_sitter/parser.h>
 #include <wctype.h>
 
-enum TokenType { CONVENTIONNAL_PREFIX, CONVENTIONNAL_SUBJECT };
+enum TokenType { CONVENTIONAL_PREFIX, CONVENTIONAL_SUBJECT };
 
 void *tree_sitter_gitcommit_external_scanner_create() { return NULL; }
 
@@ -19,14 +19,19 @@ void tree_sitter_gitcommit_external_scanner_deserialize(void *p, const char *b,
 
 bool tree_sitter_gitcommit_external_scanner_scan(void *payload, TSLexer *lexer,
                                                  const bool *valid_symbols) {
-  if (valid_symbols[CONVENTIONNAL_PREFIX]) {
-    lexer->result_symbol = CONVENTIONNAL_PREFIX;
-    if (!iswalpha(lexer->lookahead)) {
+  if (valid_symbols[CONVENTIONAL_PREFIX]) {
+    lexer->result_symbol = CONVENTIONAL_PREFIX;
+    if (iswcntrl(lexer->lookahead) || iswspace(lexer->lookahead)
+      || lexer->lookahead == ':' || lexer->lookahead == '!' 
+      || lexer->lookahead == '\0') {
       return false;
     }
     lexer->advance(lexer, false);
 
-    while (iswalpha(lexer->lookahead)) {
+    while (!iswcntrl(lexer->lookahead) && !iswspace(lexer->lookahead)
+      && lexer->lookahead != ':' && lexer->lookahead != '!' 
+      && lexer->lookahead != '(' && lexer->lookahead != ')' 
+      && lexer->lookahead != '\0') {
       lexer->advance(lexer, false);
     }
     lexer->mark_end(lexer);
@@ -38,8 +43,9 @@ bool tree_sitter_gitcommit_external_scanner_scan(void *payload, TSLexer *lexer,
         return false;
       }
 
-      while (iswalpha(lexer->lookahead) || lexer->lookahead == '-' ||
-             lexer->lookahead == '_') {
+      while (!iswcntrl(lexer->lookahead)
+        && lexer->lookahead != '(' && lexer->lookahead != ')' 
+        && lexer->lookahead != '\0') {
         lexer->advance(lexer, false);
       }
 
@@ -56,8 +62,8 @@ bool tree_sitter_gitcommit_external_scanner_scan(void *payload, TSLexer *lexer,
     return lexer->lookahead == ':' || lexer->lookahead == 0xff1a;
   }
 
-  if (valid_symbols[CONVENTIONNAL_SUBJECT]) {
-    lexer->result_symbol = CONVENTIONNAL_SUBJECT;
+  if (valid_symbols[CONVENTIONAL_SUBJECT]) {
+    lexer->result_symbol = CONVENTIONAL_SUBJECT;
 
     if (lexer->lookahead == '\n' || lexer->lookahead == '\r' ||
         lexer->lookahead == '\0') {
