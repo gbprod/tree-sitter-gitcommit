@@ -10,7 +10,7 @@ on:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  # cancel-in-progress: true
 
 jobs:
   test:
@@ -19,22 +19,25 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest]
+        os: [macos-latest, ubuntu-latest, windows-latest, macos-14]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '20.10.x'
+          node-version: 18
           registry-url: 'https://registry.npmjs.org'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Install dependencies
         run: npm ci
       - name: Run tree-sitter tests
         run: npm test
       - name: Ensure generated parser files are up-to-date
         # On Windows and Macos, tree-sitter generate results in a diff, not sure why
-        if: runner.os != 'Windows' && runner.os != 'macOS'
+        if: runner.os != 'Windows'
         run: |
           git status
           test -z "$(git status --porcelain)"
