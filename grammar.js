@@ -12,16 +12,19 @@ const SCOPE = /[^\n\r\(\)]+/;
 const COMMENT = /[^\n\r]*\r?\n/;
 const COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a]\s*\r?\n/;
 const TRAILER_TOKEN = /[a-zA-Z-]+[ ]*[:\uff1a] /;
-const TRAILER_VALUE = /[^\n\r]+(\r?\n [^\n\r]+)*/;
 const GENERATED_COMMENT_TITLE = /[^\n\r:\uff1a]+[:\uff1a][ ]*/;
 const NUMBER = /\d+/;
-const BREAKING_CHANGE = /BREAKING[- ]CHANGE/;
+const BREAKING_CHANGE = /BREAKING[- ]CHANGE[ ]*[:\uff1a] /;
 
 module.exports = grammar({
   name: 'gitcommit',
   extras: () => [],
 
-  externals: ($) => [$._conventional_type, $._conventional_subject],
+  externals: ($) => [
+    $._conventional_type,
+    $._conventional_subject,
+    $._trailer_value,
+  ],
 
   rules: {
     source: ($) =>
@@ -60,14 +63,19 @@ module.exports = grammar({
       seq(seq(NOT_A_COMMENT, SUMMARY), optional(alias(ANYTHING, $.overflow))),
 
     trailer: ($) =>
-      seq(alias(TRAILER_TOKEN, $.token), alias(TRAILER_VALUE, $.value)),
+      seq(
+        alias(TRAILER_TOKEN, $.token),
+        alias($._trailer_value, $.value),
+        optional(alias(ANYTHING, $.overflow))
+      ),
 
     breaking_change: ($) =>
       seq(
         // BREAKING_CHANGE conflicts with TRAILER_TOKEN, an so requires higher
         // lexical precedence
         alias(token(prec(1, BREAKING_CHANGE)), $.token),
-        alias(ANYTHING, $.value)
+        alias($._trailer_value, $.value),
+        optional(alias(ANYTHING, $.overflow))
       ),
 
     comment: ($) =>

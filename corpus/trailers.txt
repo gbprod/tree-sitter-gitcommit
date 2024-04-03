@@ -1,9 +1,14 @@
 ================================================================================
-Simple body
+Not a trailer
 ================================================================================
 This is a simple subject
 
-This is a simple body
+:This is a simple body.
+: Fake
+With a: second line.
+
+An:d a paragraph.
+test(trailer): test
 --------------------------------------------------------------------------------
 
 (source
@@ -11,116 +16,111 @@ This is a simple body
   (message))
 
 ================================================================================
-Subject with comment
-================================================================================
-this is a simple subject
-
-# comment
-
---------------------------------------------------------------------------------
-
-(source
-  (subject)
-  (message
-    (comment)))
-
-================================================================================
-Empty file w/ comments
-================================================================================
-
-# comment
-
---------------------------------------------------------------------------------
-
-(source
-  (message
-    (comment)))
-
-================================================================================
-Empty file w/ empty comment
-================================================================================
-
-#
-
---------------------------------------------------------------------------------
-
-(source
-  (message
-    (comment)))
-
-================================================================================
-Multiline body
+Simple trailer
 ================================================================================
 This is a simple subject
 
-This is a simple body.
-With a second line.
-
-And a paragraph.
+Signed-by: gbprod <contact@gb-prod.fr>
 --------------------------------------------------------------------------------
 
 (source
   (subject)
-  (message))
-
-================================================================================
-BREAKING CHANGE
-================================================================================
-
-test
-
-BREAKING CHANGE: My message
-BREAKING-CHANGE: also valid
---------------------------------------------------------------------------------
-
-(source
   (message
-    (breaking_change
-      (token)
-      (value))
-    (breaking_change
+    (trailer
       (token)
       (value))))
 
 ================================================================================
-BREAKING CHANGE with overflow
+Multiple trailers
 ================================================================================
+This is a simple subject
 
-BREAKING CHANGE: My message with a long long text that will overflow with ease.
+Signed-by : gbprod <contact@gb-prod.fr>
+Signed-off-by: Bob <bob@example.com>
+Acked-by: Alice <alice@example.com>
+Ref: #1234
+Suggested-by: Toto
+
 --------------------------------------------------------------------------------
 
 (source
+  (subject)
   (message
-    (breaking_change
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))))
+
+================================================================================
+Multiline trailers
+================================================================================
+This is a simple subject
+
+key: This is a very long value, with spaces and
+  newlines in it.
+
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (message
+    (trailer
+      (token)
+      (value))))
+
+================================================================================
+Mixed
+================================================================================
+This is a simple subject
+
+With a message
+Signed-by : gbprod <contact@gb-prod.fr>
+
+Not conventional but why not
+Ref: #1234
+Suggested-by: Toto
+
+And go on
+
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (message
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))
+    (trailer
+      (token)
+      (value))))
+
+================================================================================
+Overflowed trailers
+================================================================================
+This is a simple subject
+
+key: This is a very long value, with spaces and that will overflow the line size.
+
+--------------------------------------------------------------------------------
+
+(source
+  (subject)
+  (message
+    (trailer
       (token)
       (value)
       (overflow))))
-
-================================================================================
-Overflowed summary
-================================================================================
-This is a simple subject
-
-This is a simple body 
-This is a simple body with so muche characters that it will overflow the summary limit
-This is a simple body 
---------------------------------------------------------------------------------
-
-(source
-  (subject)
-  (message
-    (overflow)))
-
-================================================================================
-Allows 1 char summary
-================================================================================
-This is a simple subject
-
-T
---------------------------------------------------------------------------------
-
-(source
-  (subject)
-  (message))
-
-
