@@ -13,6 +13,10 @@
       "required": true,
       "types": [
         {
+          "type": "overflow",
+          "named": true
+        },
+        {
           "type": "token",
           "named": true
         },
@@ -269,6 +273,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "overflow",
+          "named": true
+        },
         {
           "type": "token",
           "named": true
