@@ -1,8 +1,7 @@
 const NEWLINE = /\r?\n/;
+const ANYTHING_OR_NONE = /[^\n\r]*/;
 const ANYTHING = /[^\n\r]+/;
-const SUBJECT = /[^\n\r]{0,49}/;
 const NOT_A_COMMENT = /[^#]/;
-const SUMMARY = /[^\n\r]{0,72}/;
 const SCISSORS = /# -+ >8 -+\r?\n/;
 const BRANCH_NAME = /[^\s'”»"“]+/;
 const COMMIT = /[0-9a-f]{7,40}/;
@@ -20,11 +19,7 @@ module.exports = grammar({
   name: 'gitcommit',
   extras: () => [],
 
-  externals: ($) => [
-    $._conventional_type,
-    $._conventional_subject,
-    $._trailer_value,
-  ],
+  externals: ($) => [$._conventional_type, $._trailer_value],
 
   rules: {
     source: ($) =>
@@ -41,11 +36,7 @@ module.exports = grammar({
         optional(
           seq(alias(choice('fixup!', 'amend!'), $.subject_prefix), WHITESPACE)
         ),
-        choice(
-          seq(NOT_A_COMMENT, SUBJECT),
-          seq($.prefix, $._conventional_subject)
-        ),
-        optional(alias(ANYTHING, $.overflow))
+        choice(seq(NOT_A_COMMENT, ANYTHING_OR_NONE), seq($.prefix, ANYTHING))
       ),
 
     prefix: ($) =>
@@ -57,25 +48,19 @@ module.exports = grammar({
       ),
 
     _body_line: ($) =>
-      choice($._message, $.breaking_change, $.trailer, $.comment, NEWLINE),
+      choice($.message_line, $.breaking_change, $.trailer, $.comment, NEWLINE),
 
-    _message: ($) =>
-      seq(seq(NOT_A_COMMENT, SUMMARY), optional(alias(ANYTHING, $.overflow))),
+    message_line: ($) => seq(seq(NOT_A_COMMENT, ANYTHING_OR_NONE)),
 
     trailer: ($) =>
-      seq(
-        alias(TRAILER_TOKEN, $.token),
-        alias($._trailer_value, $.value),
-        optional(alias(ANYTHING, $.overflow))
-      ),
+      seq(alias(TRAILER_TOKEN, $.token), optional(alias(ANYTHING, $.value))),
 
     breaking_change: ($) =>
       seq(
         // BREAKING_CHANGE conflicts with TRAILER_TOKEN, an so requires higher
         // lexical precedence
         alias(token(prec(1, BREAKING_CHANGE)), $.token),
-        alias($._trailer_value, $.value),
-        optional(alias(ANYTHING, $.overflow))
+        optional(alias(ANYTHING, $.value))
       ),
 
     comment: ($) =>

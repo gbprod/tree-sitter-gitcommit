@@ -16,9 +16,6 @@
 (subject) @markup.heading @spell
 
 (subject
-  (overflow) @none @spell)
-
-(subject
   (subject_prefix) @function @nospell)
 
 (prefix
