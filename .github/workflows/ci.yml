@@ -1,40 +1,40 @@
 name: CI
 
 on:
-  pull_request:
-    branches:
-      - '**'
   push:
-    branches:
-      - 'main'
+    branches: [main]
+    paths:
+      - grammar.js
+      - src/**
+      - test/**
+      - bindings/**
+      - binding.gyp
+  pull_request:
+    paths:
+      - grammar.js
+      - src/**
+      - test/**
+      - bindings/**
+      - binding.gyp
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{github.workflow}}-${{github.ref}}
   cancel-in-progress: true
 
 jobs:
   test:
-    name: Run validation tests
-    runs-on: ${{ matrix.os }}
+    name: Test parser
+    runs-on: ${{matrix.os}}
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest]
+        os: [ubuntu-latest, windows-latest, macos-14]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-      - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/checkout@v4
+      - name: Set up tree-sitter
+        uses: tree-sitter/setup-action/cli@v1
+      - name: Run tests
+        uses: tree-sitter/parser-test-action@v2
         with:
-          node-version: '20.10.x'
-          registry-url: 'https://registry.npmjs.org'
-      - name: Install dependencies
-        run: npm ci
-      - name: Run tree-sitter tests
-        run: npm test
-      - name: Ensure generated parser files are up-to-date
-        # On Windows and Macos, tree-sitter generate results in a diff, not sure why
-        if: runner.os != 'Windows' && runner.os != 'macOS'
-        run: |
-          git status
-          test -z "$(git status --porcelain)"
+          test-rust: ${{runner.os == 'Linux'}}

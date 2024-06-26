@@ -3,9 +3,12 @@
   "version": "0.3.3",
   "description": "A tree-sitter grammar for git commit messages",
   "main": "bindings/node",
+  "types": "bindings/node",
   "scripts": {
     "build": "tree-sitter generate && node-gyp build",
-    "test": "npm run build && tree-sitter test"
+    "test": "npm run build && tree-sitter test",
+    "install": "node-gyp-build",
+    "prebuildify": "prebuildify --napi --strip"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,14 @@
     "git",
     "commit"
   ],
+  "files": [
+    "grammar.js",
+    "binding.gyp",
+    "prebuilds/**",
+    "bindings/node/*",
+    "queries/*",
+    "src/**"
+  ],
   "author": "gbprod <contact@gb-prod.fr>",
   "license": "WTFPL",
   "bugs": {
@@ -25,10 +36,20 @@
   },
   "homepage": "https://github.com/gbprod/tree-sitter-gitcommit#readme",
   "dependencies": {
-    "nan": "^2.17.0"
+    "node-addon-api": "^7.1.0",
+    "node-gyp-build": "^4.8.0"
+  },
+  "peerDependencies": {
+    "tree-sitter": "^0.21.0"
+  },
+  "peerDependenciesMeta": {
+    "tree_sitter": {
+      "optional": true
+    }
   },
   "devDependencies": {
-    "tree-sitter-cli": "^0.20.7"
+    "tree-sitter-cli": "^0.20.7",
+    "prebuildify": "^6.0.0"
   },
   "tree-sitter": [
     {
