@@ -70,8 +70,7 @@ this is a simple subject with an awesome overflow because it's longer than 50 ch
 --------------------------------------------------------------------------------
 
 (source
-  (subject
-    (overflow)))
+  (subject))
 
 ================================================================================
 Not a comment
@@ -107,8 +106,7 @@ feat(git): allow provided config object to extend other configs
   (subject
     (prefix
       (type)
-      (scope))
-    (overflow)))
+      (scope))))
 
 ================================================================================
 Subject complete
@@ -121,8 +119,7 @@ feat(git)!: allow provided config object to extend other configs
   (subject
     (prefix
       (type)
-      (scope))
-    (overflow)))
+      (scope))))
 
 ================================================================================
 Subject type and BC
@@ -134,8 +131,7 @@ feat!: allow provided config object to extend other configs
 (source
   (subject
     (prefix
-      (type))
-    (overflow)))
+      (type))))
 
 ================================================================================
 fix #36
@@ -199,8 +195,7 @@ amend! feat(test): allow fixup with an overflow on the subject
     (subject_prefix)
     (prefix
       (type)
-      (scope))
-    (overflow)))
+      (scope))))
 
 ================================================================================
 Parse fixup! with conventional commit and no scope

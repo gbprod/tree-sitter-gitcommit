@@ -8,7 +8,8 @@ This is a simple body
 
 (source
   (subject)
-  (message))
+  (message
+    (message_line)))
 
 ================================================================================
 Subject with comment
@@ -61,7 +62,10 @@ And a paragraph.
 
 (source
   (subject)
-  (message))
+  (message
+    (message_line)
+    (message_line)
+    (message_line)))
 
 ================================================================================
 BREAKING CHANGE
@@ -75,6 +79,7 @@ BREAKING-CHANGE: also valid
 
 (source
   (message
+    (message_line)
     (breaking_change
       (token)
       (value))
@@ -93,8 +98,7 @@ BREAKING CHANGE: My message with a long long text that will overflow with ease.
   (message
     (breaking_change
       (token)
-      (value)
-      (overflow))))
+      (value))))
 
 ================================================================================
 Overflowed summary
@@ -109,7 +113,9 @@ This is a simple body
 (source
   (subject)
   (message
-    (overflow)))
+    (message_line)
+    (message_line)
+    (message_line)))
 
 ================================================================================
 Allows 1 char summary
@@ -121,6 +127,5 @@ T
 
 (source
   (subject)
-  (message))
-
-
+  (message
+    (message_line)))

@@ -13,7 +13,12 @@ test(trailer): test
 
 (source
   (subject)
-  (message))
+  (message
+    (message_line)
+    (message_line)
+    (message_line)
+    (message_line)
+    (message_line)))
 
 ================================================================================
 Simple trailer
@@ -77,7 +82,8 @@ key: This is a very long value, with spaces and
   (message
     (trailer
       (token)
-      (value))))
+      (value))
+    (message_line)))
 
 ================================================================================
 Mixed
@@ -98,15 +104,18 @@ And go on
 (source
   (subject)
   (message
+    (message_line)
+    (trailer
+      (token)
+      (value))
+    (message_line)
     (trailer
       (token)
       (value))
     (trailer
       (token)
       (value))
-    (trailer
-      (token)
-      (value))))
+    (message_line)))
 
 ================================================================================
 Overflowed trailers
@@ -122,5 +131,4 @@ key: This is a very long value, with spaces and that will overflow the line size
   (message
     (trailer
       (token)
-      (value)
-      (overflow))))
+      (value))))

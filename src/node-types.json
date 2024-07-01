@@ -13,10 +13,6 @@
       "required": true,
       "types": [
         {
-          "type": "overflow",
-          "named": true
-        },
-        {
           "type": "token",
           "named": true
         },
@@ -158,7 +154,7 @@
           "named": true
         },
         {
-          "type": "overflow",
+          "type": "message_line",
           "named": true
         },
         {
@@ -167,6 +163,11 @@
         }
       ]
     }
+  },
+  {
+    "type": "message_line",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "modified",
@@ -251,10 +252,6 @@
       "required": false,
       "types": [
         {
-          "type": "overflow",
-          "named": true
-        },
-        {
           "type": "prefix",
           "named": true
         },
@@ -273,10 +270,6 @@
       "multiple": true,
       "required": true,
       "types": [
-        {
-          "type": "overflow",
-          "named": true
-        },
         {
           "type": "token",
           "named": true
@@ -999,10 +992,6 @@
   {
     "type": "ny fil:",
     "named": false
-  },
-  {
-    "type": "overflow",
-    "named": true
   },
   {
     "type": "pick",
