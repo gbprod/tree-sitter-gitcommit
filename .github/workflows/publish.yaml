@@ -1,71 +1,19 @@
-name: Publish
+name: Publish package
+
 on:
-  release:
-    types: [released]
-  workflow_dispatch:
+  push:
+    tags: ['*']
+
+concurrency:
+  group: ${{github.workflow}}-${{github.ref}}
+  cancel-in-progress: true
 
 jobs:
-  bump:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: '18.x'
-          registry-url: 'https://registry.npmjs.org'
-      - name: Update npm version
-        run: npm version ${GITHUB_REF_NAME#v} --no-git-tag-version
-      - name: Install stable toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          profile: minimal
-          toolchain: stable
-          override: true
-      - name: Install cargo bump
-        run: cargo install cargo-bump
-      - name: Update cargo version
-        run: cargo bump ${GITHUB_REF_NAME#v}
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 'chore: bump version'
-          branch: main
-
-  publish_npm:
-    runs-on: ubuntu-latest
-    needs: bump
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          ref: main
-      - name: Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: '18.x'
-          registry-url: 'https://registry.npmjs.org'
-      - name: Install dependencies and build 🔧
-        run: npm ci && npm run build
-      - name: Publish package on NPM 📦
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_GBPROD_GITCOMMIT }}
-
-  publish_crates:
-    runs-on: ubuntu-latest
-    needs: bump
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          ref: main
-      - name: Install stable toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          profile: minimal
-          toolchain: stable
-          override: true
-      - run: cargo publish --token ${CRATES_TOKEN}
-        env:
-          CRATES_TOKEN: ${{ secrets.CRATES_GBPROD_GITCOMMIT }}
+  npm:
+    uses: tree-sitter/workflows/.github/workflows/package-npm.yml@main
+    secrets:
+      NODE_AUTH_TOKEN: ${{secrets.NPM_GBPROD_GITCOMMIT}}
+  crates:
+    uses: tree-sitter/workflows/.github/workflows/package-crates.yml@main
+    secrets:
+      CARGO_REGISTRY_TOKEN: ${{secrets.CRATES_GBPROD_GITCOMMIT}}
