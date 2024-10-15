@@ -869,6 +869,10 @@
           {
             "type": "SYMBOL",
             "name": "deleted"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "typechange"
           }
         ]
       }
@@ -1178,6 +1182,87 @@
         {
           "type": "STRING",
           "value": "重新命名："
+        }
+      ]
+    },
+    "typechange": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "typechange:"
+        },
+        {
+          "type": "STRING",
+          "value": "смяна на вида:"
+        },
+        {
+          "type": "STRING",
+          "value": "canviat de tipus:"
+        },
+        {
+          "type": "STRING",
+          "value": "Typänderung:"
+        },
+        {
+          "type": "STRING",
+          "value": "αλλαγή τύπου:"
+        },
+        {
+          "type": "STRING",
+          "value": "cambios de tipo:"
+        },
+        {
+          "type": "STRING",
+          "value": "modif. type :"
+        },
+        {
+          "type": "STRING",
+          "value": "tipe perubahan:"
+        },
+        {
+          "type": "STRING",
+          "value": "modifica tipo:"
+        },
+        {
+          "type": "STRING",
+          "value": "종류 바뀜:"
+        },
+        {
+          "type": "STRING",
+          "value": "zmiana typu:"
+        },
+        {
+          "type": "STRING",
+          "value": "tipo alterado:"
+        },
+        {
+          "type": "STRING",
+          "value": "изменен тип:"
+        },
+        {
+          "type": "STRING",
+          "value": "typbyte:"
+        },
+        {
+          "type": "STRING",
+          "value": "türü değiştirildi:"
+        },
+        {
+          "type": "STRING",
+          "value": "змінено тип:"
+        },
+        {
+          "type": "STRING",
+          "value": "đổi kiểu:"
+        },
+        {
+          "type": "STRING",
+          "value": "类型变更："
+        },
+        {
+          "type": "STRING",
+          "value": "類型變更："
         }
       ]
     },

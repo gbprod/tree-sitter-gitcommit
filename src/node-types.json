@@ -46,6 +46,10 @@
           {
             "type": "renamed",
             "named": true
+          },
+          {
+            "type": "typechange",
+            "named": true
           }
         ]
       }
@@ -280,6 +284,11 @@
         }
       ]
     }
+  },
+  {
+    "type": "typechange",
+    "named": true,
+    "fields": {}
   },
   {
     "type": " Commit hinter '",
@@ -802,6 +811,10 @@
     "named": false
   },
   {
+    "type": "Typänderung:",
+    "named": false
+  },
+  {
     "type": "Votre branche est en avance sur '",
     "named": false
   },
@@ -858,7 +871,15 @@
     "named": false
   },
   {
+    "type": "cambios de tipo:",
+    "named": false
+  },
+  {
     "type": "canviat de nom:",
+    "named": false
+  },
+  {
+    "type": "canviat de tipus:",
     "named": false
   },
   {
@@ -927,6 +948,14 @@
   },
   {
     "type": "merge",
+    "named": false
+  },
+  {
+    "type": "modif. type :",
+    "named": false
+  },
+  {
+    "type": "modifica tipo:",
     "named": false
   },
   {
@@ -1094,6 +1123,14 @@
     "named": true
   },
   {
+    "type": "tipe perubahan:",
+    "named": false
+  },
+  {
+    "type": "tipo alterado:",
+    "named": false
+  },
+  {
     "type": "title",
     "named": true
   },
@@ -1106,8 +1143,20 @@
     "named": false
   },
   {
+    "type": "typbyte:",
+    "named": false
+  },
+  {
     "type": "type",
     "named": true
+  },
+  {
+    "type": "typechange:",
+    "named": false
+  },
+  {
+    "type": "türü değiştirildi:",
+    "named": false
   },
   {
     "type": "tập tin mới:",
@@ -1131,6 +1180,10 @@
   },
   {
     "type": "yeniden adlandırıldı:",
+    "named": false
+  },
+  {
+    "type": "zmiana typu:",
     "named": false
   },
   {
@@ -1182,6 +1235,10 @@
     "named": false
   },
   {
+    "type": "đổi kiểu:",
+    "named": false
+  },
+  {
     "type": "Şu anda '",
     "named": false
   },
@@ -1203,6 +1260,10 @@
   },
   {
     "type": "Ο κλάδος σας είναι πίσω από το '",
+    "named": false
+  },
+  {
+    "type": "αλλαγή τύπου:",
     "named": false
   },
   {
@@ -1254,7 +1315,15 @@
     "named": false
   },
   {
+    "type": "змінено тип:",
+    "named": false
+  },
+  {
     "type": "извършвате интерактивно пребазиране върху ",
+    "named": false
+  },
+  {
+    "type": "изменен тип:",
     "named": false
   },
   {
@@ -1287,6 +1356,10 @@
   },
   {
     "type": "променен:",
+    "named": false
+  },
+  {
+    "type": "смяна на вида:",
     "named": false
   },
   {
@@ -1386,11 +1459,19 @@
     "named": false
   },
   {
+    "type": "类型变更：",
+    "named": false
+  },
+  {
     "type": "重命名：",
     "named": false
   },
   {
     "type": "重新命名：",
+    "named": false
+  },
+  {
+    "type": "類型變更：",
     "named": false
   },
   {
@@ -1423,6 +1504,10 @@
   },
   {
     "type": "이름 바꿈:",
+    "named": false
+  },
+  {
+    "type": "종류 바뀜:",
     "named": false
   },
   {
