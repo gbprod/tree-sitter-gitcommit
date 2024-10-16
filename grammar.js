@@ -50,7 +50,7 @@ module.exports = grammar({
     _body_line: ($) =>
       choice($.message_line, $.breaking_change, $.trailer, $.comment, NEWLINE),
 
-    message_line: ($) => seq(seq(NOT_A_COMMENT, ANYTHING_OR_NONE)),
+    message_line: () => seq(seq(NOT_A_COMMENT, ANYTHING_OR_NONE)),
 
     trailer: ($) =>
       seq(alias(TRAILER_TOKEN, $.token), optional(alias(ANYTHING, $.value))),
@@ -180,7 +180,10 @@ module.exports = grammar({
       ),
 
     change: ($) =>
-      field('kind', choice($.new, $.modified, $.renamed, $.deleted)),
+      field(
+        'kind',
+        choice($.new, $.modified, $.renamed, $.deleted, $.typechange)
+      ),
 
     new: () =>
       choice(
@@ -265,6 +268,29 @@ module.exports = grammar({
         'đã đổi tên:',
         '重命名：',
         '重新命名：'
+      ),
+
+    typechange: () =>
+      choice(
+        'typechange:',
+        'смяна на вида:',
+        'canviat de tipus:',
+        'Typänderung:',
+        'αλλαγή τύπου:',
+        'cambios de tipo:',
+        'modif. type :',
+        'tipe perubahan:',
+        'modifica tipo:',
+        '종류 바뀜:',
+        'zmiana typu:',
+        'tipo alterado:',
+        'изменен тип:',
+        'typbyte:',
+        'türü değiştirildi:',
+        'змінено тип:',
+        'đổi kiểu:',
+        '类型变更：',
+        '類型變更：'
       ),
 
     _filepath: ($) =>

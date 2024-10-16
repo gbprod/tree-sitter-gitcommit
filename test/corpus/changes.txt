@@ -543,3 +543,100 @@ Modified content
     (arrow)
     (filepath)
     (annotation)))
+
+================================================================================
+Typechange
+================================================================================
+
+# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những
+#
+# Modifications qui seront validées :
+#	typechange:        test.txt
+#	смяна на вида:        test.txt
+#	canviat de tipus:        test.txt
+#	Typänderung:        test.txt
+#	αλλαγή τύπου:        test.txt
+#	cambios de tipo:        test.txt
+#	modif. type :        test.txt
+#	tipe perubahan:        test.txt
+#	modifica tipo:        test.txt
+#	종류 바뀜:        test.txt
+#	zmiana typu:        test.txt
+#	tipo alterado:        test.txt
+#	изменен тип:        test.txt
+#	typbyte:        test.txt
+#	türü değiştirildi:        test.txt
+#	змінено тип:        test.txt
+
+--------------------------------------------------------------------------------
+
+(source
+  (generated_comment)
+  (generated_comment)
+  (generated_comment
+    (title))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath))
+  (generated_comment
+    (change
+      (typechange))
+    (filepath)))
+
