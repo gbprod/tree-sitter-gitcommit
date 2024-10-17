@@ -1,4 +1,5 @@
 {
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/grammar.schema.json",
   "name": "gitcommit",
   "rules": {
     "source": {
@@ -570,31 +571,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "On branch "
-              },
-              {
-                "type": "STRING",
-                "value": "Sur la branche "
-              },
-              {
-                "type": "STRING",
-                "value": "Текущая ветка: "
-              },
-              {
-                "type": "STRING",
-                "value": "På grenen "
-              },
-              {
-                "type": "STRING",
-                "value": "Üzerinde bulunulan dal: "
-              },
-              {
-                "type": "STRING",
-                "value": "Trên nhánh "
-              },
-              {
-                "type": "STRING",
-                "value": "位於分支 "
+                "value": "Auf Branch "
               },
               {
                 "type": "STRING",
@@ -602,19 +579,7 @@
               },
               {
                 "type": "STRING",
-                "value": "Na gałęzi "
-              },
-              {
-                "type": "STRING",
-                "value": "현재 브랜치 "
-              },
-              {
-                "type": "STRING",
-                "value": "Sul branch "
-              },
-              {
-                "type": "STRING",
-                "value": "Pada cabang "
+                "value": "En la branca "
               },
               {
                 "type": "STRING",
@@ -622,19 +587,71 @@
               },
               {
                 "type": "STRING",
+                "value": "Na gałęzi "
+              },
+              {
+                "type": "STRING",
+                "value": "No ramo "
+              },
+              {
+                "type": "STRING",
+                "value": "On branch "
+              },
+              {
+                "type": "STRING",
+                "value": "Pada cabang "
+              },
+              {
+                "type": "STRING",
+                "value": "På grenen "
+              },
+              {
+                "type": "STRING",
+                "value": "Sul branch "
+              },
+              {
+                "type": "STRING",
+                "value": "Sur la branche "
+              },
+              {
+                "type": "STRING",
+                "value": "Trên nhánh "
+              },
+              {
+                "type": "STRING",
+                "value": "Üzerinde bulunulan dal: "
+              },
+              {
+                "type": "STRING",
                 "value": "Στον κλάδο "
               },
               {
                 "type": "STRING",
-                "value": "Auf Branch "
+                "value": "На ветке "
               },
               {
                 "type": "STRING",
-                "value": "En la branca "
+                "value": "На гілці "
               },
               {
                 "type": "STRING",
                 "value": "На клон "
+              },
+              {
+                "type": "STRING",
+                "value": "Текущая ветка: "
+              },
+              {
+                "type": "STRING",
+                "value": "位于分支 "
+              },
+              {
+                "type": "STRING",
+                "value": "位於分支 "
+              },
+              {
+                "type": "STRING",
+                "value": "현재 브랜치 "
               }
             ]
           },
@@ -678,11 +695,35 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "# Please enter the commit message for your changes. Lines starting"
+                "value": "# Ange incheckningsmeddelandet för dina ändringar. Rader som inleds"
               },
               {
                 "type": "STRING",
-                "value": "# Introduïu el missatge de comissió per als vostres canvis."
+                "value": "# Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen, die"
+              },
+              {
+                "type": "STRING",
+                "value": "# Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen,"
+              },
+              {
+                "type": "STRING",
+                "value": "# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những dòng được"
+              },
+              {
+                "type": "STRING",
+                "value": "# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những"
+              },
+              {
+                "type": "STRING",
+                "value": "# Immetti il messaggio di commit per le modifiche. Le righe che iniziano"
+              },
+              {
+                "type": "STRING",
+                "value": "# Introduza a mensagem de commit das suas alterações."
+              },
+              {
+                "type": "STRING",
+                "value": "# Introduzia a mensagem de commit das suas alterações."
               },
               {
                 "type": "STRING",
@@ -694,27 +735,19 @@
               },
               {
                 "type": "STRING",
-                "value": "# Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen,"
+                "value": "# Introduïu el missatge de comissió per als vostres canvis. "
               },
               {
                 "type": "STRING",
-                "value": "# Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen, die"
+                "value": "# Introduïu el missatge de comissió per als vostres canvis."
               },
               {
                 "type": "STRING",
-                "value": "# Παρακαλώ εισάγετε το μήνυμα υποβολής για τις αλλαγές σας. Οι γραμμές που αρχίζουν"
+                "value": "# Lütfen değişiklikleriniz için bir işleme iletisi girin. '#' ile başlayan"
               },
               {
                 "type": "STRING",
-                "value": "# Por favor ingresa el mensaje del commit para tus cambios. Las"
-              },
-              {
-                "type": "STRING",
-                "value": "# Veuillez saisir le message de validation pour vos modifications. Les lignes"
-              },
-              {
-                "type": "STRING",
-                "value": "# Veuillez saisir le message de validation pour vos modifications. Les lignes commençant"
+                "value": "# Lütfen değişiklikleriniz için bir işleme iletisi girin. '#' ile başlayan"
               },
               {
                 "type": "STRING",
@@ -722,11 +755,7 @@
               },
               {
                 "type": "STRING",
-                "value": "# Immetti il messaggio di commit per le modifiche. Le righe che iniziano"
-              },
-              {
-                "type": "STRING",
-                "value": "# 변경 사항에 대한 커밋 메시지를 입력하십시오. '%c' 문자로 시작하는"
+                "value": "# Please enter the commit message for your changes. Lines starting"
               },
               {
                 "type": "STRING",
@@ -734,7 +763,35 @@
               },
               {
                 "type": "STRING",
+                "value": "# Por favor ingresa el mensaje del commit para tus cambios. Las"
+              },
+              {
+                "type": "STRING",
                 "value": "# Por favor, introduz a mensagem de memória das tuas alterações."
+              },
+              {
+                "type": "STRING",
+                "value": "# Veuillez saisir le message de validation pour vos modifications. Les lignes commençant"
+              },
+              {
+                "type": "STRING",
+                "value": "# Veuillez saisir le message de validation pour vos modifications. Les lignes"
+              },
+              {
+                "type": "STRING",
+                "value": "# Παρακαλώ εισάγετε το μήνυμα υποβολής για τις αλλαγές σας. Οι γραμμές που αρχίζουν"
+              },
+              {
+                "type": "STRING",
+                "value": "# Будь ласка, введіть допис до коміту для ваших змін. Рядки, що починаються з"
+              },
+              {
+                "type": "STRING",
+                "value": "# Въведете съобщението за подаване на промѐните.  Редовете, които започват"
+              },
+              {
+                "type": "STRING",
+                "value": "# Въведете съобщението за подаване на промените.  Редовете, които започват"
               },
               {
                 "type": "STRING",
@@ -742,31 +799,11 @@
               },
               {
                 "type": "STRING",
-                "value": "# Ange incheckningsmeddelandet för dina ändringar. Rader som inleds"
+                "value": "請為您的變更輸入提交說明。以 '#' 開始的行將被保留，如果您原意"
               },
               {
                 "type": "STRING",
-                "value": "# Lütfen değişiklikleriniz için bir işleme iletisi girin. '%c' ile başlayan"
-              },
-              {
-                "type": "STRING",
-                "value": "# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những"
-              },
-              {
-                "type": "STRING",
-                "value": "# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những dòng được"
-              },
-              {
-                "type": "STRING",
-                "value": "# 请为您的变更输入提交说明。以 '%c' 开始的行将被忽略。"
-              },
-              {
-                "type": "STRING",
-                "value": "# 请为您的变更输入提交说明。以 '%c' 开始的行将被忽略，而一个空的提交"
-              },
-              {
-                "type": "STRING",
-                "value": "# 请为您的变更输入提交说明。以 '%c' 开始的行将被保留，如果您愿意"
+                "value": "請為您的變更輸入提交說明。以 '#' 開始的行將被忽略，而一個空的提交"
               },
               {
                 "type": "STRING",
@@ -774,19 +811,39 @@
               },
               {
                 "type": "STRING",
-                "value": "# 請輸入描述您變更的提交訊息。開頭是「%c」"
-              },
-              {
-                "type": "STRING",
-                "value": "# 請輸入描述您變更的提交訊息。會保留開頭是「%c」"
-              },
-              {
-                "type": "STRING",
                 "value": "# 請輸入描述您變更的提交訊息。會保留開頭是"
               },
               {
                 "type": "STRING",
-                "value": "# Въведете съобщението за подаване на промѐните.  Редовете, които започват"
+                "value": "# 請輸入描述您變更的提交訊息。會保留開頭是「#」"
+              },
+              {
+                "type": "STRING",
+                "value": "# 請輸入描述您變更的提交訊息。開頭是「#」"
+              },
+              {
+                "type": "STRING",
+                "value": "# 請輸入描述您變更的提交訊息。開頭是「#」的列"
+              },
+              {
+                "type": "STRING",
+                "value": "请为您的变更输入提交说明。以 '#' 开始的行将被保留，如果您原意"
+              },
+              {
+                "type": "STRING",
+                "value": "# 请为您的变更输入提交说明。以 '#' 开始的行将被保留，如果您愿意"
+              },
+              {
+                "type": "STRING",
+                "value": "# 请为您的变更输入提交说明。以 '#' 开始的行将被忽略。"
+              },
+              {
+                "type": "STRING",
+                "value": "# 请为您的变更输入提交说明。以 '#' 开始的行将被忽略，而一个空的提交"
+              },
+              {
+                "type": "STRING",
+                "value": "# 변경 사항에 대한 커밋 메시지를 입력하십시오. '#' 문자로 시작하는"
               }
             ]
           },
@@ -882,15 +939,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "new file:"
-        },
-        {
-          "type": "STRING",
-          "value": "nouveau fichier :"
-        },
-        {
-          "type": "STRING",
-          "value": "нов файл:"
+          "value": "berkas baru:"
         },
         {
           "type": "STRING",
@@ -902,27 +951,11 @@
         },
         {
           "type": "STRING",
-          "value": "νέο αρχείο:"
+          "value": "new file:"
         },
         {
           "type": "STRING",
-          "value": "nuevos archivos:"
-        },
-        {
-          "type": "STRING",
-          "value": "berkas baru:"
-        },
-        {
-          "type": "STRING",
-          "value": "nuovo file:"
-        },
-        {
-          "type": "STRING",
-          "value": "새 파일:"
-        },
-        {
-          "type": "STRING",
-          "value": "nowy plik:"
+          "value": "nouveau fichier :"
         },
         {
           "type": "STRING",
@@ -930,7 +963,19 @@
         },
         {
           "type": "STRING",
-          "value": "новый файл:"
+          "value": "nowy plik:"
+        },
+        {
+          "type": "STRING",
+          "value": "nuevos archivos:"
+        },
+        {
+          "type": "STRING",
+          "value": "nuevo archivo:"
+        },
+        {
+          "type": "STRING",
+          "value": "nuovo file:"
         },
         {
           "type": "STRING",
@@ -938,11 +983,27 @@
         },
         {
           "type": "STRING",
+          "value": "tập tin mới:"
+        },
+        {
+          "type": "STRING",
           "value": "yeni dosya:"
         },
         {
           "type": "STRING",
-          "value": "tập tin mới:"
+          "value": "νέο αρχείο:"
+        },
+        {
+          "type": "STRING",
+          "value": "нов файл:"
+        },
+        {
+          "type": "STRING",
+          "value": "новий файл:"
+        },
+        {
+          "type": "STRING",
+          "value": "новый файл:"
         },
         {
           "type": "STRING",
@@ -951,6 +1012,10 @@
         {
           "type": "STRING",
           "value": "新檔案："
+        },
+        {
+          "type": "STRING",
+          "value": "새 파일:"
         }
       ]
     },
@@ -959,27 +1024,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "deleted:"
-        },
-        {
-          "type": "STRING",
-          "value": "supprimé :"
-        },
-        {
-          "type": "STRING",
-          "value": "изтрит:"
-        },
-        {
-          "type": "STRING",
-          "value": "suprimit:"
-        },
-        {
-          "type": "STRING",
-          "value": "gelöscht:"
-        },
-        {
-          "type": "STRING",
-          "value": "διαγραφή:"
+          "value": "borrado:"
         },
         {
           "type": "STRING",
@@ -987,19 +1032,11 @@
         },
         {
           "type": "STRING",
-          "value": "terhapus:"
+          "value": "borttagen:"
         },
         {
           "type": "STRING",
-          "value": "eliminato:"
-        },
-        {
-          "type": "STRING",
-          "value": "삭제함:"
-        },
-        {
-          "type": "STRING",
-          "value": "usunięto:"
+          "value": "deleted:"
         },
         {
           "type": "STRING",
@@ -1007,11 +1044,11 @@
         },
         {
           "type": "STRING",
-          "value": "удалено:"
+          "value": "eliminato:"
         },
         {
           "type": "STRING",
-          "value": "borttagen:"
+          "value": "gelöscht:"
         },
         {
           "type": "STRING",
@@ -1019,7 +1056,39 @@
         },
         {
           "type": "STRING",
+          "value": "supprimé :"
+        },
+        {
+          "type": "STRING",
+          "value": "suprimit:"
+        },
+        {
+          "type": "STRING",
+          "value": "terhapus:"
+        },
+        {
+          "type": "STRING",
+          "value": "usunięto:"
+        },
+        {
+          "type": "STRING",
           "value": "đã xóa:"
+        },
+        {
+          "type": "STRING",
+          "value": "διαγραφή:"
+        },
+        {
+          "type": "STRING",
+          "value": "видалено:"
+        },
+        {
+          "type": "STRING",
+          "value": "изтрит:"
+        },
+        {
+          "type": "STRING",
+          "value": "удалено:"
         },
         {
           "type": "STRING",
@@ -1028,12 +1097,40 @@
         {
           "type": "STRING",
           "value": "刪除："
+        },
+        {
+          "type": "STRING",
+          "value": "삭제함:"
         }
       ]
     },
     "modified": {
       "type": "CHOICE",
       "members": [
+        {
+          "type": "STRING",
+          "value": "değiştirildi:"
+        },
+        {
+          "type": "STRING",
+          "value": "geändert:"
+        },
+        {
+          "type": "STRING",
+          "value": "modificado:"
+        },
+        {
+          "type": "STRING",
+          "value": "modificados:"
+        },
+        {
+          "type": "STRING",
+          "value": "modificat:"
+        },
+        {
+          "type": "STRING",
+          "value": "modificato:"
+        },
         {
           "type": "STRING",
           "value": "modified:"
@@ -1044,35 +1141,7 @@
         },
         {
           "type": "STRING",
-          "value": "променен:"
-        },
-        {
-          "type": "STRING",
-          "value": "modificat:"
-        },
-        {
-          "type": "STRING",
-          "value": "geändert:"
-        },
-        {
-          "type": "STRING",
-          "value": "τροποποίηση:"
-        },
-        {
-          "type": "STRING",
-          "value": "modificados:"
-        },
-        {
-          "type": "STRING",
           "value": "terubah:"
-        },
-        {
-          "type": "STRING",
-          "value": "modificato:"
-        },
-        {
-          "type": "STRING",
-          "value": "수정함:"
         },
         {
           "type": "STRING",
@@ -1080,19 +1149,7 @@
         },
         {
           "type": "STRING",
-          "value": "modificado:"
-        },
-        {
-          "type": "STRING",
-          "value": "изменено:"
-        },
-        {
-          "type": "STRING",
           "value": "ändrad:"
-        },
-        {
-          "type": "STRING",
-          "value": "değiştirildi:"
         },
         {
           "type": "STRING",
@@ -1100,11 +1157,27 @@
         },
         {
           "type": "STRING",
-          "value": "修改："
+          "value": "τροποποίηση:"
+        },
+        {
+          "type": "STRING",
+          "value": "змінено:"
+        },
+        {
+          "type": "STRING",
+          "value": "изменено:"
+        },
+        {
+          "type": "STRING",
+          "value": "променен:"
         },
         {
           "type": "STRING",
           "value": "修改："
+        },
+        {
+          "type": "STRING",
+          "value": "수정함:"
         }
       ]
     },
@@ -1113,55 +1186,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "renamed:"
-        },
-        {
-          "type": "STRING",
-          "value": "renommé :"
-        },
-        {
-          "type": "STRING",
-          "value": "преименуван:"
-        },
-        {
-          "type": "STRING",
           "value": "canviat de nom:"
-        },
-        {
-          "type": "STRING",
-          "value": "umbenannt:"
-        },
-        {
-          "type": "STRING",
-          "value": "μετονομασία:"
-        },
-        {
-          "type": "STRING",
-          "value": "renombrados:"
-        },
-        {
-          "type": "STRING",
-          "value": "terganti nama:"
-        },
-        {
-          "type": "STRING",
-          "value": "rinominato:"
-        },
-        {
-          "type": "STRING",
-          "value": "이름 바꿈:"
-        },
-        {
-          "type": "STRING",
-          "value": "zmieniono nazwę:"
-        },
-        {
-          "type": "STRING",
-          "value": "renomeado:"
-        },
-        {
-          "type": "STRING",
-          "value": "переименовано:"
         },
         {
           "type": "STRING",
@@ -1169,11 +1194,67 @@
         },
         {
           "type": "STRING",
+          "value": "nome mudado:"
+        },
+        {
+          "type": "STRING",
+          "value": "renamed:"
+        },
+        {
+          "type": "STRING",
+          "value": "renombrado:"
+        },
+        {
+          "type": "STRING",
+          "value": "renombrados:"
+        },
+        {
+          "type": "STRING",
+          "value": "renomeado:"
+        },
+        {
+          "type": "STRING",
+          "value": "renommé :"
+        },
+        {
+          "type": "STRING",
+          "value": "rinominato:"
+        },
+        {
+          "type": "STRING",
+          "value": "terganti nama:"
+        },
+        {
+          "type": "STRING",
+          "value": "umbenannt:"
+        },
+        {
+          "type": "STRING",
           "value": "yeniden adlandırıldı:"
         },
         {
           "type": "STRING",
+          "value": "zmieniono nazwę:"
+        },
+        {
+          "type": "STRING",
           "value": "đã đổi tên:"
+        },
+        {
+          "type": "STRING",
+          "value": "μετονομασία:"
+        },
+        {
+          "type": "STRING",
+          "value": "переименовано:"
+        },
+        {
+          "type": "STRING",
+          "value": "перейменовано:"
+        },
+        {
+          "type": "STRING",
+          "value": "преименуван:"
         },
         {
           "type": "STRING",
@@ -1182,6 +1263,10 @@
         {
           "type": "STRING",
           "value": "重新命名："
+        },
+        {
+          "type": "STRING",
+          "value": "이름 바꿈:"
         }
       ]
     },
@@ -1190,23 +1275,7 @@
       "members": [
         {
           "type": "STRING",
-          "value": "typechange:"
-        },
-        {
-          "type": "STRING",
-          "value": "смяна на вида:"
-        },
-        {
-          "type": "STRING",
-          "value": "canviat de tipus:"
-        },
-        {
-          "type": "STRING",
           "value": "Typänderung:"
-        },
-        {
-          "type": "STRING",
-          "value": "αλλαγή τύπου:"
         },
         {
           "type": "STRING",
@@ -1214,11 +1283,15 @@
         },
         {
           "type": "STRING",
-          "value": "modif. type :"
+          "value": "cambio de tipo:"
         },
         {
           "type": "STRING",
-          "value": "tipe perubahan:"
+          "value": "canviat de tipus:"
+        },
+        {
+          "type": "STRING",
+          "value": "modif. type :"
         },
         {
           "type": "STRING",
@@ -1226,11 +1299,7 @@
         },
         {
           "type": "STRING",
-          "value": "종류 바뀜:"
-        },
-        {
-          "type": "STRING",
-          "value": "zmiana typu:"
+          "value": "tipe perubahan:"
         },
         {
           "type": "STRING",
@@ -1238,11 +1307,11 @@
         },
         {
           "type": "STRING",
-          "value": "изменен тип:"
+          "value": "typbyte:"
         },
         {
           "type": "STRING",
-          "value": "typbyte:"
+          "value": "typechange:"
         },
         {
           "type": "STRING",
@@ -1250,11 +1319,31 @@
         },
         {
           "type": "STRING",
-          "value": "змінено тип:"
+          "value": "zmiana typu:"
         },
         {
           "type": "STRING",
           "value": "đổi kiểu:"
+        },
+        {
+          "type": "STRING",
+          "value": "đổi-kiểu:"
+        },
+        {
+          "type": "STRING",
+          "value": "αλλαγή τύπου:"
+        },
+        {
+          "type": "STRING",
+          "value": "змінено тип:"
+        },
+        {
+          "type": "STRING",
+          "value": "изменен тип:"
+        },
+        {
+          "type": "STRING",
+          "value": "смяна на вида:"
         },
         {
           "type": "STRING",
@@ -1263,6 +1352,10 @@
         {
           "type": "STRING",
           "value": "類型變更："
+        },
+        {
+          "type": "STRING",
+          "value": "종류 바뀜:"
         }
       ]
     },
@@ -1523,7 +1616,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Your branch is up to date with '"
+              "value": "Cabang Anda mutakhir dengan '"
             },
             {
               "type": "SYMBOL",
@@ -1532,74 +1625,6 @@
             {
               "type": "STRING",
               "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Votre branche est à jour avec '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "您的分支與上游分支 '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' 一致。"
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "您的分支与上游分支 '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' 一致。"
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Nhánh của bạn đã cập nhật với “"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "”."
             }
           ]
         },
@@ -1642,41 +1667,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Эта ветка соответствует «"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "»."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Teu ramo está atualizado com '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Twoja gałąź jest na bieżąco z „"
+              "value": "Din gren är à jour med ”"
             },
             {
               "type": "SYMBOL",
@@ -1693,7 +1684,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "브랜치가 '"
+              "value": "Ihr Branch ist auf demselben Stand wie '"
             },
             {
               "type": "SYMBOL",
@@ -1701,7 +1692,7 @@
             },
             {
               "type": "STRING",
-              "value": "'에 맞게 업데이트된 상태입니다."
+              "value": "'."
             }
           ]
         },
@@ -1711,74 +1702,6 @@
             {
               "type": "STRING",
               "value": "Il tuo branch è aggiornato rispetto a '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Cabang Anda mutakhir dengan '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Tu rama está actualizada con '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Ο κλάδος σας είναι ενήμερος με το '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Ihr Branch ist auf demselben Stand wie '"
             },
             {
               "type": "SYMBOL",
@@ -1812,6 +1735,210 @@
           "members": [
             {
               "type": "STRING",
+              "value": "Nhánh của bạn đã cập nhật với '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Nhánh của bạn đã cập nhật với “"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "”."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "O seu ramo está atualizado com '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Teu ramo está atualizado com '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Tu rama está actualizada con '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Twoja gałąź jest na bieżąco z „"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "”."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Votre branche est à jour avec '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Your branch is up to date with '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ο κλάδος σας είναι ενήμερος με το '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша ветка обновлена в соответствии с «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "»."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка не відрізняється від \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\"."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка не відрізняється від '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
               "value": "Клонът е обновен към „"
             },
             {
@@ -1823,387 +1950,80 @@
               "value": "“."
             }
           ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Эта ветка соответствует «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "»."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "您的分支与上游分支 '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' 一致。"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "您的分支與上游分支 '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' 一致。"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "브랜치가 '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'에 맞게 업데이트된 상태입니다."
+            }
+          ]
         }
       ]
     },
     "_behind": {
       "type": "CHOICE",
       "members": [
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Your branch is behind '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' by "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commit, and can be fast-forwarded."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Your branch is behind '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' by "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commits, and can be fast-forwarded."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Votre branche est en retard sur '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' de "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commit, et peut être mise à jour en avance rapide."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Votre branche est en retard sur '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' de "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commits, et peut être mise à jour en avance rapide."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "La vostra branca està "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " comissió per darrere de «"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "», i pot avançar-se ràpidament."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "La vostra branca està "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " comissions per darrere de «"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "», i pot avançar-se ràpidament."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Клонът ви е с "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " подаване зад „"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "“ и може да бъде превъртян."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Клонът ви е с "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " подавания зад „"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "“ и може да бъде превъртян."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Ihr Branch ist "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " Commit hinter '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "', und kann vorgespult werden."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Ihr Branch ist "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " Commits hinter '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "', und kann vorgespult werden."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Ο κλάδος σας είναι πίσω από το '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' κατά "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " υποβολή, και μπορεί να κάνει ταχεία προώθηση."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Ο κλάδος σας είναι πίσω από το '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' κατά "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " υποβολές, και μπορεί να κάνει ταχεία προώθηση."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Tu rama está detrás de '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' por "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commit, y puede ser avanzada rápido."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Tu rama está detrás de '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' por "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commits, y puede ser avanzada rápido."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Cabang Anda di belakang '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' oleh "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " komit, dan bisa di maju-cepatkan."
-            }
-          ]
-        },
         {
           "type": "SEQ",
           "members": [
@@ -2234,7 +2054,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Il tuo branch, rispetto a '"
+              "value": "Cabang Anda di belakang '"
             },
             {
               "type": "SYMBOL",
@@ -2242,7 +2062,7 @@
             },
             {
               "type": "STRING",
-              "value": "', è indietro di "
+              "value": "' oleh "
             },
             {
               "type": "SYMBOL",
@@ -2250,82 +2070,7 @@
             },
             {
               "type": "STRING",
-              "value": " commit e ne posso eseguire il fast forward."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Il tuo branch, rispetto a '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "', è indietro di "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commit e ne posso eseguire il fast forward."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "브랜치가 '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'보다 "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": "개 커밋 뒤에 있고, 앞으로 돌릴 수 있습니다."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Nhánh của bạn đứng đằng sau “"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "” "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " lần chuyển giao, và có thể được chuyển-tiếp-nhanh."
+              "value": " komit, dan bisa di maju-cepatkan."
             }
           ]
         },
@@ -2409,7 +2154,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ветка отстает от «"
+              "value": "Din gren ligger efter ”"
             },
             {
               "type": "SYMBOL",
@@ -2417,7 +2162,7 @@
             },
             {
               "type": "STRING",
-              "value": "» на "
+              "value": "” med "
             },
             {
               "type": "SYMBOL",
@@ -2425,7 +2170,7 @@
             },
             {
               "type": "STRING",
-              "value": " коммит и может быть быстро перемотана."
+              "value": " incheckning, och kan snabbspolas."
             }
           ]
         },
@@ -2434,7 +2179,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ветка отстает от «"
+              "value": "Din gren ligger efter ”"
             },
             {
               "type": "SYMBOL",
@@ -2442,7 +2187,7 @@
             },
             {
               "type": "STRING",
-              "value": "» на "
+              "value": "” med "
             },
             {
               "type": "SYMBOL",
@@ -2450,7 +2195,7 @@
             },
             {
               "type": "STRING",
-              "value": " коммита и может быть быстро перемотана."
+              "value": " incheckningar, och kan snabbspolas."
             }
           ]
         },
@@ -2459,15 +2204,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ветка отстает от «"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "» на "
+              "value": "Ihr Branch ist "
             },
             {
               "type": "SYMBOL",
@@ -2475,7 +2212,215 @@
             },
             {
               "type": "STRING",
-              "value": " коммитов и может быть быстро перемотана."
+              "value": " Commit hinter '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "', und kann vorgespult werden."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ihr Branch ist "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " Commits hinter '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "', und kann vorgespult werden."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Il tuo branch, rispetto a '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "', è indietro di "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commit e ne posso eseguire il fast forward."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "La vostra branca està "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " comissions per darrere de «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "», i pot avançar-se ràpidament."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "La vostra branca està "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " comissió per darrere de «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "», i pot avançar-se ràpidament."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Nhánh của bạn đứng sau '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " lần chuyển giao, và có thể được chuyển-tiếp-nhanh."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Nhánh của bạn đứng đằng sau “"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "” "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " lần chuyển giao, và có thể được chuyển-tiếp-nhanh."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "O seu ramo está atrás de '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' por "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commit, podendo ser atualizado com avanço rápido."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "O seu ramo está atrás de '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' por "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commits, podendo ser atualizado com avanço rápido."
             }
           ]
         },
@@ -2526,6 +2471,56 @@
             {
               "type": "STRING",
               "value": " memórias, e pode ser avançado."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Tu rama está detrás de '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' por "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commit, y puede ser avanzada rápido."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Tu rama está detrás de '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' por "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commits, y puede ser avanzada rápido."
             }
           ]
         },
@@ -2609,6 +2604,431 @@
           "members": [
             {
               "type": "STRING",
+              "value": "Votre branche est en retard sur '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' de "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commit, et peut être mise à jour en avance rapide."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Votre branche est en retard sur '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' de "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commits, et peut être mise à jour en avance rapide."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Your branch is behind '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' by "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commit, and can be fast-forwarded."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Your branch is behind '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' by "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commits, and can be fast-forwarded."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ο κλάδος σας είναι πίσω από το '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' κατά "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " υποβολές, και μπορεί να κάνει ταχεία προώθηση."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ο κλάδος σας είναι πίσω από το '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' κατά "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " υποβολή, και μπορεί να κάνει ταχεία προώθηση."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша ветка отстает от «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "» на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коммит и может быть перемотана вперед."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша ветка отстает от «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "» на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коммита и может быть перемотана вперед."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша ветка отстает от «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "» на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коммитов и может быть перемотана вперед."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка відстає від \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\" на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коміт, і її можна перемотати вперед."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка відстає від \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\" на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коміти, і її можна перемотати вперед."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка відстає від гілки '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " комітів, і її можна перемотати вперед."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ветка отстает от «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "» на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коммит и может быть быстро перемотана."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ветка отстает от «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "» на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коммита и может быть быстро перемотана."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ветка отстает от «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "» на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коммитов и может быть быстро перемотана."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Клонът ви е с "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " подаване зад „"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "“ и може да бъде превъртян."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Клонът ви е с "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " подавания зад „"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "“ и може да бъде превъртян."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
               "value": "您的分支落后 '"
             },
             {
@@ -2653,6 +3073,31 @@
               "value": " 個提交，並且可以快轉。"
             }
           ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "브랜치가 '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'보다 "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": "개 커밋 뒤에 있고, 앞으로 돌릴 수 있습니다."
+            }
+          ]
         }
       ]
     },
@@ -2664,7 +3109,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Your branch is ahead of '"
+              "value": "Cabang Anda mendahului '"
             },
             {
               "type": "SYMBOL",
@@ -2672,7 +3117,7 @@
             },
             {
               "type": "STRING",
-              "value": "' by "
+              "value": "' oleh "
             },
             {
               "type": "SYMBOL",
@@ -2680,157 +3125,7 @@
             },
             {
               "type": "STRING",
-              "value": " commit."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Your branch is ahead of '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' by "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commits."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Votre branche est en avance sur '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' de "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commit."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Votre branche est en avance sur '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' de "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commits."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "您的分支領先 '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' 共 "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " 個提交。"
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "您的分支领先 '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' 共 "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " 个提交。"
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Nhánh của bạn đứng trước “"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "” "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " lần chuyển giao."
+              "value": " komit."
             }
           ]
         },
@@ -2914,7 +3209,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ваша ветка опережает «"
+              "value": "Din gren ligger före ”"
             },
             {
               "type": "SYMBOL",
@@ -2922,7 +3217,7 @@
             },
             {
               "type": "STRING",
-              "value": "» на "
+              "value": "” med "
             },
             {
               "type": "SYMBOL",
@@ -2930,7 +3225,7 @@
             },
             {
               "type": "STRING",
-              "value": " коммит."
+              "value": " incheckning."
             }
           ]
         },
@@ -2939,7 +3234,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ваша ветка опережает «"
+              "value": "Din gren ligger före ”"
             },
             {
               "type": "SYMBOL",
@@ -2947,7 +3242,7 @@
             },
             {
               "type": "STRING",
-              "value": "» на "
+              "value": "” med "
             },
             {
               "type": "SYMBOL",
@@ -2955,7 +3250,7 @@
             },
             {
               "type": "STRING",
-              "value": " коммита."
+              "value": " incheckningar."
             }
           ]
         },
@@ -2964,15 +3259,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ваша ветка опережает «"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "» на "
+              "value": "Ihr Branch ist "
             },
             {
               "type": "SYMBOL",
@@ -2980,7 +3267,15 @@
             },
             {
               "type": "STRING",
-              "value": " коммитов."
+              "value": " Commit vor '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
             }
           ]
         },
@@ -2989,15 +3284,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ваша ветка опережает «"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "» на "
+              "value": "Ihr Branch ist "
             },
             {
               "type": "SYMBOL",
@@ -3005,7 +3292,140 @@
             },
             {
               "type": "STRING",
-              "value": " коммитов."
+              "value": " Commits vor '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Il tuo branch è avanti rispetto a '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' di "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commit."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "La vostra branca està "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " comissions per davant de «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "»."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "La vostra branca està "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " comissió per davant de «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "»."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Nhánh của bạn đứng trước '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " lần chuyển giao."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Nhánh của bạn đứng trước “"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "” "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " lần chuyển giao."
             }
           ]
         },
@@ -3056,6 +3476,106 @@
             {
               "type": "STRING",
               "value": " memórias."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Tu rama está adelantada a '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' por "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commit."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Tu rama está adelantada a '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' por "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commits."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "O seu ramo está à frente de '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' por "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commit."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "O seu ramo está à frente de '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' por "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commits."
             }
           ]
         },
@@ -3139,7 +3659,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "브랜치가 '"
+              "value": "Votre branche est en avance sur '"
             },
             {
               "type": "SYMBOL",
@@ -3147,32 +3667,7 @@
             },
             {
               "type": "STRING",
-              "value": "'보다 "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": "개 커밋만큼 앞에 있습니다."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Il tuo branch è avanti rispetto a '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' di "
+              "value": "' de "
             },
             {
               "type": "SYMBOL",
@@ -3189,7 +3684,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Il tuo branch è avanti rispetto a '"
+              "value": "Votre branche est en avance sur '"
             },
             {
               "type": "SYMBOL",
@@ -3197,107 +3692,7 @@
             },
             {
               "type": "STRING",
-              "value": "' di "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commit."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Cabang Anda mendahului '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' oleh "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " komit."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Cabang Anda mendahului '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' oleh "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " komit."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Tu rama está adelantada a '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' por "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commit."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Tu rama está adelantada a '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' por "
+              "value": "' de "
             },
             {
               "type": "SYMBOL",
@@ -3314,7 +3709,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ο κλάδος σας είναι μπροστά από το '"
+              "value": "Your branch is ahead of '"
             },
             {
               "type": "SYMBOL",
@@ -3322,7 +3717,7 @@
             },
             {
               "type": "STRING",
-              "value": "' κατά "
+              "value": "' by "
             },
             {
               "type": "SYMBOL",
@@ -3330,7 +3725,32 @@
             },
             {
               "type": "STRING",
-              "value": " υποβολή."
+              "value": " commit."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Your branch is ahead of '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' by "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commits."
             }
           ]
         },
@@ -3364,15 +3784,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ihr Branch ist "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " Commit vor '"
+              "value": "Ο κλάδος σας είναι μπροστά από το '"
             },
             {
               "type": "SYMBOL",
@@ -3380,7 +3792,15 @@
             },
             {
               "type": "STRING",
-              "value": "'."
+              "value": "' κατά "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " υποβολή."
             }
           ]
         },
@@ -3389,15 +3809,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ihr Branch ist "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " Commits vor '"
+              "value": "Ваша ветка опережает «"
             },
             {
               "type": "SYMBOL",
@@ -3405,7 +3817,15 @@
             },
             {
               "type": "STRING",
-              "value": "'."
+              "value": "» на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коммит."
             }
           ]
         },
@@ -3414,15 +3834,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "La vostra branca està "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " comissió per davant de «"
+              "value": "Ваша ветка опережает «"
             },
             {
               "type": "SYMBOL",
@@ -3430,7 +3842,15 @@
             },
             {
               "type": "STRING",
-              "value": "»."
+              "value": "» на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коммита."
             }
           ]
         },
@@ -3439,15 +3859,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "La vostra branca està "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " comissions per davant de «"
+              "value": "Ваша ветка опережает «"
             },
             {
               "type": "SYMBOL",
@@ -3455,7 +3867,165 @@
             },
             {
               "type": "STRING",
-              "value": "»."
+              "value": "» на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коммитов."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка випереджає \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\" на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коміт."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка випереджає \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\" на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коміти."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка випереджає \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\" на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " комітів."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка випереджає '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коміт."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка випереджає '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " коміти."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка випереджає '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " комітів."
             }
           ]
         },
@@ -3508,6 +4078,81 @@
               "value": "“."
             }
           ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "您的分支領先 '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' 共 "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " 個提交。"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "您的分支领先 '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' 共 "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " 个提交。"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "브랜치가 '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'보다 "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": "개 커밋만큼 앞에 있습니다."
+            }
+          ]
         }
       ]
     },
@@ -3521,47 +4166,7 @@
             "members": [
               {
                 "type": "STRING",
-                "value": "HEAD detached at "
-              },
-              {
-                "type": "STRING",
-                "value": "Указателят „HEAD“ не е свързан и е при "
-              },
-              {
-                "type": "STRING",
-                "value": "HEAD separat a "
-              },
-              {
-                "type": "STRING",
-                "value": "HEAD losgelöst bei "
-              },
-              {
-                "type": "STRING",
-                "value": "Αποσυνδεδεμένο HEAD στο "
-              },
-              {
-                "type": "STRING",
                 "value": "HEAD desacoplada en "
-              },
-              {
-                "type": "STRING",
-                "value": "HEAD détachée sur "
-              },
-              {
-                "type": "STRING",
-                "value": "HEAD terlepas pada "
-              },
-              {
-                "type": "STRING",
-                "value": "HEAD scollegato su "
-              },
-              {
-                "type": "STRING",
-                "value": "HEAD가 다음 위치에서 분리: "
-              },
-              {
-                "type": "STRING",
-                "value": "HEAD odłączone na "
               },
               {
                 "type": "STRING",
@@ -3569,7 +4174,15 @@
               },
               {
                 "type": "STRING",
-                "value": "Отсоединённый указатель HEAD указывает на "
+                "value": "HEAD destacada em "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD detached at "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD détachée sur "
               },
               {
                 "type": "STRING",
@@ -3577,11 +4190,55 @@
               },
               {
                 "type": "STRING",
-                "value": "HEAD şurada ayrıldı: "
+                "value": "HEAD losgelöst bei "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD odłączone na "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD scollegato su "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD separat a "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD terlepas pada "
               },
               {
                 "type": "STRING",
                 "value": "HEAD được tách rời tại "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD şurada ayrıldı: "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD відʼєднано на "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD отделён на "
+              },
+              {
+                "type": "STRING",
+                "value": "HEAD가 다음 위치에서 분리: "
+              },
+              {
+                "type": "STRING",
+                "value": "Αποσυνδεδεμένο HEAD στο "
+              },
+              {
+                "type": "STRING",
+                "value": "Отсоединённый указатель HEAD указывает на "
+              },
+              {
+                "type": "STRING",
+                "value": "Указателят „HEAD“ не е свързан и е при "
               },
               {
                 "type": "STRING",
@@ -3619,7 +4276,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "You are currently rebasing branch '"
+              "value": "Actualment esteu fent «rebase» de la branca «"
             },
             {
               "type": "SYMBOL",
@@ -3627,7 +4284,303 @@
             },
             {
               "type": "STRING",
-              "value": "' on '"
+              "value": "» en «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "»."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Anda sedang mendasarkan ulang cabang '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' pada '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Attualmente stai eseguendo il rebase del branch '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' su '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Bạn hiện nay đang thực hiện việc “rebase” nhánh “"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "” trên “"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "”."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Bạn hiện đang thực hiện rebase (cải tổ) nhánh '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' lên '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Du håller på att ombasera grenen \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\" ovanpå \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\"."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Du håller på att ombasera grenen ”"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "” ovanpå ”"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "”."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Está a realizar rebase do ramo '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' sobre '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Estás aplicando un rebase de la rama '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' en '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Estás aplicando un rebase de la rama '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' sobre '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Estás rebaseando ramo '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' sobre '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Przestawiasz właśnie gałąź „"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "” na „"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "”."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Sie sind gerade beim Rebase von Branch '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' auf '"
             },
             {
               "type": "SYMBOL",
@@ -3653,6 +4606,181 @@
             {
               "type": "STRING",
               "value": "' sur '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "You are currently rebasing branch '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' on '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Şu anda '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' dalını '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' üzerine yeniden temellendiriyorsunuz."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Αυτή τη στιγμή κάνετε rebase τον κλάδο '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' στο '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "В момента пребазирате клона „"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "“ върху „"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "“."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Вы сейчас перемещаете ветку «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "» над «"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "»."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Наразі ви перебазовуєте гілку \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\" на \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\"."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Наразі ви перебазовуєте гілку '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' на '"
             },
             {
               "type": "SYMBOL",
@@ -3719,156 +4847,6 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Bạn hiện nay đang thực hiện việc “rebase” nhánh “"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "” trên “"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "”."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Şu anda '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' dalını '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' üzerine yeniden temellendiriyorsunuz."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Du håller på att ombasera grenen \""
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "\" ovanpå \""
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "\"."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Вы сейчас перемещаете ветку «"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "» над «"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "»."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Estás rebaseando ramo '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' sobre '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Przestawiasz właśnie gałąź „"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "” na „"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "”."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
               "value": "현재 '"
             },
             {
@@ -3886,181 +4864,6 @@
             {
               "type": "STRING",
               "value": "' 위로 리베이스하는 중입니다."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Attualmente stai eseguendo il rebase del branch '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' su '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Anda sedang mendasarkan ulang cabang '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' pada '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Estás aplicando un rebase de la rama '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' sobre '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Αυτή τη στιγμή κάνετε rebase τον κλάδο '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' στο '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Sie sind gerade beim Rebase von Branch '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' auf '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "'."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "Actualment esteu fent «rebase» de la branca «"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "» en «"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "»."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "В момента пребазирате клона „"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "“ върху „"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "“."
             }
           ]
         }
@@ -4087,33 +4890,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "rebasage interactif en cours ; sur "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "извършвате интерактивно пребазиране върху "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "«rebase» interactiu en curs; sobre "
+              "value": "interaktiv ombasering pågår; ovanpå "
             },
             {
               "type": "SYMBOL",
@@ -4139,7 +4916,33 @@
           "members": [
             {
               "type": "STRING",
-              "value": "εκτελείται διαδραστικό rebase, πάνω στο "
+              "value": "rebasage interactif en cours ; sur "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "rebase có tương tác đang được thực hiện; lên trên "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "rebase interactivo en progreso; en "
             },
             {
               "type": "SYMBOL",
@@ -4165,7 +4968,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "sedang mendasarkan ulang interaktif; ke "
+              "value": "rebase interativo em curso; sobre "
             },
             {
               "type": "SYMBOL",
@@ -4191,7 +4994,20 @@
           "members": [
             {
               "type": "STRING",
-              "value": "대화형 리베이스 진행 중. 갈 위치는 "
+              "value": "rebase ở chế độ tương tác đang được thực hiện; lên trên "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "sedang mendasarkan ulang interaktif; ke "
             },
             {
               "type": "SYMBOL",
@@ -4217,33 +5033,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "rebase interativo em curso; sobre "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "интерактивное перемещение в процессе; над "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "interaktiv ombasering pågår; ovanpå "
+              "value": "«rebase» interactiu en curs; sobre "
             },
             {
               "type": "SYMBOL",
@@ -4269,7 +5059,72 @@
           "members": [
             {
               "type": "STRING",
-              "value": "rebase ở chế độ tương tác đang được thực hiện; lên trên "
+              "value": "εκτελείται διαδραστικό rebase, πάνω στο "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "извършвате интерактивно пребазиране върху "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "интерактивное перемещение в процессе; над "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "триває інтерактивне перебазування на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "інтерактивне перебазовування в процесі; на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "互動式重定基底動作正在進行中；至 "
             },
             {
               "type": "SYMBOL",
@@ -4295,7 +5150,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "互動式重定基底動作正在進行中；至 "
+              "value": "대화형 리베이스 진행 중. 갈 위치는 "
             },
             {
               "type": "SYMBOL",
@@ -4322,4 +5177,3 @@
   "inline": [],
   "supertypes": []
 }
-

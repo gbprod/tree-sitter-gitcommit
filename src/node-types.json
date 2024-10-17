@@ -215,6 +215,7 @@
   {
     "type": "source",
     "named": true,
+    "root": true,
     "fields": {},
     "children": {
       "multiple": true,
@@ -335,6 +336,10 @@
     "named": false
   },
   {
+    "type": " commit, podendo ser atualizado com avanço rápido.",
+    "named": false
+  },
+  {
     "type": " commit, y puede ser avanzada rápido.",
     "named": false
   },
@@ -348,6 +353,10 @@
   },
   {
     "type": " commits, et peut être mise à jour en avance rapide.",
+    "named": false
+  },
+  {
+    "type": " commits, podendo ser atualizado com avanço rápido.",
     "named": false
   },
   {
@@ -459,11 +468,19 @@
     "named": false
   },
   {
+    "type": " коммит и может быть перемотана вперед.",
+    "named": false
+  },
+  {
     "type": " коммит.",
     "named": false
   },
   {
     "type": " коммита и может быть быстро перемотана.",
+    "named": false
+  },
+  {
+    "type": " коммита и может быть перемотана вперед.",
     "named": false
   },
   {
@@ -475,7 +492,35 @@
     "named": false
   },
   {
+    "type": " коммитов и может быть перемотана вперед.",
+    "named": false
+  },
+  {
     "type": " коммитов.",
+    "named": false
+  },
+  {
+    "type": " коміт, і її можна перемотати вперед.",
+    "named": false
+  },
+  {
+    "type": " коміт.",
+    "named": false
+  },
+  {
+    "type": " коміти, і її можна перемотати вперед.",
+    "named": false
+  },
+  {
+    "type": " коміти.",
+    "named": false
+  },
+  {
+    "type": " комітів, і її можна перемотати вперед.",
+    "named": false
+  },
+  {
+    "type": " комітів.",
     "named": false
   },
   {
@@ -523,6 +568,14 @@
     "named": false
   },
   {
+    "type": "\" на ",
+    "named": false
+  },
+  {
+    "type": "\" на \"",
+    "named": false
+  },
+  {
     "type": "\".",
     "named": false
   },
@@ -532,6 +585,10 @@
   },
   {
     "type": "#    ",
+    "named": false
+  },
+  {
+    "type": "' ",
     "named": false
   },
   {
@@ -559,7 +616,15 @@
     "named": false
   },
   {
+    "type": "' en '",
+    "named": false
+  },
+  {
     "type": "' ile güncel.",
+    "named": false
+  },
+  {
+    "type": "' lên '",
     "named": false
   },
   {
@@ -600,6 +665,14 @@
   },
   {
     "type": "' στο '",
+    "named": false
+  },
+  {
+    "type": "' на ",
+    "named": false
+  },
+  {
+    "type": "' на '",
     "named": false
   },
   {
@@ -663,6 +736,10 @@
     "named": false
   },
   {
+    "type": ".",
+    "named": false
+  },
+  {
     "type": ":",
     "named": false
   },
@@ -680,6 +757,10 @@
   },
   {
     "type": "Bạn hiện nay đang thực hiện việc “rebase” nhánh “",
+    "named": false
+  },
+  {
+    "type": "Bạn hiện đang thực hiện rebase (cải tổ) nhánh '",
     "named": false
   },
   {
@@ -707,7 +788,15 @@
     "named": false
   },
   {
+    "type": "Din gren ligger efter ”",
+    "named": false
+  },
+  {
     "type": "Din gren ligger före \"",
+    "named": false
+  },
+  {
+    "type": "Din gren ligger före ”",
     "named": false
   },
   {
@@ -715,7 +804,19 @@
     "named": false
   },
   {
+    "type": "Din gren är à jour med ”",
+    "named": false
+  },
+  {
     "type": "Du håller på att ombasera grenen \"",
+    "named": false
+  },
+  {
+    "type": "Du håller på att ombasera grenen ”",
+    "named": false
+  },
+  {
+    "type": "Está a realizar rebase do ramo '",
     "named": false
   },
   {
@@ -755,7 +856,19 @@
     "named": false
   },
   {
+    "type": "Nhánh của bạn đã cập nhật với '",
+    "named": false
+  },
+  {
     "type": "Nhánh của bạn đã cập nhật với “",
+    "named": false
+  },
+  {
+    "type": "Nhánh của bạn đứng sau '",
+    "named": false
+  },
+  {
+    "type": "Nhánh của bạn đứng trước '",
     "named": false
   },
   {
@@ -764,6 +877,18 @@
   },
   {
     "type": "Nhánh của bạn đứng đằng sau “",
+    "named": false
+  },
+  {
+    "type": "O seu ramo está atrás de '",
+    "named": false
+  },
+  {
+    "type": "O seu ramo está atualizado com '",
+    "named": false
+  },
+  {
+    "type": "O seu ramo está à frente de '",
     "named": false
   },
   {
@@ -859,6 +984,10 @@
     "named": false
   },
   {
+    "type": "borrado:",
+    "named": false
+  },
+  {
     "type": "borrados:",
     "named": false
   },
@@ -868,6 +997,10 @@
   },
   {
     "type": "break",
+    "named": false
+  },
+  {
+    "type": "cambio de tipo:",
     "named": false
   },
   {
@@ -995,6 +1128,10 @@
     "named": false
   },
   {
+    "type": "nome mudado:",
+    "named": false
+  },
+  {
     "type": "nouveau fichier :",
     "named": false
   },
@@ -1004,6 +1141,10 @@
   },
   {
     "type": "nowy plik:",
+    "named": false
+  },
+  {
+    "type": "nuevo archivo:",
     "named": false
   },
   {
@@ -1031,6 +1172,14 @@
     "named": false
   },
   {
+    "type": "rebase có tương tác đang được thực hiện; lên trên ",
+    "named": false
+  },
+  {
+    "type": "rebase interactivo en progreso; en ",
+    "named": false
+  },
+  {
     "type": "rebase interactivo en progreso; sobre ",
     "named": false
   },
@@ -1048,6 +1197,10 @@
   },
   {
     "type": "renamed:",
+    "named": false
+  },
+  {
+    "type": "renombrado:",
     "named": false
   },
   {
@@ -1239,6 +1392,10 @@
     "named": false
   },
   {
+    "type": "đổi-kiểu:",
+    "named": false
+  },
+  {
     "type": "Şu anda '",
     "named": false
   },
@@ -1291,7 +1448,39 @@
     "named": false
   },
   {
+    "type": "Ваша ветка обновлена в соответствии с «",
+    "named": false
+  },
+  {
     "type": "Ваша ветка опережает «",
+    "named": false
+  },
+  {
+    "type": "Ваша ветка отстает от «",
+    "named": false
+  },
+  {
+    "type": "Ваша гілка випереджає \"",
+    "named": false
+  },
+  {
+    "type": "Ваша гілка випереджає '",
+    "named": false
+  },
+  {
+    "type": "Ваша гілка відстає від \"",
+    "named": false
+  },
+  {
+    "type": "Ваша гілка відстає від гілки '",
+    "named": false
+  },
+  {
+    "type": "Ваша гілка не відрізняється від \"",
+    "named": false
+  },
+  {
+    "type": "Ваша гілка не відрізняється від '",
     "named": false
   },
   {
@@ -1311,11 +1500,27 @@
     "named": false
   },
   {
+    "type": "Наразі ви перебазовуєте гілку \"",
+    "named": false
+  },
+  {
+    "type": "Наразі ви перебазовуєте гілку '",
+    "named": false
+  },
+  {
     "type": "Эта ветка соответствует «",
     "named": false
   },
   {
+    "type": "видалено:",
+    "named": false
+  },
+  {
     "type": "змінено тип:",
+    "named": false
+  },
+  {
+    "type": "змінено:",
     "named": false
   },
   {
@@ -1343,11 +1548,19 @@
     "named": false
   },
   {
+    "type": "новий файл:",
+    "named": false
+  },
+  {
     "type": "новый файл:",
     "named": false
   },
   {
     "type": "переименовано:",
+    "named": false
+  },
+  {
+    "type": "перейменовано:",
     "named": false
   },
   {
@@ -1363,7 +1576,15 @@
     "named": false
   },
   {
+    "type": "триває інтерактивне перебазування на ",
+    "named": false
+  },
+  {
     "type": "удалено:",
+    "named": false
+  },
+  {
+    "type": "інтерактивне перебазовування в процесі; на ",
     "named": false
   },
   {
@@ -1383,11 +1604,19 @@
     "named": false
   },
   {
+    "type": "” med ",
+    "named": false
+  },
+  {
     "type": "” na „",
     "named": false
   },
   {
     "type": "” o ",
+    "named": false
+  },
+  {
+    "type": "” ovanpå ”",
     "named": false
   },
   {
