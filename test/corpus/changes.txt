@@ -2,7 +2,7 @@
 New files
 ================================================================================
 
-# 請輸入描述您變更的提交訊息。會保留開頭是「%c」
+# 請輸入描述您變更的提交訊息。會保留開頭是「#」
 # with '#' will be ignored, and an empty message aborts the commit.
 #
 # Changes to be committed:

@@ -50,12 +50,5 @@
   "devDependencies": {
     "tree-sitter-cli": "^0.20.7",
     "prebuildify": "^6.0.0"
-  },
-  "tree-sitter": [
-    {
-      "file-types": [
-        "COMMIT_EDITMSG"
-      ]
-    }
-  ]
+  }
 }

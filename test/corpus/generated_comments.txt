@@ -417,7 +417,7 @@ Behind
 Ahead
 ================================================================================
 
-# 请为您的变更输入提交说明。以 '%c' 开始的行将被保留，如果您愿意
+# 请为您的变更输入提交说明。以 '#' 开始的行将被保留，如果您愿意
 #
 # Your branch is ahead of 'origin/master' by 456 commit.
 # Your branch is ahead of 'origin/master' by 456 commits.
@@ -581,7 +581,7 @@ Rebasing
 # 현재 'feat' 브랜치를 'main' 위로 리베이스하는 중입니다.
 # Attualmente stai eseguendo il rebase del branch 'feat' su 'main'.
 # Anda sedang mendasarkan ulang cabang 'feat' pada 'main'.
-# Estás aplicando un rebase de la rama 'feat' sobre 'main'.
+# Estás aplicando un rebase de la rama 'feat' sobre 'main.
 # Αυτή τη στιγμή κάνετε rebase τον κλάδο 'feat' στο 'main'.
 # Sie sind gerade beim Rebase von Branch 'feat' auf 'main'.
 # Actualment esteu fent «rebase» de la branca «test» en «main».
