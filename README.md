@@ -40,6 +40,17 @@ To handle that, you must have `diff` and `git_rebase` tree-sitter grammars insta
 
 If you're using Neovim and [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter), you just have to be sure that `diff` and `git_rebase` are installed (using `TSInstall diff git_rebase` for example).
 
+## Upgrade translations
+
+There is python script to upgrade translations from git source code. It will search for all translations in all tagged versions of git from the v2.30.2.
+So this parser should be compatible with all git versions from v2.30.2.
+
+To upgrade translations, run:
+
+```bash
+python parse-lang.py
+```
+
 ## Credits
 
 - [https://github.com/the-mikedavis/tree-sitter-git-commit](https://github.com/the-mikedavis/tree-sitter-git-commit) Good parser but [only works in English](https://github.com/the-mikedavis/tree-sitter-git-commit/issues/4).

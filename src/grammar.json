@@ -747,10 +747,6 @@
               },
               {
                 "type": "STRING",
-                "value": "# Lütfen değişiklikleriniz için bir işleme iletisi girin. '#' ile başlayan"
-              },
-              {
-                "type": "STRING",
                 "value": "# Mohon masukkan pesan komit untuk perubahan Anda. Baris yang diawali"
               },
               {
@@ -799,11 +795,11 @@
               },
               {
                 "type": "STRING",
-                "value": "請為您的變更輸入提交說明。以 '#' 開始的行將被保留，如果您原意"
+                "value": "# 請為您的變更輸入提交說明。以 '#' 開始的行將被保留，如果您原意"
               },
               {
                 "type": "STRING",
-                "value": "請為您的變更輸入提交說明。以 '#' 開始的行將被忽略，而一個空的提交"
+                "value": "# 請為您的變更輸入提交說明。以 '#' 開始的行將被忽略，而一個空的提交"
               },
               {
                 "type": "STRING",
@@ -827,7 +823,7 @@
               },
               {
                 "type": "STRING",
-                "value": "请为您的变更输入提交说明。以 '#' 开始的行将被保留，如果您原意"
+                "value": "# 请为您的变更输入提交说明。以 '#' 开始的行将被保留，如果您原意"
               },
               {
                 "type": "STRING",
@@ -967,11 +963,11 @@
         },
         {
           "type": "STRING",
-          "value": "nuevos archivos:"
+          "value": "nuevo archivo:"
         },
         {
           "type": "STRING",
-          "value": "nuevo archivo:"
+          "value": "nuevos archivos:"
         },
         {
           "type": "STRING",
@@ -1279,11 +1275,11 @@
         },
         {
           "type": "STRING",
-          "value": "cambios de tipo:"
+          "value": "cambio de tipo:"
         },
         {
           "type": "STRING",
-          "value": "cambio de tipo:"
+          "value": "cambios de tipo:"
         },
         {
           "type": "STRING",
@@ -1905,23 +1901,6 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ваша гілка не відрізняється від \""
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "\"."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
               "value": "Ваша гілка не відрізняється від '"
             },
             {
@@ -1931,6 +1910,23 @@
             {
               "type": "STRING",
               "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Ваша гілка не відрізняється від \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\"."
             }
           ]
         },
@@ -3434,6 +3430,56 @@
           "members": [
             {
               "type": "STRING",
+              "value": "O seu ramo está à frente de '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' por "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commit."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "O seu ramo está à frente de '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' por "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " commits."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
               "value": "Teu ramo está à frente de '"
             },
             {
@@ -3510,56 +3556,6 @@
             {
               "type": "STRING",
               "value": "Tu rama está adelantada a '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' por "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commits."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "O seu ramo está à frente de '"
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "' por "
-            },
-            {
-              "type": "SYMBOL",
-              "name": "number"
-            },
-            {
-              "type": "STRING",
-              "value": " commit."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "O seu ramo está à frente de '"
             },
             {
               "type": "SYMBOL",
@@ -3884,7 +3880,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ваша гілка випереджає \""
+              "value": "Ваша гілка випереджає '"
             },
             {
               "type": "SYMBOL",
@@ -3892,7 +3888,7 @@
             },
             {
               "type": "STRING",
-              "value": "\" на "
+              "value": "' на "
             },
             {
               "type": "SYMBOL",
@@ -3909,7 +3905,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ваша гілка випереджає \""
+              "value": "Ваша гілка випереджає '"
             },
             {
               "type": "SYMBOL",
@@ -3917,7 +3913,7 @@
             },
             {
               "type": "STRING",
-              "value": "\" на "
+              "value": "' на "
             },
             {
               "type": "SYMBOL",
@@ -3934,7 +3930,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ваша гілка випереджає \""
+              "value": "Ваша гілка випереджає '"
             },
             {
               "type": "SYMBOL",
@@ -3942,7 +3938,7 @@
             },
             {
               "type": "STRING",
-              "value": "\" на "
+              "value": "' на "
             },
             {
               "type": "SYMBOL",
@@ -3959,7 +3955,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ваша гілка випереджає '"
+              "value": "Ваша гілка випереджає \""
             },
             {
               "type": "SYMBOL",
@@ -3967,7 +3963,7 @@
             },
             {
               "type": "STRING",
-              "value": "' на "
+              "value": "\" на "
             },
             {
               "type": "SYMBOL",
@@ -3984,7 +3980,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ваша гілка випереджає '"
+              "value": "Ваша гілка випереджає \""
             },
             {
               "type": "SYMBOL",
@@ -3992,7 +3988,7 @@
             },
             {
               "type": "STRING",
-              "value": "' на "
+              "value": "\" на "
             },
             {
               "type": "SYMBOL",
@@ -4009,7 +4005,7 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Ваша гілка випереджає '"
+              "value": "Ваша гілка випереджає \""
             },
             {
               "type": "SYMBOL",
@@ -4017,7 +4013,7 @@
             },
             {
               "type": "STRING",
-              "value": "' на "
+              "value": "\" на "
             },
             {
               "type": "SYMBOL",
@@ -4489,10 +4485,6 @@
             {
               "type": "SYMBOL",
               "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "."
             }
           ]
         },
@@ -4747,31 +4739,6 @@
           "members": [
             {
               "type": "STRING",
-              "value": "Наразі ви перебазовуєте гілку \""
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "\" на \""
-            },
-            {
-              "type": "SYMBOL",
-              "name": "branch"
-            },
-            {
-              "type": "STRING",
-              "value": "\"."
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
               "value": "Наразі ви перебазовуєте гілку '"
             },
             {
@@ -4789,6 +4756,31 @@
             {
               "type": "STRING",
               "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Наразі ви перебазовуєте гілку \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\" на \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\"."
             }
           ]
         },
