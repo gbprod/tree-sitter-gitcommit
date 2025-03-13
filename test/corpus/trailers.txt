@@ -74,6 +74,7 @@ This is a simple subject
 
 key: This is a very long value, with spaces and
   newlines in it.
+  it should be parsed as a single value.
 
 --------------------------------------------------------------------------------
 
@@ -82,8 +83,7 @@ key: This is a very long value, with spaces and
   (message
     (trailer
       (token)
-      (value))
-    (message_line)))
+      (value))))
 
 ================================================================================
 Mixed
