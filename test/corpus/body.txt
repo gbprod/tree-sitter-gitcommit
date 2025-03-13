@@ -91,7 +91,9 @@ BREAKING-CHANGE: also valid
 BREAKING CHANGE with overflow
 ================================================================================
 
-BREAKING CHANGE: My message with a long long text that will overflow with ease.
+BREAKING CHANGE: My message with a long long text
+ with more than one line
+ that should be parsed as a single value
 --------------------------------------------------------------------------------
 
 (source
@@ -105,9 +107,9 @@ Overflowed summary
 ================================================================================
 This is a simple subject
 
-This is a simple body 
+This is a simple body
 This is a simple body with so muche characters that it will overflow the summary limit
-This is a simple body 
+This is a simple body
 --------------------------------------------------------------------------------
 
 (source
