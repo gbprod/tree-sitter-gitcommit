@@ -1,29 +1,31 @@
 [build-system]
-requires = ["setuptools>=42", "wheel"]
+requires = ["setuptools>=62.4.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "tree-sitter-gitcommit"
 description = "Gitcommit grammar for tree-sitter"
-version = "0.0.1"
+version = "0.4.0"
 keywords = ["incremental", "parsing", "tree-sitter", "gitcommit"]
 classifiers = [
   "Intended Audience :: Developers",
-  "License :: OSI Approved :: MIT License",
   "Topic :: Software Development :: Compilers",
   "Topic :: Text Processing :: Linguistic",
-  "Typing :: Typed"
+  "Typing :: Typed",
 ]
-requires-python = ">=3.8"
-license.text = "MIT"
+authors = [
+  { name = "gbprod", email = "contact@gb-prod.fr" },
+]
+requires-python = ">=3.10"
+license.text = "WTFPL"
 readme = "README.md"
 
 [project.urls]
-Homepage = "https://github.com/tree-sitter/tree-sitter-gitcommit"
+Homepage = "https://github.com/gbprod/tree-sitter-gitcommit"
 
 [project.optional-dependencies]
-core = ["tree-sitter~=0.21"]
+core = ["tree-sitter~=0.24"]
 
 [tool.cibuildwheel]
-build = "cp38-*"
+build = "cp310-*"
 build-frontend = "build"

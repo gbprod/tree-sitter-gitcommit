@@ -1,0 +1,38 @@
+{
+  "grammars": [
+    {
+      "name": "gitcommit",
+      "camelcase": "Gitcommit",
+      "scope": "text.gitcommit",
+      "path": ".",
+      "file-types": [
+        "COMMIT_EDITMSG"
+      ],
+      "highlights": "queries/highlights.scm",
+      "injections": "queries/injections.scm",
+      "injection-regex": "gitcommit"
+    }
+  ],
+  "metadata": {
+    "version": "0.4.0",
+    "license": "WTFPL",
+    "description": "A tree-sitter grammar for git commit messages",
+    "authors": [
+      {
+        "name": "gbprod",
+        "email": "contact@gb-prod.fr"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/gbprod/tree-sitter-gitcommit"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": false,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
