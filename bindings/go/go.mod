@@ -1,5 +1,5 @@
-module github.com/tree-sitter/tree-sitter-gitcommit
+module github.com/gbprod/tree-sitter-gitcommit/bindings/go
 
 go 1.22
 
-require github.com/smacker/go-tree-sitter v0.0.0-20230720070738-0d0a9f78d8f8
+require github.com/tree-sitter/go-tree-sitter v0.24.0

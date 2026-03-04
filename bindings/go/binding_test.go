@@ -3,8 +3,8 @@ package tree_sitter_gitcommit_test
 import (
 	"testing"
 
-	tree_sitter "github.com/smacker/go-tree-sitter"
-	"github.com/tree-sitter/tree-sitter-gitcommit"
+	tree_sitter "github.com/tree-sitter/go-tree-sitter"
+	tree_sitter_gitcommit "github.com/gbprod/tree-sitter-gitcommit/bindings/go"
 )
 
 func TestCanLoadGrammar(t *testing.T) {
