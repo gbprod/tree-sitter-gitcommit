@@ -254,7 +254,7 @@ Not conventional commit if starts with a !
 --------------------------------------------------------------------------------
 
 (source
-  (subject))
+  (comment))
 
 ================================================================================
 Not conventional commit if starts with a :
@@ -264,7 +264,7 @@ Not conventional commit if starts with a :
 --------------------------------------------------------------------------------
 
 (source
-  (subject))
+  (comment))
 
 ================================================================================
 Not conventional commit if starts with a space

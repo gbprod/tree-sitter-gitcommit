@@ -1,8 +1,8 @@
 const NEWLINE = /\r?\n/;
 const ANYTHING_OR_NONE = /[^\n\r]*/;
 const ANYTHING = /[^\n\r]+/;
-const NOT_A_COMMENT = /[^#]/;
-const SCISSORS = /# -+ >8 -+\r?\n/;
+const NOT_A_COMMENT = /[^#;!$%^&|:]/;
+const SCISSORS = /[#;!$%^&|:] -+ >8 -+\r?\n/;
 const BRANCH_NAME = /[^\s'”»"“]+/;
 const COMMIT = /[0-9a-f]{7,40}/;
 const FILEPATH = /\S+/;
@@ -70,10 +70,12 @@ module.exports = grammar({
 
     comment: ($) =>
       seq(
-        '#',
+        /[#;!$%^&|:]/,
         optional(WHITESPACE),
-        optional(
-          choice(alias(COMMENT_TITLE, $.title), token(prec(-1, COMMENT)))
+        choice(
+          alias(COMMENT_TITLE, $.title),
+          token(prec(-1, COMMENT)),
+          NEWLINE
         )
       ),
     _generated_comments: ($) =>
@@ -84,10 +86,10 @@ module.exports = grammar({
 
     generated_comment: ($) =>
       choice(
-        seq(/#\t/, $._change),
-        seq('#    ', $.rebase_command),
+        seq(/[#;!$%^&|:]\t/, $._change),
+        seq(/[#;!$%^&|:]    /, $.rebase_command),
         seq(
-          /#[ ]*/,
+          /[#;!$%^&|:][ ]*/,
           optional(
             choice(
               $.rebase_command,
@@ -153,43 +155,43 @@ module.exports = grammar({
           // prettier-ignore
           choice(
             // generated_comment_separator
-            "# Ange incheckningsmeddelandet för dina ändringar. Rader som inleds",
-            "# Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen, die",
-            "# Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen,",
-            "# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những dòng được",
-            "# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những",
-            "# Immetti il messaggio di commit per le modifiche. Le righe che iniziano",
-            "# Introduza a mensagem de commit das suas alterações.",
-            "# Introduzia a mensagem de commit das suas alterações.",
-            "# Introduïu el missatge de comissió dels vostres canvis.",
-            "# Introduïu el missatge de comissió pels vostres canvis. Es mantindran",
-            "# Introduïu el missatge de comissió per als vostres canvis. ",
-            "# Introduïu el missatge de comissió per als vostres canvis.",
-            "# Lütfen değişiklikleriniz için bir işleme iletisi girin. '#' ile başlayan",
-            "# Mohon masukkan pesan komit untuk perubahan Anda. Baris yang diawali",
-            "# Please enter the commit message for your changes. Lines starting",
-            "# Podaj komunikat zapisu swoich zmian. Wiersze zaczynające się",
-            "# Por favor ingresa el mensaje del commit para tus cambios. Las",
-            "# Por favor, introduz a mensagem de memória das tuas alterações.",
-            "# Veuillez saisir le message de validation pour vos modifications. Les lignes commençant",
-            "# Veuillez saisir le message de validation pour vos modifications. Les lignes",
-            "# Παρακαλώ εισάγετε το μήνυμα υποβολής για τις αλλαγές σας. Οι γραμμές που αρχίζουν",
-            "# Будь ласка, введіть допис до коміту для ваших змін. Рядки, що починаються з",
-            "# Въведете съобщението за подаване на промѐните.  Редовете, които започват",
-            "# Въведете съобщението за подаване на промените.  Редовете, които започват",
-            "# Пожалуйста, введите сообщение коммита для ваших изменений. Строки,",
-            "# 請為您的變更輸入提交說明。以 '#' 開始的行將被保留，如果您原意",
-            "# 請為您的變更輸入提交說明。以 '#' 開始的行將被忽略，而一個空的提交",
-            "# 請輸入描述您變更的提交訊息。",
-            "# 請輸入描述您變更的提交訊息。會保留開頭是",
-            "# 請輸入描述您變更的提交訊息。會保留開頭是「#」",
-            "# 請輸入描述您變更的提交訊息。開頭是「#」",
-            "# 請輸入描述您變更的提交訊息。開頭是「#」的列",
-            "# 请为您的变更输入提交说明。以 '#' 开始的行将被保留，如果您原意",
-            "# 请为您的变更输入提交说明。以 '#' 开始的行将被保留，如果您愿意",
-            "# 请为您的变更输入提交说明。以 '#' 开始的行将被忽略。",
-            "# 请为您的变更输入提交说明。以 '#' 开始的行将被忽略，而一个空的提交",
-            "# 변경 사항에 대한 커밋 메시지를 입력하십시오. '#' 문자로 시작하는"
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Ange incheckningsmeddelandet för dina ändringar. Rader som inleds"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen, die"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen,"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những dòng được"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Immetti il messaggio di commit per le modifiche. Le righe che iniziano"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Introduza a mensagem de commit das suas alterações."))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Introduzia a mensagem de commit das suas alterações."))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Introduïu el missatge de comissió dels vostres canvis."))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Introduïu el missatge de comissió pels vostres canvis. Es mantindran"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Introduïu el missatge de comissió per als vostres canvis. "))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Introduïu el missatge de comissió per als vostres canvis."))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Lütfen değişiklikleriniz için bir işleme iletisi girin. '#' ile başlayan"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Mohon masukkan pesan komit untuk perubahan Anda. Baris yang diawali"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Please enter the commit message for your changes. Lines starting"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Podaj komunikat zapisu swoich zmian. Wiersze zaczynające się"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Por favor ingresa el mensaje del commit para tus cambios. Las"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Por favor, introduz a mensagem de memória das tuas alterações."))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Veuillez saisir le message de validation pour vos modifications. Les lignes commençant"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Veuillez saisir le message de validation pour vos modifications. Les lignes"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Παρακαλώ εισάγετε το μήνυμα υποβολής για τις αλλαγές σας. Οι γραμμές που αρχίζουν"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Будь ласка, введіть допис до коміту для ваших змін. Рядки, що починаються з"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Въведете съобщението за подаване на промѐните.  Редовете, които започват"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Въведете съобщението за подаване на промените.  Редовете, които започват"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " Пожалуйста, введите сообщение коммита для ваших изменений. Строки,"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 請為您的變更輸入提交說明。以 '#' 開始的行將被保留，如果您原意"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 請為您的變更輸入提交說明。以 '#' 開始的行將被忽略，而一個空的提交"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 請輸入描述您變更的提交訊息。"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 請輸入描述您變更的提交訊息。會保留開頭是"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 請輸入描述您變更的提交訊息。會保留開頭是「#」"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 請輸入描述您變更的提交訊息。開頭是「#」"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 請輸入描述您變更的提交訊息。開頭是「#」的列"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 请为您的变更输入提交说明。以 '#' 开始的行将被保留，如果您原意"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 请为您的变更输入提交说明。以 '#' 开始的行将被保留，如果您愿意"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 请为您的变更输入提交说明。以 '#' 开始的行将被忽略。"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 请为您的变更输入提交说明。以 '#' 开始的行将被忽略，而一个空的提交"))),
+            token(prec(-1, seq(/[#;!$%^&|:]/, " 변경 사항에 대한 커밋 메시지를 입력하십시오. '#' 문자로 시작하는")))
             // end generated_comment_separator
           ),
           $.generated_comment
@@ -355,7 +357,7 @@ module.exports = grammar({
 
     _scissor_generated_comment: ($) =>
       seq(
-        '#',
+        /[#;!$%^&|:]/,
         optional(
           choice(
             alias(GENERATED_COMMENT_TITLE, $.title),
@@ -368,7 +370,7 @@ module.exports = grammar({
       repeat1(
         choice(
           alias($._scissor_generated_comment, $.generated_comment),
-          seq(/[^#]/, optional(ANYTHING)),
+          seq(/[^#;!$%^&|:]/, optional(ANYTHING)),
           NEWLINE
         )
       ),

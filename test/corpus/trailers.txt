@@ -14,8 +14,8 @@ test(trailer): test
 (source
   (subject)
   (message
-    (message_line)
-    (message_line)
+    (comment)
+    (comment)
     (message_line)
     (message_line)
     (message_line)))
