@@ -4,9 +4,9 @@ description = "gitcommit grammar for the tree-sitter parsing library"
 version = "0.4.0"
 keywords = ["incremental", "parsing", "gitcommit"]
 categories = ["parsing", "text-editors"]
-repository = "https://github.com/tree-sitter/tree-sitter-gitcommit"
-edition = "2018"
-license = "MIT"
+repository = "https://github.com/gbprod/tree-sitter-gitcommit"
+edition = "2021"
+license = "WTFPL"
 
 build = "bindings/rust/build.rs"
 include = [
@@ -20,7 +20,10 @@ include = [
 path = "bindings/rust/lib.rs"
 
 [dependencies]
-tree-sitter = ">= 0.25"
+tree-sitter-language = "0.1"
 
 [build-dependencies]
-cc = "1.0"
+cc = "1.1"
+
+[dev-dependencies]
+tree-sitter = "0.25"
