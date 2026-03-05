@@ -114,6 +114,7 @@ module.exports = grammar({
           // prettier-ignore
           choice(
             // onbranch
+            "Ar bhrainse ",
             "Auf Branch ",
             "Em ramo ",
             "En la branca ",
@@ -156,6 +157,7 @@ module.exports = grammar({
             "# Ange incheckningsmeddelandet för dina ändringar. Rader som inleds",
             "# Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen, die",
             "# Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen,",
+            "# Cuir isteach an teachtaireacht tiomanta le haghaidh d'athruithe. Línte ag tosú",
             "# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những dòng được",
             "# Hãy nhập vào các thông tin để giải thích các thay đổi của bạn. Những",
             "# Immetti il messaggio di commit per le modifiche. Le righe che iniziano",
@@ -214,6 +216,7 @@ module.exports = grammar({
       choice(
         // newfile
         "berkas baru:",
+        "comhad nua:",
         "fitxer nou:",
         "neue Datei:",
         "new file:",
@@ -246,6 +249,7 @@ module.exports = grammar({
         "eliminado:",
         "eliminato:",
         "gelöscht:",
+        "scriosta:",
         "silindi:",
         "supprimé :",
         "suprimit:",
@@ -267,6 +271,7 @@ module.exports = grammar({
         // modified
         "değiştirildi:",
         "geändert:",
+        "modhnaithe:",
         "modificado:",
         "modificados:",
         "modificat:",
@@ -289,6 +294,7 @@ module.exports = grammar({
       // prettier-ignore
       choice(
         // renamed
+        "athainmnithe:",
         "canviat de nom:",
         "namnbytt:",
         "nome mudado:",
@@ -321,6 +327,7 @@ module.exports = grammar({
         "cambio de tipo:",
         "cambios de tipo:",
         "canviat de tipus:",
+        "cineál cineál:",
         "modif. type :",
         "modifica tipo:",
         "tipe perubahan:",
@@ -409,6 +416,7 @@ module.exports = grammar({
         seq("Teu ramo está atualizado com '", $.branch, "'."),
         seq("Tu rama está actualizada con '", $.branch, "'."),
         seq("Twoja gałąź jest na bieżąco z „", $.branch, "”."),
+        seq("Tá do bhrainse cothrom le dáta le '", $.branch, "'."),
         seq("Votre branche est à jour avec '", $.branch, "'."),
         seq("Your branch is up to date with '", $.branch, "'."),
         seq("Ο κλάδος σας είναι ενήμερος με το '", $.branch, "'."),
@@ -450,6 +458,8 @@ module.exports = grammar({
         seq("Twoja gałąź jest za „", $.branch, "” o ", $.number, " zapis i może zostać przewinięta."),
         seq("Twoja gałąź jest za „", $.branch, "” o ", $.number, " zapisy i może zostać przewinięta."),
         seq("Twoja gałąź jest za „", $.branch, "” o ", $.number, " zapisów i może zostać przewinięta."),
+        seq("Tá do bhrainse taobh thiar de '", $.branch, "' faoi ", $.number, " tiomantas, agus is féidir é a luasghéarú ar aghaidh."),
+        seq("Tá do bhrainse taobh thiar de '", $.branch, "' faoi ", $.number, " tiomnuithe, agus is féidir é a luasghéarú ar aghaidh."),
         seq("Votre branche est en retard sur '", $.branch, "' de ", $.number, " commit, et peut être mise à jour en avance rapide."),
         seq("Votre branche est en retard sur '", $.branch, "' de ", $.number, " commits, et peut être mise à jour en avance rapide."),
         seq("Your branch is behind '", $.branch, "' by ", $.number, " commit, and can be fast-forwarded."),
@@ -462,11 +472,14 @@ module.exports = grammar({
         seq("Ваша гілка відстає від \"", $.branch, "\" на ", $.number, " коміт, і її можна перемотати вперед."),
         seq("Ваша гілка відстає від \"", $.branch, "\" на ", $.number, " коміти, і її можна перемотати вперед."),
         seq("Ваша гілка відстає від гілки '", $.branch, "' на ", $.number, " комітів, і її можна перемотати вперед."),
+        seq("Ваша гілка відстає від гілки \"", $.branch, "\" на ", $.number, " комітів, і її можна перемотати вперед."),
         seq("Ветка отстает от «", $.branch, "» на ", $.number, " коммит и может быть быстро перемотана."),
         seq("Ветка отстает от «", $.branch, "» на ", $.number, " коммита и может быть быстро перемотана."),
         seq("Ветка отстает от «", $.branch, "» на ", $.number, " коммитов и может быть быстро перемотана."),
         seq("Клонът ви е с ", $.number, " подаване зад „", $.branch, "“ и може да бъде превъртян."),
+        seq("Клонът ви е с ", $.number, " подаване зад „", $.branch, "“ и може да се превърти."),
         seq("Клонът ви е с ", $.number, " подавания зад „", $.branch, "“ и може да бъде превъртян."),
+        seq("Клонът ви е с ", $.number, " подавания зад „", $.branch, "“ и може да се превърти."),
         seq("您的分支落后 '", $.branch, "' 共 ", $.number, " 个提交，并且可以快进。"),
         seq("您的分支落後 '", $.branch, "' 共 ", $.number, " 個提交，並且可以快轉。"),
         seq("브랜치가 '", $.branch, "'보다 ", $.number, "개 커밋 뒤에 있고, 앞으로 돌릴 수 있습니다.")
@@ -499,6 +512,8 @@ module.exports = grammar({
         seq("Twoja gałąź jest do przodu względem „", $.branch, "” o ", $.number, " zapis."),
         seq("Twoja gałąź jest do przodu względem „", $.branch, "” o ", $.number, " zapisy."),
         seq("Twoja gałąź jest do przodu względem „", $.branch, "” o ", $.number, " zapisów."),
+        seq("Tá do bhrainse chun tosaigh ar '", $.branch, "' le tiomantais ", $.number, "."),
+        seq("Tá do bhrainse chun tosaigh ar '", $.branch, "' le tiomantas ", $.number, "."),
         seq("Votre branche est en avance sur '", $.branch, "' de ", $.number, " commit."),
         seq("Votre branche est en avance sur '", $.branch, "' de ", $.number, " commits."),
         seq("Your branch is ahead of '", $.branch, "' by ", $.number, " commit."),
@@ -536,6 +551,7 @@ module.exports = grammar({
             "HEAD frånkopplad vid ",
             "HEAD losgelöst bei ",
             "HEAD odłączone na ",
+            "HEAD scoite ag ",
             "HEAD scollegato su ",
             "HEAD separat a ",
             "HEAD terlepas pada ",
@@ -574,6 +590,7 @@ module.exports = grammar({
         seq("Estás rebaseando ramo '", $.branch, "' sobre '", $.branch, "'."),
         seq("Przestawiasz właśnie gałąź „", $.branch, "” na „", $.branch, "”."),
         seq("Sie sind gerade beim Rebase von Branch '", $.branch, "' auf '", $.branch, "'."),
+        seq("Tá tú ag athbhunú brainse '", $.branch, "' faoi láthair ar '", $.branch, "'."),
         seq("Vous êtes en train de rebaser la branche '", $.branch, "' sur '", $.branch, "'."),
         seq("You are currently rebasing branch '", $.branch, "' on '", $.branch, "'."),
         seq("Şu anda '", $.branch, "' dalını '", $.branch, "' üzerine yeniden temellendiriyorsunuz."),
@@ -592,6 +609,7 @@ module.exports = grammar({
       // prettier-ignore
       choice(
         // interactive_rebase
+        seq("athbhunú idirghníomhach atá ar siúl; ar ", $.branch),
         seq("interactive rebase in progress; onto ", $.branch),
         seq("interaktiv ombasering pågår; ovanpå ", $.branch),
         seq("interaktives Rebase im Gange; auf ", $.branch),

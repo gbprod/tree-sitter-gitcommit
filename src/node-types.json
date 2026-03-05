@@ -424,6 +424,14 @@
     "named": false
   },
   {
+    "type": " tiomantas, agus is féidir é a luasghéarú ar aghaidh.",
+    "named": false
+  },
+  {
+    "type": " tiomnuithe, agus is féidir é a luasghéarú ar aghaidh.",
+    "named": false
+  },
+  {
     "type": " zapis i może zostać przewinięta.",
     "named": false
   },
@@ -620,7 +628,23 @@
     "named": false
   },
   {
+    "type": "' faoi ",
+    "named": false
+  },
+  {
+    "type": "' faoi láthair ar '",
+    "named": false
+  },
+  {
     "type": "' ile güncel.",
+    "named": false
+  },
+  {
+    "type": "' le tiomantais ",
+    "named": false
+  },
+  {
+    "type": "' le tiomantas ",
     "named": false
   },
   {
@@ -733,6 +757,10 @@
   },
   {
     "type": ")",
+    "named": false
+  },
+  {
+    "type": ".",
     "named": false
   },
   {
@@ -936,6 +964,22 @@
     "named": false
   },
   {
+    "type": "Tá do bhrainse chun tosaigh ar '",
+    "named": false
+  },
+  {
+    "type": "Tá do bhrainse cothrom le dáta le '",
+    "named": false
+  },
+  {
+    "type": "Tá do bhrainse taobh thiar de '",
+    "named": false
+  },
+  {
+    "type": "Tá tú ag athbhunú brainse '",
+    "named": false
+  },
+  {
     "type": "Votre branche est en avance sur '",
     "named": false
   },
@@ -976,6 +1020,14 @@
     "named": true
   },
   {
+    "type": "athainmnithe:",
+    "named": false
+  },
+  {
+    "type": "athbhunú idirghníomhach atá ar siúl; ar ",
+    "named": false
+  },
+  {
     "type": "berkas baru:",
     "named": false
   },
@@ -1009,6 +1061,14 @@
   },
   {
     "type": "canviat de tipus:",
+    "named": false
+  },
+  {
+    "type": "cineál cineál:",
+    "named": false
+  },
+  {
+    "type": "comhad nua:",
     "named": false
   },
   {
@@ -1077,6 +1137,10 @@
   },
   {
     "type": "merge",
+    "named": false
+  },
+  {
+    "type": "modhnaithe:",
     "named": false
   },
   {
@@ -1230,6 +1294,10 @@
   {
     "type": "scope",
     "named": true
+  },
+  {
+    "type": "scriosta:",
+    "named": false
   },
   {
     "type": "sedang mendasarkan ulang interaktif; ke ",
@@ -1468,6 +1536,10 @@
     "named": false
   },
   {
+    "type": "Ваша гілка відстає від гілки \"",
+    "named": false
+  },
+  {
     "type": "Ваша гілка відстає від гілки '",
     "named": false
   },
@@ -1589,6 +1661,10 @@
   },
   {
     "type": "“ и може да бъде превъртян.",
+    "named": false
+  },
+  {
+    "type": "“ и може да се превърти.",
     "named": false
   },
   {
