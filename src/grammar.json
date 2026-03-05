@@ -571,6 +571,10 @@
             "members": [
               {
                 "type": "STRING",
+                "value": "Ar bhrainse "
+              },
+              {
+                "type": "STRING",
                 "value": "Auf Branch "
               },
               {
@@ -704,6 +708,10 @@
               {
                 "type": "STRING",
                 "value": "# Bitte geben Sie eine Commit-Beschreibung für Ihre Änderungen ein. Zeilen,"
+              },
+              {
+                "type": "STRING",
+                "value": "# Cuir isteach an teachtaireacht tiomanta le haghaidh d'athruithe. Línte ag tosú"
               },
               {
                 "type": "STRING",
@@ -939,6 +947,10 @@
         },
         {
           "type": "STRING",
+          "value": "comhad nua:"
+        },
+        {
+          "type": "STRING",
           "value": "fitxer nou:"
         },
         {
@@ -1048,6 +1060,10 @@
         },
         {
           "type": "STRING",
+          "value": "scriosta:"
+        },
+        {
+          "type": "STRING",
           "value": "silindi:"
         },
         {
@@ -1110,6 +1126,10 @@
         {
           "type": "STRING",
           "value": "geändert:"
+        },
+        {
+          "type": "STRING",
+          "value": "modhnaithe:"
         },
         {
           "type": "STRING",
@@ -1180,6 +1200,10 @@
     "renamed": {
       "type": "CHOICE",
       "members": [
+        {
+          "type": "STRING",
+          "value": "athainmnithe:"
+        },
         {
           "type": "STRING",
           "value": "canviat de nom:"
@@ -1284,6 +1308,10 @@
         {
           "type": "STRING",
           "value": "canviat de tipus:"
+        },
+        {
+          "type": "STRING",
+          "value": "cineál cineál:"
         },
         {
           "type": "STRING",
@@ -1825,6 +1853,23 @@
             {
               "type": "STRING",
               "value": "”."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Tá do bhrainse cothrom le dáta le '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
             }
           ]
         },
@@ -2600,6 +2645,56 @@
           "members": [
             {
               "type": "STRING",
+              "value": "Tá do bhrainse taobh thiar de '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' faoi "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " tiomantas, agus is féidir é a luasghéarú ar aghaidh."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Tá do bhrainse taobh thiar de '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' faoi "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " tiomnuithe, agus is féidir é a luasghéarú ar aghaidh."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
               "value": "Votre branche est en retard sur '"
             },
             {
@@ -2900,6 +2995,31 @@
           "members": [
             {
               "type": "STRING",
+              "value": "Ваша гілка відстає від гілки \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\" на "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " комітів, і її можна перемотати вперед."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
               "value": "Ветка отстает от «"
             },
             {
@@ -3008,6 +3128,31 @@
             },
             {
               "type": "STRING",
+              "value": " подаване зад „"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "“ и може да се превърти."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Клонът ви е с "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
               "value": " подавания зад „"
             },
             {
@@ -3017,6 +3162,31 @@
             {
               "type": "STRING",
               "value": "“ и може да бъде превъртян."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Клонът ви е с "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " подавания зад „"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "“ и може да се превърти."
             }
           ]
         },
@@ -3655,6 +3825,56 @@
           "members": [
             {
               "type": "STRING",
+              "value": "Tá do bhrainse chun tosaigh ar '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' le tiomantais "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": "."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Tá do bhrainse chun tosaigh ar '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' le tiomantas "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": "."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
               "value": "Votre branche est en avance sur '"
             },
             {
@@ -4194,6 +4414,10 @@
               },
               {
                 "type": "STRING",
+                "value": "HEAD scoite ag "
+              },
+              {
+                "type": "STRING",
                 "value": "HEAD scollegato su "
               },
               {
@@ -4589,6 +4813,31 @@
           "members": [
             {
               "type": "STRING",
+              "value": "Tá tú ag athbhunú brainse '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "' faoi láthair ar '"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "'."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
               "value": "Vous êtes en train de rebaser la branche '"
             },
             {
@@ -4864,6 +5113,19 @@
     "_interactive_rebasing": {
       "type": "CHOICE",
       "members": [
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "athbhunú idirghníomhach atá ar siúl; ar "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            }
+          ]
+        },
         {
           "type": "SEQ",
           "members": [
