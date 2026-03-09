@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
 project(tree-sitter-gitcommit
-        VERSION "0.4.0"
+        VERSION "0.5.0"
         DESCRIPTION "A tree-sitter grammar for git commit messages"
         HOMEPAGE_URL "https://github.com/gbprod/tree-sitter-gitcommit"
         LANGUAGES C)
