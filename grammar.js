@@ -394,7 +394,8 @@ module.exports = grammar({
           'label',
           'reset',
           'break',
-          'merge'
+          'merge',
+          'update-ref'
         ),
         ANYTHING
       ),
