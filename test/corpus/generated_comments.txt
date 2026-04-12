@@ -723,6 +723,7 @@ Rebase command
 # Dernières commandes effectuées (2 commandes effectuées) :
 #    pick d7e8984 gregreg
 #    edit 56f5d83 test
+#    update-ref db315c8
 # Aucune commande restante.
 
 --------------------------------------------------------------------------------
@@ -732,6 +733,8 @@ Rebase command
   (generated_comment)
   (generated_comment
     (title))
+  (generated_comment
+    (rebase_command))
   (generated_comment
     (rebase_command))
   (generated_comment
