@@ -9,7 +9,7 @@
 
 (change) @keyword
 
-(filepath) @string.special.url
+(filepath) @string.special.path
 
 (arrow) @punctuation.delimiter
 
@@ -26,10 +26,10 @@
 
 (prefix
   [
-   "("
-   ")"
-   ":"
-   ] @punctuation.delimiter)
+    "("
+    ")"
+    ":"
+  ] @punctuation.delimiter)
 
 (prefix
   "!" @punctuation.special)
