@@ -178,6 +178,7 @@ module.exports = grammar({
             "# Παρακαλώ εισάγετε το μήνυμα υποβολής για τις αλλαγές σας. Οι γραμμές που αρχίζουν",
             "# Будь ласка, введіть допис до коміту для ваших змін. Рядки, що починаються з",
             "# Въведете съобщението за подаване на промѐните.  Редовете, които започват",
+            "# Въведете съобщението за подаване на промѐните.  Редовете, които",
             "# Въведете съобщението за подаване на промените.  Редовете, които започват",
             "# Пожалуйста, введите сообщение коммита для ваших изменений. Строки,",
             "# 請為您的變更輸入提交說明。以 '#' 開始的行將被保留，如果您原意",
@@ -406,6 +407,7 @@ module.exports = grammar({
         // uptodate
         seq("Cabang Anda mutakhir dengan '", $.branch, "'."),
         seq("Dalınız '", $.branch, "' ile güncel."),
+        seq("Dalınız \"", $.branch, "\" ile güncel."),
         seq("Din gren är à jour med \"", $.branch, "\"."),
         seq("Din gren är à jour med ”", $.branch, "”."),
         seq("Ihr Branch ist auf demselben Stand wie '", $.branch, "'."),
@@ -493,6 +495,7 @@ module.exports = grammar({
         // ahead
         seq("Cabang Anda mendahului '", $.branch, "' oleh ", $.number, " komit."),
         seq("Dalınız '", $.branch, "' dalından ", $.number, " işleme ileride."),
+        seq("Dalınız, \"", $.branch, "\" dalından ", $.number, " işleme ileride."),
         seq("Din gren ligger före \"", $.branch, "\" med ", $.number, " incheckning."),
         seq("Din gren ligger före \"", $.branch, "\" med ", $.number, " incheckningar."),
         seq("Din gren ligger före ”", $.branch, "” med ", $.number, " incheckning."),

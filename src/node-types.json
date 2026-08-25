@@ -568,6 +568,14 @@
     "named": false
   },
   {
+    "type": "\" dalından ",
+    "named": false
+  },
+  {
+    "type": "\" ile güncel.",
+    "named": false
+  },
+  {
     "type": "\" med ",
     "named": false
   },
@@ -804,7 +812,15 @@
     "named": false
   },
   {
+    "type": "Dalınız \"",
+    "named": false
+  },
+  {
     "type": "Dalınız '",
+    "named": false
+  },
+  {
+    "type": "Dalınız, \"",
     "named": false
   },
   {
