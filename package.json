@@ -30,7 +30,7 @@
     "src/**"
   ],
   "author": "gbprod <contact@gb-prod.fr>",
-  "license": "WTFPL",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gbprod/tree-sitter-gitcommit/issues"
   },

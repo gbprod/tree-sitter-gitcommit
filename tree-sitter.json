@@ -15,7 +15,7 @@
   ],
   "metadata": {
     "version": "0.5.0",
-    "license": "WTFPL",
+    "license": "MIT",
     "description": "A tree-sitter grammar for git commit messages",
     "authors": [
       {

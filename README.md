@@ -51,6 +51,10 @@ To upgrade translations, run:
 python parse-lang.py
 ```
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Credits
 
 - [https://github.com/the-mikedavis/tree-sitter-git-commit](https://github.com/the-mikedavis/tree-sitter-git-commit) Good parser but [only works in English](https://github.com/the-mikedavis/tree-sitter-git-commit/issues/4).

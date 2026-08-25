@@ -6,10 +6,11 @@ keywords = ["incremental", "parsing", "gitcommit"]
 categories = ["parsing", "text-editors"]
 repository = "https://github.com/gbprod/tree-sitter-gitcommit"
 edition = "2021"
-license = "WTFPL"
+license = "MIT"
 
 build = "bindings/rust/build.rs"
 include = [
+  "LICENSE",
   "bindings/rust/*",
   "grammar.js",
   "queries/*",
