@@ -795,6 +795,10 @@
               },
               {
                 "type": "STRING",
+                "value": "# Въведете съобщението за подаване на промѐните.  Редовете, които"
+              },
+              {
+                "type": "STRING",
                 "value": "# Въведете съобщението за подаване на промените.  Редовете, които започват"
               },
               {
@@ -1670,6 +1674,23 @@
             {
               "type": "STRING",
               "value": "' ile güncel."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Dalınız \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\" ile güncel."
             }
           ]
         },
@@ -3313,6 +3334,31 @@
             {
               "type": "STRING",
               "value": "' dalından "
+            },
+            {
+              "type": "SYMBOL",
+              "name": "number"
+            },
+            {
+              "type": "STRING",
+              "value": " işleme ileride."
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "Dalınız, \""
+            },
+            {
+              "type": "SYMBOL",
+              "name": "branch"
+            },
+            {
+              "type": "STRING",
+              "value": "\" dalından "
             },
             {
               "type": "SYMBOL",
