@@ -34,7 +34,7 @@
 (prefix
   "!" @punctuation.special)
 
-(message) @spell
+(message_line) @spell
 
 (trailer
   (token) @label)
