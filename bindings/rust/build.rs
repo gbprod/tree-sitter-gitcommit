@@ -4,6 +4,8 @@ fn main() {
     let mut c_config = cc::Build::new();
     c_config.include(&src_dir);
     c_config
+        .warnings(false)
+        .extra_warnings(false)
         .flag_if_supported("-Wno-unused-parameter")
         .flag_if_supported("-Wno-unused-but-set-variable")
         .flag_if_supported("-Wno-trigraphs")
